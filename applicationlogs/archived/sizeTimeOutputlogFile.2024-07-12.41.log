@@ -1,16 +1,16 @@
 2024-07-12 15:14:04.307 DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper:287 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SmsblockApplicationTests]: using SpringBootContextLoader
-2024-07-12 15:14:04.318 DEBUG o.s.t.c.s.AbstractContextLoader:271 - Could not detect default resource locations for test class [com.mobitel.smsblock.SmsblockApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2024-07-12 15:14:04.319  INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.mobitel.smsblock.SmsblockApplicationTests]: SmsblockApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-12 15:14:04.318 DEBUG o.s.t.c.s.AbstractContextLoader:271 - Could not detect default resource locations for test class [com.myproject.smsblock.SmsblockApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-07-12 15:14:04.319  INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.myproject.smsblock.SmsblockApplicationTests]: SmsblockApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
 2024-07-12 15:14:04.364 DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper:394 - Using ContextCustomizers for test class [SmsblockApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, WebDriverContextCustomizer]
 2024-07-12 15:14:04.499 DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\SmsblockApplication.class]
-2024-07-12 15:14:04.504  INFO o.s.b.t.c.SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration com.mobitel.smsblock.SmsblockApplication for test class com.mobitel.smsblock.SmsblockApplicationTests
+2024-07-12 15:14:04.504  INFO o.s.b.t.c.SpringBootTestContextBootstrapper:248 - Found @SpringBootConfiguration com.myproject.smsblock.SmsblockApplication for test class com.myproject.smsblock.SmsblockApplicationTests
 2024-07-12 15:14:04.695 DEBUG o.s.t.c.u.TestContextSpringFactoriesUtils:43 - Skipping candidate TestExecutionListener [org.springframework.test.context.observation.MicrometerObservationRegistryTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: io.micrometer.context.ThreadLocalAccessor. MicrometerObservationRegistryTestExecutionListener requires io.micrometer:micrometer-observation:1.10.8 or higher and io.micrometer:context-propagation:1.0.3 or higher.
 2024-07-12 15:14:04.709 DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper:181 - Using TestExecutionListeners for test class [SmsblockApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
 2024-07-12 15:14:04.713 DEBUG o.s.t.c.s.DirtiesContextBeforeModesTestExecutionListener:154 - Before test class: class [SmsblockApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
 2024-07-12 15:14:05.080  INFO c.m.s.SmsblockApplicationTests:51 - Starting SmsblockApplicationTests using Java 21.0.3 with PID 456024 (started by THARSANAK in D:\smsblock_Backend_hiernate)
 2024-07-12 15:14:05.081 DEBUG c.m.s.SmsblockApplicationTests:52 - Running with Spring Boot v3.1.5, Spring v6.0.13
 2024-07-12 15:14:05.083  INFO c.m.s.SmsblockApplicationTests:638 - No active profile set, falling back to 1 default profile: "default"
-2024-07-12 15:14:05.084 DEBUG o.s.b.SpringApplication:671 - Loading source class com.mobitel.smsblock.SmsblockApplication
+2024-07-12 15:14:05.084 DEBUG o.s.b.SpringApplication:671 - Loading source class com.myproject.smsblock.SmsblockApplication
 2024-07-12 15:14:05.126 DEBUG o.s.w.c.s.GenericWebApplicationContext:662 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53b98ff6
 2024-07-12 15:14:05.158 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 2024-07-12 15:14:05.189 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
@@ -102,8 +102,8 @@
 2024-07-12 15:14:05.668 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner:441 - Identified candidate component class: URL [jar:file:/C:/Users/Tharsanak/.m2/repository/io/springfox/springfox-swagger-common/2.7.0/springfox-swagger-common-2.7.0.jar!/springfox/documentation/swagger/web/SwaggerApiListingReader.class]
 2024-07-12 15:14:06.326  INFO o.s.d.r.c.RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2024-07-12 15:14:06.338 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
-2024-07-12 15:14:06.348 DEBUG o.s.b.a.AutoConfigurationPackages:213 - @EnableAutoConfiguration was declared on a class in the package 'com.mobitel.smsblock'. Automatic @Repository and @Entity scanning is enabled.
-2024-07-12 15:14:06.349 DEBUG o.s.d.r.c.RepositoryConfigurationDelegate:148 - Scanning for JPA repositories in packages com.mobitel.smsblock.
+2024-07-12 15:14:06.348 DEBUG o.s.b.a.AutoConfigurationPackages:213 - @EnableAutoConfiguration was declared on a class in the package 'com.myproject.smsblock'. Automatic @Repository and @Entity scanning is enabled.
+2024-07-12 15:14:06.349 DEBUG o.s.d.r.c.RepositoryConfigurationDelegate:148 - Scanning for JPA repositories in packages com.myproject.smsblock.
 2024-07-12 15:14:06.364 DEBUG o.s.d.r.c.RepositoryComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\repository\SmsBlockBlacklistRepository.class]
 2024-07-12 15:14:06.365 DEBUG o.s.d.r.c.RepositoryComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\repository\SmsBlockMobileRepository.class]
 2024-07-12 15:14:06.407 DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\services\impl\SmsBlockBlacklistServiceImpl.class]
@@ -172,8 +172,8 @@
 	Validation Mode: AUTO
 	Jar files URLs []
 	Managed classes names [
-		com.mobitel.smsblock.entity.SmsBlockBlacklist
-		com.mobitel.smsblock.entity.SmsBlockMobile]
+		com.myproject.smsblock.entity.SmsBlockBlacklist
+		com.myproject.smsblock.entity.SmsBlockMobile]
 	Mapping files names []
 	Properties []
 2024-07-12 15:14:07.323 DEBUG o.h.i.i.IntegratorServiceImpl:45 - Adding Integrator [org.hibernate.boot.beanvalidation.BeanValidationIntegrator].
@@ -422,17 +422,17 @@
 2024-07-12 15:14:08.939 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2de01a98
 2024-07-12 15:14:08.967 DEBUG o.h.b.m.r.Namespace:64 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
 2024-07-12 15:14:08.981 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5554f156
-2024-07-12 15:14:09.001 DEBUG o.h.b.m.i.EntityBinder:206 - Binding entity from annotated class: com.mobitel.smsblock.entity.SmsBlockBlacklist
+2024-07-12 15:14:09.001 DEBUG o.h.b.m.i.EntityBinder:206 - Binding entity from annotated class: com.myproject.smsblock.entity.SmsBlockBlacklist
 2024-07-12 15:14:09.022 DEBUG o.h.b.m.i.EntityBinder:1224 - Import with entity name SmsBlockBlacklist
 2024-07-12 15:14:09.027 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5960b4d3
-2024-07-12 15:14:09.033 DEBUG o.h.b.m.i.EntityBinder:1769 - Bind entity com.mobitel.smsblock.entity.SmsBlockBlacklist on table sms_block_blacklisted_mobile
+2024-07-12 15:14:09.033 DEBUG o.h.b.m.i.EntityBinder:1769 - Bind entity com.myproject.smsblock.entity.SmsBlockBlacklist on table sms_block_blacklisted_mobile
 2024-07-12 15:14:09.050 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
 2024-07-12 15:14:09.067 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c2d38b7
 2024-07-12 15:14:09.084 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='id')
-2024-07-12 15:14:09.086 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.mobitel.smsblock.entity.SmsBlockBlacklist] is safe
-2024-07-12 15:14:09.087 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.mobitel.smsblock.entity.SmsBlockBlacklist
+2024-07-12 15:14:09.086 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.myproject.smsblock.entity.SmsBlockBlacklist] is safe
+2024-07-12 15:14:09.087 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.myproject.smsblock.entity.SmsBlockBlacklist
 2024-07-12 15:14:09.108 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property id with lazy=false
-2024-07-12 15:14:09.115 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:id]
+2024-07-12 15:14:09.115 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockBlacklist:id]
 2024-07-12 15:14:09.122 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for id
 2024-07-12 15:14:09.126 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ad31353
 2024-07-12 15:14:09.128 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.id
@@ -440,37 +440,37 @@
 2024-07-12 15:14:09.134 DEBUG o.h.b.m.i.BinderHelper:73 - #makeIdGenerator(BasicValue([Column(id)]), id, identity, , ...)
 2024-07-12 15:14:09.136 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='activated_on')
 2024-07-12 15:14:09.137 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property activatedOn with lazy=false
-2024-07-12 15:14:09.137 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:activatedOn]
+2024-07-12 15:14:09.137 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockBlacklist:activatedOn]
 2024-07-12 15:14:09.138 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for activatedOn
 2024-07-12 15:14:09.138 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.activated_on
 2024-07-12 15:14:09.139 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property activatedOn
 2024-07-12 15:14:09.140 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='added_by')
 2024-07-12 15:14:09.141 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property addedBy with lazy=false
-2024-07-12 15:14:09.141 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:addedBy]
+2024-07-12 15:14:09.141 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockBlacklist:addedBy]
 2024-07-12 15:14:09.142 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for addedBy
 2024-07-12 15:14:09.142 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.added_by
 2024-07-12 15:14:09.142 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property addedBy
 2024-07-12 15:14:09.143 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='blacklist_mobile')
 2024-07-12 15:14:09.144 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property blacklistMobile with lazy=false
-2024-07-12 15:14:09.144 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:blacklistMobile]
+2024-07-12 15:14:09.144 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockBlacklist:blacklistMobile]
 2024-07-12 15:14:09.144 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for blacklistMobile
 2024-07-12 15:14:09.145 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.blacklist_mobile
 2024-07-12 15:14:09.145 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property blacklistMobile
 2024-07-12 15:14:09.146 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='comment')
 2024-07-12 15:14:09.147 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property comment with lazy=false
-2024-07-12 15:14:09.147 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:comment]
+2024-07-12 15:14:09.147 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockBlacklist:comment]
 2024-07-12 15:14:09.147 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for comment
 2024-07-12 15:14:09.148 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.comment
 2024-07-12 15:14:09.148 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property comment
 2024-07-12 15:14:09.149 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='deactivated_by')
 2024-07-12 15:14:09.150 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property deactivatedBy with lazy=false
-2024-07-12 15:14:09.150 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:deactivatedBy]
+2024-07-12 15:14:09.150 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockBlacklist:deactivatedBy]
 2024-07-12 15:14:09.151 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for deactivatedBy
 2024-07-12 15:14:09.151 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.deactivated_by
 2024-07-12 15:14:09.152 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property deactivatedBy
 2024-07-12 15:14:09.153 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='deactivated_on')
 2024-07-12 15:14:09.154 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property deactivatedOn with lazy=false
-2024-07-12 15:14:09.156 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:deactivatedOn]
+2024-07-12 15:14:09.156 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockBlacklist:deactivatedOn]
 2024-07-12 15:14:09.157 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for deactivatedOn
 2024-07-12 15:14:09.157 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.deactivated_on
 2024-07-12 15:14:09.158 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property deactivatedOn
@@ -480,63 +480,63 @@
 2024-07-12 15:14:09.171 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property smsBlockMobile
 2024-07-12 15:14:09.172 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='status')
 2024-07-12 15:14:09.172 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property status with lazy=false
-2024-07-12 15:14:09.173 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:status]
+2024-07-12 15:14:09.173 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockBlacklist:status]
 2024-07-12 15:14:09.174 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for status
 2024-07-12 15:14:09.175 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.status
 2024-07-12 15:14:09.176 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property status
-2024-07-12 15:14:09.185 DEBUG o.h.b.m.i.EntityBinder:206 - Binding entity from annotated class: com.mobitel.smsblock.entity.SmsBlockMobile
+2024-07-12 15:14:09.185 DEBUG o.h.b.m.i.EntityBinder:206 - Binding entity from annotated class: com.myproject.smsblock.entity.SmsBlockMobile
 2024-07-12 15:14:09.186 DEBUG o.h.b.m.i.EntityBinder:1224 - Import with entity name SmsBlockMobile
-2024-07-12 15:14:09.187 DEBUG o.h.b.m.i.EntityBinder:1769 - Bind entity com.mobitel.smsblock.entity.SmsBlockMobile on table sms_block_mobile
+2024-07-12 15:14:09.187 DEBUG o.h.b.m.i.EntityBinder:1769 - Bind entity com.myproject.smsblock.entity.SmsBlockMobile on table sms_block_mobile
 2024-07-12 15:14:09.188 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
 2024-07-12 15:14:09.189 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@283cb78f
 2024-07-12 15:14:09.192 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='id')
-2024-07-12 15:14:09.192 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.mobitel.smsblock.entity.SmsBlockMobile] is safe
-2024-07-12 15:14:09.193 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.mobitel.smsblock.entity.SmsBlockMobile
+2024-07-12 15:14:09.192 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.myproject.smsblock.entity.SmsBlockMobile] is safe
+2024-07-12 15:14:09.193 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.myproject.smsblock.entity.SmsBlockMobile
 2024-07-12 15:14:09.194 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property id with lazy=false
-2024-07-12 15:14:09.194 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:id]
+2024-07-12 15:14:09.194 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockMobile:id]
 2024-07-12 15:14:09.194 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for id
 2024-07-12 15:14:09.195 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.id
 2024-07-12 15:14:09.195 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property id
 2024-07-12 15:14:09.196 DEBUG o.h.b.m.i.BinderHelper:73 - #makeIdGenerator(BasicValue([Column(id)]), id, identity, , ...)
 2024-07-12 15:14:09.196 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='activated_on')
 2024-07-12 15:14:09.197 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property activatedOn with lazy=false
-2024-07-12 15:14:09.197 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:activatedOn]
+2024-07-12 15:14:09.197 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockMobile:activatedOn]
 2024-07-12 15:14:09.197 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for activatedOn
 2024-07-12 15:14:09.198 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.activated_on
 2024-07-12 15:14:09.198 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property activatedOn
 2024-07-12 15:14:09.199 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='added_by')
 2024-07-12 15:14:09.199 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property addedBy with lazy=false
-2024-07-12 15:14:09.200 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:addedBy]
+2024-07-12 15:14:09.200 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockMobile:addedBy]
 2024-07-12 15:14:09.200 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for addedBy
 2024-07-12 15:14:09.200 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.added_by
 2024-07-12 15:14:09.201 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property addedBy
 2024-07-12 15:14:09.202 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='comment')
 2024-07-12 15:14:09.202 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property comment with lazy=false
-2024-07-12 15:14:09.203 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:comment]
+2024-07-12 15:14:09.203 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockMobile:comment]
 2024-07-12 15:14:09.204 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for comment
 2024-07-12 15:14:09.204 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.comment
 2024-07-12 15:14:09.205 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property comment
 2024-07-12 15:14:09.206 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='deactivated_by')
 2024-07-12 15:14:09.207 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property deactivatedBy with lazy=false
-2024-07-12 15:14:09.207 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:deactivatedBy]
+2024-07-12 15:14:09.207 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockMobile:deactivatedBy]
 2024-07-12 15:14:09.208 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for deactivatedBy
 2024-07-12 15:14:09.208 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.deactivated_by
 2024-07-12 15:14:09.208 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property deactivatedBy
 2024-07-12 15:14:09.209 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='deactivated_on')
 2024-07-12 15:14:09.210 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property deactivatedOn with lazy=false
-2024-07-12 15:14:09.210 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:deactivatedOn]
+2024-07-12 15:14:09.210 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockMobile:deactivatedOn]
 2024-07-12 15:14:09.211 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for deactivatedOn
 2024-07-12 15:14:09.211 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.deactivated_on
 2024-07-12 15:14:09.212 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property deactivatedOn
 2024-07-12 15:14:09.212 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='mobile_no')
 2024-07-12 15:14:09.213 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property mobileNo with lazy=false
-2024-07-12 15:14:09.214 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:mobileNo]
+2024-07-12 15:14:09.214 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockMobile:mobileNo]
 2024-07-12 15:14:09.214 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for mobileNo
 2024-07-12 15:14:09.215 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.mobile_no
 2024-07-12 15:14:09.215 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property mobileNo
 2024-07-12 15:14:09.216 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='status')
 2024-07-12 15:14:09.216 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property status with lazy=false
-2024-07-12 15:14:09.217 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:status]
+2024-07-12 15:14:09.217 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.myproject.smsblock.entity.SmsBlockMobile:status]
 2024-07-12 15:14:09.217 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for status
 2024-07-12 15:14:09.218 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.status
 2024-07-12 15:14:09.218 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property status
@@ -559,8 +559,8 @@
 2024-07-12 15:14:09.230 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for status
 2024-07-12 15:14:09.238 DEBUG o.h.m.PrimaryKey:40 - Forcing column [id] to be non-null as it is part of the primary key for table [sms_block_blacklisted_mobile]
 2024-07-12 15:14:09.239 DEBUG o.h.m.PrimaryKey:40 - Forcing column [id] to be non-null as it is part of the primary key for table [sms_block_mobile]
-2024-07-12 15:14:09.241 DEBUG o.h.b.i.InFlightMetadataCollectorImpl:2004 - Resolving reference to class: com.mobitel.smsblock.entity.SmsBlockMobile
-2024-07-12 15:14:09.260 DEBUG o.h.b.i.InFlightMetadataCollectorImpl:2004 - Resolving reference to class: com.mobitel.smsblock.entity.SmsBlockMobile
+2024-07-12 15:14:09.241 DEBUG o.h.b.i.InFlightMetadataCollectorImpl:2004 - Resolving reference to class: com.myproject.smsblock.entity.SmsBlockMobile
+2024-07-12 15:14:09.260 DEBUG o.h.b.i.InFlightMetadataCollectorImpl:2004 - Resolving reference to class: com.myproject.smsblock.entity.SmsBlockMobile
 2024-07-12 15:14:09.267 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a818dbc
 2024-07-12 15:14:09.286 DEBUG o.h.b.i.BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
 2024-07-12 15:14:09.302 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73f2efe6
@@ -919,8 +919,8 @@
 2024-07-12 15:14:09.858 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@90e23d0
 2024-07-12 15:14:09.891 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@593fd86c
 2024-07-12 15:14:09.942 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cc6333c
-2024-07-12 15:14:09.946 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.mobitel.smsblock.entity.SmsBlockMobile] is safe
-2024-07-12 15:14:09.947 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.mobitel.smsblock.entity.SmsBlockMobile
+2024-07-12 15:14:09.946 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.myproject.smsblock.entity.SmsBlockMobile] is safe
+2024-07-12 15:14:09.947 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.myproject.smsblock.entity.SmsBlockMobile
 2024-07-12 15:14:09.979 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@95da18a
 2024-07-12 15:14:10.011 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34e7abfa
 2024-07-12 15:14:10.040 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69dd293e
@@ -931,77 +931,77 @@
 2024-07-12 15:14:10.196 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73abd59e
 2024-07-12 15:14:10.227 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a061300
 2024-07-12 15:14:10.260 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3448132a
-2024-07-12 15:14:10.262 DEBUG o.h.b.i.b.BytecodeProviderImpl:235 - HHH000513: Unable to create the ReflectionOptimizer for [com.mobitel.smsblock.entity.SmsBlockMobile]: private accessor [activatedOn]
+2024-07-12 15:14:10.262 DEBUG o.h.b.i.b.BytecodeProviderImpl:235 - HHH000513: Unable to create the ReflectionOptimizer for [com.myproject.smsblock.entity.SmsBlockMobile]: private accessor [activatedOn]
 2024-07-12 15:14:10.290 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e8ec967
-2024-07-12 15:14:10.297 DEBUG o.h.o.interceptor:46 - To-one property `com.mobitel.smsblock.entity.SmsBlockBlacklist#smsBlockMobile` was mapped with LAZY + NO_PROXY but the class was not enhanced
-2024-07-12 15:14:10.298 DEBUG o.h.o.interceptor:46 - To-one property `com.mobitel.smsblock.entity.SmsBlockBlacklist#smsBlockMobile` was mapped with LAZY + NO_PROXY but the class was not enhanced
-2024-07-12 15:14:10.298 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.mobitel.smsblock.entity.SmsBlockBlacklist] is safe
-2024-07-12 15:14:10.299 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.mobitel.smsblock.entity.SmsBlockBlacklist
+2024-07-12 15:14:10.297 DEBUG o.h.o.interceptor:46 - To-one property `com.myproject.smsblock.entity.SmsBlockBlacklist#smsBlockMobile` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2024-07-12 15:14:10.298 DEBUG o.h.o.interceptor:46 - To-one property `com.myproject.smsblock.entity.SmsBlockBlacklist#smsBlockMobile` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2024-07-12 15:14:10.298 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.myproject.smsblock.entity.SmsBlockBlacklist] is safe
+2024-07-12 15:14:10.299 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.myproject.smsblock.entity.SmsBlockBlacklist
 2024-07-12 15:14:10.325 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d477f6
-2024-07-12 15:14:10.326 DEBUG o.h.b.i.b.BytecodeProviderImpl:235 - HHH000513: Unable to create the ReflectionOptimizer for [com.mobitel.smsblock.entity.SmsBlockBlacklist]: private accessor [activatedOn]
-2024-07-12 15:14:10.327 DEBUG o.h.o.interceptor:46 - To-one property `com.mobitel.smsblock.entity.SmsBlockBlacklist#smsBlockMobile` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2024-07-12 15:14:10.326 DEBUG o.h.b.i.b.BytecodeProviderImpl:235 - HHH000513: Unable to create the ReflectionOptimizer for [com.myproject.smsblock.entity.SmsBlockBlacklist]: private accessor [activatedOn]
+2024-07-12 15:14:10.327 DEBUG o.h.o.interceptor:46 - To-one property `com.myproject.smsblock.entity.SmsBlockBlacklist#smsBlockMobile` was mapped with LAZY + NO_PROXY but the class was not enhanced
 2024-07-12 15:14:10.355 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cf2e838
 2024-07-12 15:14:10.355 DEBUG o.h.o.m.m.creation:92 - Starting post-init callbacks
-2024-07-12 15:14:10.356 DEBUG o.h.o.m.m.creation:242 - Starting PostInitCallbackEntry : Entity(com.mobitel.smsblock.entity.SmsBlockMobile) `staticFetchableList` generator
-2024-07-12 15:14:10.356 DEBUG o.h.o.m.m.creation:242 - Starting PostInitCallbackEntry : To-one key - NavigableRole[com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile]
-2024-07-12 15:14:10.361 DEBUG o.h.o.m.m.creation:242 - Starting PostInitCallbackEntry : Entity(com.mobitel.smsblock.entity.SmsBlockBlacklist) `staticFetchableList` generator
+2024-07-12 15:14:10.356 DEBUG o.h.o.m.m.creation:242 - Starting PostInitCallbackEntry : Entity(com.myproject.smsblock.entity.SmsBlockMobile) `staticFetchableList` generator
+2024-07-12 15:14:10.356 DEBUG o.h.o.m.m.creation:242 - Starting PostInitCallbackEntry : To-one key - NavigableRole[com.myproject.smsblock.entity.SmsBlockBlacklist.smsBlockMobile]
+2024-07-12 15:14:10.361 DEBUG o.h.o.m.m.creation:242 - Starting PostInitCallbackEntry : Entity(com.myproject.smsblock.entity.SmsBlockBlacklist) `staticFetchableList` generator
 2024-07-12 15:14:10.385 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@746a9391
 2024-07-12 15:14:10.420 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15c6fdec
-2024-07-12 15:14:10.429 DEBUG o.h.p.e.AbstractEntityPersister:2904 - Static SQL for entity: com.mobitel.smsblock.entity.SmsBlockMobile
+2024-07-12 15:14:10.429 DEBUG o.h.p.e.AbstractEntityPersister:2904 - Static SQL for entity: com.myproject.smsblock.entity.SmsBlockMobile
 2024-07-12 15:14:10.430 DEBUG o.h.p.e.AbstractEntityPersister:2909 -  Version select: select id from sms_block_mobile where id=?
 2024-07-12 15:14:10.430 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Insert (0): insert into sms_block_mobile (activated_on,added_by,comment,deactivated_by,deactivated_on,mobile_no,status) values (?,?,?,?,?,?,?)
 2024-07-12 15:14:10.430 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Update (0): update sms_block_mobile set activated_on=?,added_by=?,comment=?,deactivated_by=?,deactivated_on=?,mobile_no=?,status=? where id=?
 2024-07-12 15:14:10.431 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Delete (0): delete from sms_block_mobile where id=?
 2024-07-12 15:14:10.447 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s1_0
 2024-07-12 15:14:10.451 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61cc876c
-2024-07-12 15:14:10.452 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.mobitel.smsblock.entity.SmsBlockMobile)] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockMobile] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockMobile] 
+2024-07-12 15:14:10.452 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.myproject.smsblock.entity.SmsBlockMobile)] with identifierForTableGroup [com.myproject.smsblock.entity.SmsBlockMobile] for NavigablePath [com.myproject.smsblock.entity.SmsBlockMobile]
 2024-07-12 15:14:10.472 DEBUG o.h.o.r.g.AST:67 - DomainResult Graph:
- \-EntityResultImpl [com.mobitel.smsblock.entity.SmsBlockMobile]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.activatedOn]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.addedBy]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.comment]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.deactivatedBy]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.deactivatedOn]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.mobileNo]
- |  \-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.status]
+ \-EntityResultImpl [com.myproject.smsblock.entity.SmsBlockMobile]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile.activatedOn]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile.addedBy]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile.comment]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile.deactivatedBy]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile.deactivatedOn]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile.mobileNo]
+ |  \-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile.status]
 
 2024-07-12 15:14:10.476 DEBUG o.h.o.s.a.tree:46 - SQL AST Tree:
     SelectStatement {
       FromClause {
-        StandardTableGroup (s1 : com.mobitel.smsblock.entity.SmsBlockMobile) {
+        StandardTableGroup (s1 : com.myproject.smsblock.entity.SmsBlockMobile) {
           primaryTableReference : sms_block_mobile as s1_0
         }
       }
     }
 
 2024-07-12 15:14:10.482 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e4d24d2
-2024-07-12 15:14:10.488 DEBUG o.h.p.e.AbstractEntityPersister:2904 - Static SQL for entity: com.mobitel.smsblock.entity.SmsBlockBlacklist
+2024-07-12 15:14:10.488 DEBUG o.h.p.e.AbstractEntityPersister:2904 - Static SQL for entity: com.myproject.smsblock.entity.SmsBlockBlacklist
 2024-07-12 15:14:10.489 DEBUG o.h.p.e.AbstractEntityPersister:2909 -  Version select: select id from sms_block_blacklisted_mobile where id=?
 2024-07-12 15:14:10.489 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Insert (0): insert into sms_block_blacklisted_mobile (activated_on,added_by,blacklist_mobile,comment,deactivated_by,deactivated_on,sms_block_mobile_id,status) values (?,?,?,?,?,?,?,?)
 2024-07-12 15:14:10.489 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Update (0): update sms_block_blacklisted_mobile set activated_on=?,added_by=?,blacklist_mobile=?,comment=?,deactivated_by=?,deactivated_on=?,sms_block_mobile_id=?,status=? where id=?
 2024-07-12 15:14:10.490 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Delete (0): delete from sms_block_blacklisted_mobile where id=?
 2024-07-12 15:14:10.490 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s1_0
-2024-07-12 15:14:10.490 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.mobitel.smsblock.entity.SmsBlockBlacklist)] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockBlacklist] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockBlacklist] 
-2024-07-12 15:14:10.495 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@760d6350] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile] 
+2024-07-12 15:14:10.490 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.myproject.smsblock.entity.SmsBlockBlacklist)] with identifierForTableGroup [com.myproject.smsblock.entity.SmsBlockBlacklist] for NavigablePath [com.myproject.smsblock.entity.SmsBlockBlacklist]
+2024-07-12 15:14:10.495 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@760d6350] with identifierForTableGroup [com.myproject.smsblock.entity.SmsBlockBlacklist.smsBlockMobile] for NavigablePath [com.myproject.smsblock.entity.SmsBlockBlacklist.smsBlockMobile]
 2024-07-12 15:14:10.496 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s2_0
 2024-07-12 15:14:10.499 DEBUG o.h.o.r.g.AST:67 - DomainResult Graph:
- \-EntityResultImpl [com.mobitel.smsblock.entity.SmsBlockBlacklist]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.activatedOn]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.addedBy]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.blacklistMobile]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.comment]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.deactivatedBy]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.deactivatedOn]
- |  +-EntityFetchJoinedImpl [com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile]
- |  \-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.status]
+ \-EntityResultImpl [com.myproject.smsblock.entity.SmsBlockBlacklist]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockBlacklist.activatedOn]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockBlacklist.addedBy]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockBlacklist.blacklistMobile]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockBlacklist.comment]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockBlacklist.deactivatedBy]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockBlacklist.deactivatedOn]
+ |  +-EntityFetchJoinedImpl [com.myproject.smsblock.entity.SmsBlockBlacklist.smsBlockMobile]
+ |  \-BasicFetch [com.myproject.smsblock.entity.SmsBlockBlacklist.status]
 
 2024-07-12 15:14:10.501 DEBUG o.h.o.s.a.tree:46 - SQL AST Tree:
     SelectStatement {
       FromClause {
-        StandardTableGroup (s1 : com.mobitel.smsblock.entity.SmsBlockBlacklist) {
+        StandardTableGroup (s1 : com.myproject.smsblock.entity.SmsBlockBlacklist) {
           primaryTableReference : sms_block_blacklisted_mobile as s1_0
           TableGroupJoins {
-            left  join LazyTableGroup (s2 : com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile) {
+            left  join LazyTableGroup (s2 : com.myproject.smsblock.entity.SmsBlockBlacklist.smsBlockMobile) {
               primaryTableReference : sms_block_mobile as s2_0
             }
           }
@@ -1043,7 +1043,7 @@
 2024-07-12 15:14:10.732 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
 2024-07-12 15:14:10.778 DEBUG o.h.s.i.StatisticsInitiator:88 - Statistics initialized [enabled=false]
 2024-07-12 15:14:10.786 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
-2024-07-12 15:14:10.856 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:272 - Initializing repository instance for com.mobitel.smsblock.repository.SmsBlockBlacklistRepository…
+2024-07-12 15:14:10.856 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:272 - Initializing repository instance for com.myproject.smsblock.repository.SmsBlockBlacklistRepository…
 2024-07-12 15:14:10.886 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
 2024-07-12 15:14:10.992 DEBUG o.s.d.j.r.q.NamedQuery:138 - Looking up named query SmsBlockBlacklist.findAllByBlacklistMobile
 2024-07-12 15:14:10.996 DEBUG o.h.r.t.b.j.i.JdbcResourceLocalTransactionCoordinatorImpl:310 - JDBC transaction marked for rollback-only (exception provided for stack trace)
@@ -1351,7 +1351,7 @@ java.lang.Exception: exception just for purpose of providing stack trace
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 2024-07-12 15:14:11.474 DEBUG o.s.d.j.r.q.NamedQuery:118 - Did not find named query SmsBlockBlacklist.findAllBySmsBlockMobile.count
 2024-07-12 15:14:11.475 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
-2024-07-12 15:14:11.482 DEBUG o.h.o.q.hql:75 - HQL : SELECT new com.mobitel.smsblock.dto.SmsBlockBlacklistDto(s.blacklistMobile, s.smsBlockMobile.id, s.comment, s.activatedOn, s.addedBy) FROM SmsBlockBlacklist s WHERE s.smsBlockMobile.id = :smsBlockMobile AND s.status = 'ACT'
+2024-07-12 15:14:11.482 DEBUG o.h.o.q.hql:75 - HQL : SELECT new com.myproject.smsblock.dto.SmsBlockBlacklistDto(s.blacklistMobile, s.smsBlockMobile.id, s.comment, s.activatedOn, s.addedBy) FROM SmsBlockBlacklist s WHERE s.smsBlockMobile.id = :smsBlockMobile AND s.status = 'ACT'
 2024-07-12 15:14:11.750 DEBUG o.h.o.q.h.reservedWordAsIdentifier:43 - Encountered use of reserved word as identifier : ,
 2024-07-12 15:14:11.764 DEBUG o.h.o.q.h.reservedWordAsIdentifier:43 - Encountered use of reserved word as identifier : =
 2024-07-12 15:14:11.796 DEBUG o.h.q.h.i.SemanticQueryBuilder:1904 - Handling root path - SmsBlockBlacklist
@@ -1361,39 +1361,39 @@ java.lang.Exception: exception just for purpose of providing stack trace
       -> [query-spec]
         -> [select]
           -> [selection]
-            -> [dynamic-instantiation (class com.mobitel.smsblock.dto.SmsBlockBlacklistDto)]
+            -> [dynamic-instantiation (class com.myproject.smsblock.dto.SmsBlockBlacklistDto)]
               -> [arguments]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).blacklistMobile`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).blacklistMobile`
                 <- [argument (null)]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).smsBlockMobile.id`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).smsBlockMobile.id`
                 <- [argument (null)]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).comment`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).comment`
                 <- [argument (null)]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).activatedOn`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).activatedOn`
                 <- [argument (null)]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).addedBy`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).addedBy`
                 <- [argument (null)]
               <- [arguments]
-            <- [dynamic-instantiation (class com.mobitel.smsblock.dto.SmsBlockBlacklistDto)]
+            <- [dynamic-instantiation (class com.myproject.smsblock.dto.SmsBlockBlacklistDto)]
           <- [selection]
         <- [select]
         -> [from]
-          -> [root] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s)`
-          <- [root] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s)`
+          -> [root] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s)`
+          <- [root] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s)`
         <- [from]
         -> [where]
           -> [and]
             -> [EQUAL]
-                -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).smsBlockMobile.id`
+                -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).smsBlockMobile.id`
                 :smsBlockMobile
             <- [EQUAL]
             -> [EQUAL]
-                -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).status`
+                -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).status`
             <- [EQUAL]
           <- [and]
         <- [where]
@@ -1553,7 +1553,7 @@ java.lang.Exception: exception just for purpose of providing stack trace
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 2024-07-12 15:14:11.865 DEBUG o.s.d.j.r.q.NamedQuery:118 - Did not find named query SmsBlockBlacklist.findByBlacklistMobile
 2024-07-12 15:14:11.865 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
-2024-07-12 15:14:11.873 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.mobitel.smsblock.repository.SmsBlockBlacklistRepository.
+2024-07-12 15:14:11.873 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.myproject.smsblock.repository.SmsBlockBlacklistRepository.
 2024-07-12 15:14:11.880 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'smsBlockBlacklistServiceImpl' via constructor to bean named 'smsBlockBlacklistRepository'
 2024-07-12 15:14:11.884 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'getModelMapper'
 2024-07-12 15:14:11.919 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'smsBlockBlacklistController' via constructor to bean named 'smsBlockBlacklistServiceImpl'
@@ -1563,7 +1563,7 @@ java.lang.Exception: exception just for purpose of providing stack trace
 2024-07-12 15:14:11.927 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpa.named-queries#0'
 2024-07-12 15:14:11.930 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpa.SmsBlockMobileRepository.fragments#0'
 2024-07-12 15:14:11.933 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
-2024-07-12 15:14:11.934 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:272 - Initializing repository instance for com.mobitel.smsblock.repository.SmsBlockMobileRepository…
+2024-07-12 15:14:11.934 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:272 - Initializing repository instance for com.myproject.smsblock.repository.SmsBlockMobileRepository…
 2024-07-12 15:14:11.935 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
 2024-07-12 15:14:11.968 DEBUG o.s.d.j.r.q.NamedQuery:138 - Looking up named query SmsBlockMobile.findByMobileNo
 2024-07-12 15:14:11.969 DEBUG o.h.r.t.b.j.i.JdbcResourceLocalTransactionCoordinatorImpl:310 - JDBC transaction marked for rollback-only (exception provided for stack trace)
@@ -1871,7 +1871,7 @@ java.lang.Exception: exception just for purpose of providing stack trace
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 2024-07-12 15:14:11.976 DEBUG o.s.d.j.r.q.NamedQuery:118 - Did not find named query SmsBlockMobile.findByMobileNoAndStatus
 2024-07-12 15:14:11.977 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
-2024-07-12 15:14:11.982 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.mobitel.smsblock.repository.SmsBlockMobileRepository.
+2024-07-12 15:14:11.982 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.myproject.smsblock.repository.SmsBlockMobileRepository.
 2024-07-12 15:14:11.984 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'licenseMapperImpl'
 2024-07-12 15:14:11.987 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'modelMapperImpl'
 2024-07-12 15:14:11.989 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'parameterMapperImpl'
@@ -3137,8 +3137,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.util.comparator
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
 	... 153 common frames omitted
 2024-07-12 15:14:12.212 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@640890bc size = 0, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
-2024-07-12 15:14:12.212 ERROR o.s.t.c.TestContextManager:245 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.mobitel.smsblock.SmsblockApplicationTests@5b1f32e2]
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@1b78c34b testClass = com.mobitel.smsblock.SmsblockApplicationTests, locations = [], classes = [com.mobitel.smsblock.SmsblockApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a448449, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2dc995f4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5629510, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@6fe1b4fb, org.springframework.boot.test.context.SpringBootTestAnnotation@78b62b12], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+2024-07-12 15:14:12.212 ERROR o.s.t.c.TestContextManager:245 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.myproject.smsblock.SmsblockApplicationTests@5b1f32e2]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@1b78c34b testClass = com.myproject.smsblock.SmsblockApplicationTests, locations = [], classes = [com.myproject.smsblock.SmsblockApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a448449, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2dc995f4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5629510, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@6fe1b4fb, org.springframework.boot.test.context.SpringBootTestAnnotation@78b62b12], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:143)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
 	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)

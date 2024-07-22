@@ -1,4 +1,4 @@
-2023-12-08 11:59:33.782 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.mobitel.smsblock.repository.SmsBlockMobileRepository.
+2023-12-08 11:59:33.782 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.myproject.smsblock.repository.SmsBlockMobileRepository.
 2023-12-08 11:59:33.796 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
 2023-12-08 11:59:33.808 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
 2023-12-08 11:59:33.819 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'

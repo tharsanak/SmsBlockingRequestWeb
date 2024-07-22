@@ -7,39 +7,39 @@
       -> [query-spec]
         -> [select]
           -> [selection]
-            -> [dynamic-instantiation (class com.mobitel.smsblock.dto.SmsBlockBlacklistDto)]
+            -> [dynamic-instantiation (class com.myproject.smsblock.dto.SmsBlockBlacklistDto)]
               -> [arguments]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).blacklistMobile`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).blacklistMobile`
                 <- [argument (null)]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).smsBlockMobile.id`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).smsBlockMobile.id`
                 <- [argument (null)]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).comment`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).comment`
                 <- [argument (null)]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).activatedOn`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).activatedOn`
                 <- [argument (null)]
                 -> [argument (null)]
-                    -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).addedBy`
+                    -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).addedBy`
                 <- [argument (null)]
               <- [arguments]
-            <- [dynamic-instantiation (class com.mobitel.smsblock.dto.SmsBlockBlacklistDto)]
+            <- [dynamic-instantiation (class com.myproject.smsblock.dto.SmsBlockBlacklistDto)]
           <- [selection]
         <- [select]
         -> [from]
-          -> [root] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s)`
-          <- [root] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s)`
+          -> [root] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s)`
+          <- [root] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s)`
         <- [from]
         -> [where]
           -> [and]
             -> [EQUAL]
-                -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).smsBlockMobile.id`
+                -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).smsBlockMobile.id`
                 :smsBlockMobile
             <- [EQUAL]
             -> [EQUAL]
-                -> [basic-path] - `com.mobitel.smsblock.entity.SmsBlockBlacklist(s).status`
+                -> [basic-path] - `com.myproject.smsblock.entity.SmsBlockBlacklist(s).status`
             <- [EQUAL]
           <- [and]
         <- [where]
@@ -120,10 +120,10 @@ java.lang.Exception: exception just for purpose of providing stack trace
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.mobitel.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
+	at com.myproject.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
 2023-12-08 13:58:33.038 DEBUG o.s.d.j.r.q.NamedQuery:118 - Did not find named query SmsBlockBlacklist.findByBlacklistMobile
 2023-12-08 13:58:33.039 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
-2023-12-08 13:58:33.046 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.mobitel.smsblock.repository.SmsBlockBlacklistRepository.
+2023-12-08 13:58:33.046 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.myproject.smsblock.repository.SmsBlockBlacklistRepository.
 2023-12-08 13:58:33.055 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'smsBlockBlacklistServiceImpl' via constructor to bean named 'smsBlockBlacklistRepository'
 2023-12-08 13:58:33.061 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'getModelMapper'
 2023-12-08 13:58:33.126 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'smsBlockBlacklistController' via constructor to bean named 'smsBlockBlacklistServiceImpl'
@@ -133,7 +133,7 @@ java.lang.Exception: exception just for purpose of providing stack trace
 2023-12-08 13:58:33.138 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpa.named-queries#0'
 2023-12-08 13:58:33.144 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpa.SmsBlockMobileRepository.fragments#0'
 2023-12-08 13:58:33.150 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
-2023-12-08 13:58:33.152 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:272 - Initializing repository instance for com.mobitel.smsblock.repository.SmsBlockMobileRepository…
+2023-12-08 13:58:33.152 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:272 - Initializing repository instance for com.myproject.smsblock.repository.SmsBlockMobileRepository…
 2023-12-08 13:58:33.154 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
 2023-12-08 13:58:33.200 DEBUG o.s.d.j.r.q.NamedQuery:138 - Looking up named query SmsBlockMobile.findByMobileNo
 2023-12-08 13:58:33.201 DEBUG o.h.r.t.b.j.i.JdbcResourceLocalTransactionCoordinatorImpl:310 - JDBC transaction marked for rollback-only (exception provided for stack trace)
@@ -209,7 +209,7 @@ java.lang.Exception: exception just for purpose of providing stack trace
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.mobitel.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
+	at com.myproject.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
 2023-12-08 13:58:33.203 DEBUG o.s.d.j.r.q.NamedQuery:118 - Did not find named query SmsBlockMobile.findByMobileNo
 2023-12-08 13:58:33.205 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
 2023-12-08 13:58:33.210 DEBUG o.s.d.j.r.q.NamedQuery:138 - Looking up named query SmsBlockMobile.findByMobileNoAndStatus
@@ -286,10 +286,10 @@ java.lang.Exception: exception just for purpose of providing stack trace
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.mobitel.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
+	at com.myproject.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
 2023-12-08 13:58:33.212 DEBUG o.s.d.j.r.q.NamedQuery:118 - Did not find named query SmsBlockMobile.findByMobileNoAndStatus
 2023-12-08 13:58:33.214 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
-2023-12-08 13:58:33.225 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.mobitel.smsblock.repository.SmsBlockMobileRepository.
+2023-12-08 13:58:33.225 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:369 - Finished creation of repository instance for com.myproject.smsblock.repository.SmsBlockMobileRepository.
 2023-12-08 13:58:33.228 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
 2023-12-08 13:58:33.229 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
 2023-12-08 13:58:33.232 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'

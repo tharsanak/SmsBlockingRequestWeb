@@ -29,14 +29,14 @@
 2023-12-08 14:41:29.499 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
 2023-12-08 14:41:29.500 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
 2023-12-08 14:41:38.950 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/createBlockMobile/51", parameters={}
-2023-12-08 14:41:38.950 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
+2023-12-08 14:41:38.950 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
 2023-12-08 14:41:38.951 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 14:41:38.952 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 14:41:38.952 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
 2023-12-08 14:41:38.955 DEBUG o.s.w.s.DispatcherServlet:120 - POST "/createBlockMobile/51", parameters={}
-2023-12-08 14:41:38.956 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
+2023-12-08 14:41:38.956 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
 2023-12-08 14:41:38.956 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
-2023-12-08 14:41:38.958 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockBlacklistDto@4288b776]
+2023-12-08 14:41:38.958 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.myproject.smsblock.dto.SmsBlockBlacklistDto@4288b776]
 2023-12-08 14:41:38.959 DEBUG o.s.o.j.JpaTransactionManager:374 - Found thread-bound EntityManager [SessionImpl(1111929693<open>)] for JPA transaction
 2023-12-08 14:41:38.959 DEBUG o.s.o.j.JpaTransactionManager:370 - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
 2023-12-08 14:41:38.961 DEBUG o.s.j.d.DataSourceUtils:188 - Setting JDBC Connection [HikariProxyConnection@1523255235 wrapping com.mysql.cj.jdbc.ConnectionImpl@25c0fd85] read-only
@@ -45,11 +45,11 @@
 2023-12-08 14:41:38.964 DEBUG o.s.o.j.JpaTransactionManager:439 - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5d7f28eb]
 2023-12-08 14:41:38.964 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
 2023-12-08 14:41:38.964 DEBUG o.h.o.results:76 - Initializer list:
-	  com.mobitel.smsblock.entity.SmsBlockMobile -> EntityResultInitializer(com.mobitel.smsblock.entity.SmsBlockMobile)@1826624799 (SingleTableEntityPersister(com.mobitel.smsblock.entity.SmsBlockMobile))
+	  com.myproject.smsblock.entity.SmsBlockMobile -> EntityResultInitializer(com.myproject.smsblock.entity.SmsBlockMobile)@1826624799 (SingleTableEntityPersister(com.myproject.smsblock.entity.SmsBlockMobile))
 
 2023-12-08 14:41:38.964 DEBUG o.h.SQL:133 - select s1_0.id,s1_0.activated_on,s1_0.added_by,s1_0.comment,s1_0.deactivated_by,s1_0.deactivated_on,s1_0.mobile_no,s1_0.status from sms_block_mobile s1_0 where s1_0.id=?
-2023-12-08 14:41:38.966 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.mobitel.smsblock.entity.SmsBlockMobile): 51
-2023-12-08 14:41:38.967 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.mobitel.smsblock.entity.SmsBlockMobile#51] : 1025523084
+2023-12-08 14:41:38.966 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.myproject.smsblock.entity.SmsBlockMobile): 51
+2023-12-08 14:41:38.967 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.myproject.smsblock.entity.SmsBlockMobile#51] : 1025523084
 2023-12-08 14:41:38.967 DEBUG o.h.o.results:61 - Extracted JDBC value [1] - [2023-12-06 08:53:38.0]
 2023-12-08 14:41:38.968 DEBUG o.h.o.results:61 - Extracted JDBC value [2] - [Tharsana]
 2023-12-08 14:41:38.968 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [null]
@@ -57,7 +57,7 @@
 2023-12-08 14:41:38.969 DEBUG o.h.o.results:61 - Extracted JDBC value [5] - [null]
 2023-12-08 14:41:38.970 DEBUG o.h.o.results:61 - Extracted JDBC value [6] - [0763688211]
 2023-12-08 14:41:38.970 DEBUG o.h.o.results:61 - Extracted JDBC value [7] - [DEACT]
-2023-12-08 14:41:38.970 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.mobitel.smsblock.entity.SmsBlockMobile#51
+2023-12-08 14:41:38.970 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.myproject.smsblock.entity.SmsBlockMobile#51
 2023-12-08 14:41:38.970 DEBUG o.h.o.r.loading:93 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@51849fda
 2023-12-08 14:41:38.971 DEBUG o.s.o.j.JpaTransactionManager:740 - Initiating transaction commit
 2023-12-08 14:41:38.971 DEBUG o.s.o.j.JpaTransactionManager:556 - Committing JPA transaction on EntityManager [SessionImpl(1111929693<open>)]

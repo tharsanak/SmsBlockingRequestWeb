@@ -1,7 +1,7 @@
 2024-07-12 11:21:20.435  INFO c.m.s.SmsblockApplication:51 - Starting SmsblockApplication using Java 17.0.9 with PID 24212 (D:\smsblock_Backend_hiernate\target\classes started by THARSANAK in D:\smsblock_Backend_hiernate)
 2024-07-12 11:21:20.446 DEBUG c.m.s.SmsblockApplication:52 - Running with Spring Boot v3.1.5, Spring v6.0.13
 2024-07-12 11:21:20.448  INFO c.m.s.SmsblockApplication:638 - No active profile set, falling back to 1 default profile: "default"
-2024-07-12 11:21:20.450 DEBUG o.s.b.SpringApplication:671 - Loading source class com.mobitel.smsblock.SmsblockApplication
+2024-07-12 11:21:20.450 DEBUG o.s.b.SpringApplication:671 - Loading source class com.myproject.smsblock.SmsblockApplication
 2024-07-12 11:21:20.536 DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:662 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4426bff1
 2024-07-12 11:21:20.581 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 2024-07-12 11:21:20.615 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
@@ -13,8 +13,8 @@
 2024-07-12 11:21:20.746 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\services\impl\SmsBlockMobileServiceImpl.class]
 2024-07-12 11:21:21.414  INFO o.s.d.r.c.RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2024-07-12 11:21:21.426 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
-2024-07-12 11:21:21.438 DEBUG o.s.b.a.AutoConfigurationPackages:213 - @EnableAutoConfiguration was declared on a class in the package 'com.mobitel.smsblock'. Automatic @Repository and @Entity scanning is enabled.
-2024-07-12 11:21:21.440 DEBUG o.s.d.r.c.RepositoryConfigurationDelegate:148 - Scanning for JPA repositories in packages com.mobitel.smsblock.
+2024-07-12 11:21:21.438 DEBUG o.s.b.a.AutoConfigurationPackages:213 - @EnableAutoConfiguration was declared on a class in the package 'com.myproject.smsblock'. Automatic @Repository and @Entity scanning is enabled.
+2024-07-12 11:21:21.440 DEBUG o.s.d.r.c.RepositoryConfigurationDelegate:148 - Scanning for JPA repositories in packages com.myproject.smsblock.
 2024-07-12 11:21:21.457 DEBUG o.s.d.r.c.RepositoryComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\repository\SmsBlockBlacklistRepository.class]
 2024-07-12 11:21:21.459 DEBUG o.s.d.r.c.RepositoryComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\repository\SmsBlockMobileRepository.class]
 2024-07-12 11:21:21.522 DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\services\impl\SmsBlockBlacklistServiceImpl.class]
@@ -122,7 +122,7 @@
 2024-07-12 11:21:23.045 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
 2024-07-12 11:21:23.076 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'entityManagerFactory'
 2024-07-12 11:21:23.078 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'smsblockApplication'
-2024-07-12 11:21:23.083  WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:624 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactory' defined in com.mobitel.smsblock.SmsblockApplication: Unsatisfied dependency expressed through method 'entityManagerFactory' parameter 0: No qualifying bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-07-12 11:21:23.083  WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:624 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactory' defined in com.myproject.smsblock.SmsblockApplication: Unsatisfied dependency expressed through method 'entityManagerFactory' parameter 0: No qualifying bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
 2024-07-12 11:21:23.088  INFO o.a.c.c.StandardService:173 - Stopping service [Tomcat]
 2024-07-12 11:21:23.121 DEBUG o.s.b.a.l.ConditionEvaluationReportLogger:72 - 
 
@@ -1160,7 +1160,7 @@ org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying b
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.mobitel.smsblock.SmsblockApplication.main(SmsblockApplication.java:17)
+	at com.myproject.smsblock.SmsblockApplication.main(SmsblockApplication.java:17)
 2024-07-12 11:21:23.161 ERROR o.s.b.d.LoggingFailureAnalysisReporter:40 - 
 
 ***************************
@@ -1169,7 +1169,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of method entityManagerFactory in com.mobitel.smsblock.SmsblockApplication required a bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' that could not be found.
+Parameter 0 of method entityManagerFactory in com.myproject.smsblock.SmsblockApplication required a bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' that could not be found.
 
 
 Action:

@@ -1,7 +1,7 @@
 2024-07-12 15:44:44.563  INFO c.m.s.SmsblockApplication:51 - Starting SmsblockApplication using Java 17.0.9 with PID 259088 (D:\smsblock_Backend_hiernate\target\classes started by THARSANAK in D:\smsblock_Backend_hiernate)
 2024-07-12 15:44:44.572 DEBUG c.m.s.SmsblockApplication:52 - Running with Spring Boot v3.1.5, Spring v6.0.13
 2024-07-12 15:44:44.574  INFO c.m.s.SmsblockApplication:638 - No active profile set, falling back to 1 default profile: "default"
-2024-07-12 15:44:44.575 DEBUG o.s.b.SpringApplication:671 - Loading source class com.mobitel.smsblock.SmsblockApplication
+2024-07-12 15:44:44.575 DEBUG o.s.b.SpringApplication:671 - Loading source class com.myproject.smsblock.SmsblockApplication
 2024-07-12 15:44:44.655 DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:662 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1c481ff2
 2024-07-12 15:44:44.698 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 2024-07-12 15:44:44.724 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
@@ -143,7 +143,7 @@ java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest no
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.mobitel.smsblock.SmsblockApplication.main(SmsblockApplication.java:13)
+	at com.myproject.smsblock.SmsblockApplication.main(SmsblockApplication.java:13)
 Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)

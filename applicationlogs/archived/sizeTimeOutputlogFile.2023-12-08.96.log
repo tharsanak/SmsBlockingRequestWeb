@@ -55,7 +55,7 @@
 2023-12-08 14:25:18.063 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 14:25:18.063 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
 2023-12-08 14:25:21.725 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/3", parameters={}
-2023-12-08 14:25:21.727 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 14:25:21.727 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
 2023-12-08 14:25:21.728 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 14:25:21.732 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
 2023-12-08 14:25:21.732 DEBUG o.h.o.results:56 - Initializer list is empty
@@ -65,7 +65,7 @@
 2023-12-08 14:25:21.739 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 14:25:21.740 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
 2023-12-08 14:25:21.743 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/3", parameters={}
-2023-12-08 14:25:21.745 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 14:25:21.745 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
 2023-12-08 14:25:21.746 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 14:25:21.748 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
 2023-12-08 14:25:21.749 DEBUG o.h.o.results:56 - Initializer list is empty

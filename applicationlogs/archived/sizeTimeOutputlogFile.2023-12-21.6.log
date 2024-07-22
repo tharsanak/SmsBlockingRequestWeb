@@ -1,27 +1,27 @@
 2023-12-21 11:21:06.813 DEBUG o.s.w.s.DispatcherServlet:120 - POST "/createMobile", parameters={}
-2023-12-21 11:21:06.816 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockMobileController#saveSmsBlockMobile(SmsBlockMobileDto)
+2023-12-21 11:21:06.816 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockMobileController#saveSmsBlockMobile(SmsBlockMobileDto)
 2023-12-21 11:21:06.816 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
-2023-12-21 11:21:06.817 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockMobileDto@205cbc95]
+2023-12-21 11:21:06.817 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.myproject.smsblock.dto.SmsBlockMobileDto@205cbc95]
 2023-12-21 11:21:06.819 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s1_0
-2023-12-21 11:21:06.819 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900))] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockMobile] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockMobile] 
+2023-12-21 11:21:06.819 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.myproject.smsblock.entity.SmsBlockMobile(761547107284900))] with identifierForTableGroup [com.myproject.smsblock.entity.SmsBlockMobile] for NavigablePath [com.myproject.smsblock.entity.SmsBlockMobile]
 2023-12-21 11:21:06.820 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5700 - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@6c3a2bb2
-2023-12-21 11:21:06.821 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5590 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900).mobileNo) 
+2023-12-21 11:21:06.821 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5590 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.myproject.smsblock.entity.SmsBlockMobile(761547107284900).mobileNo)
 2023-12-21 11:21:06.821 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5700 - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@311833c3
-2023-12-21 11:21:06.822 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5590 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900).status) 
+2023-12-21 11:21:06.822 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5590 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.myproject.smsblock.entity.SmsBlockMobile(761547107284900).status)
 2023-12-21 11:21:06.822 DEBUG o.h.o.r.g.AST:67 - DomainResult Graph:
- \-EntityResultImpl [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900).activatedOn]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900).addedBy]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900).comment]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900).deactivatedBy]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900).deactivatedOn]
- |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900).mobileNo]
- |  \-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900).status]
+ \-EntityResultImpl [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900).activatedOn]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900).addedBy]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900).comment]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900).deactivatedBy]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900).deactivatedOn]
+ |  +-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900).mobileNo]
+ |  \-BasicFetch [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900).status]
 
 2023-12-21 11:21:06.823 DEBUG o.h.o.s.a.tree:46 - SQL AST Tree:
     SelectStatement {
       FromClause {
-        StandardTableGroup (s1 : com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)) {
+        StandardTableGroup (s1 : com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)) {
           primaryTableReference : sms_block_mobile as s1_0
         }
       }
@@ -29,12 +29,12 @@
 
 2023-12-21 11:21:06.823 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
 2023-12-21 11:21:06.823 DEBUG o.h.o.results:76 - Initializer list:
-	  com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900) -> EntityResultInitializer(com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900))@303475237 (SingleTableEntityPersister(com.mobitel.smsblock.entity.SmsBlockMobile))
+	  com.myproject.smsblock.entity.SmsBlockMobile(761547107284900) -> EntityResultInitializer(com.myproject.smsblock.entity.SmsBlockMobile(761547107284900))@303475237 (SingleTableEntityPersister(com.myproject.smsblock.entity.SmsBlockMobile))
 
 2023-12-21 11:21:06.824 DEBUG o.h.SQL:133 - select s1_0.id,s1_0.activated_on,s1_0.added_by,s1_0.comment,s1_0.deactivated_by,s1_0.deactivated_on,s1_0.mobile_no,s1_0.status from sms_block_mobile s1_0 where s1_0.mobile_no=? and s1_0.status=?
 2023-12-21 11:21:06.825 DEBUG o.h.o.results:61 - Extracted JDBC value [0] - [1]
-2023-12-21 11:21:06.826 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)): 1
-2023-12-21 11:21:06.826 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)#1] : 1482912481
+2023-12-21 11:21:06.826 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)): 1
+2023-12-21 11:21:06.826 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)#1] : 1482912481
 2023-12-21 11:21:06.826 DEBUG o.h.o.results:61 - Extracted JDBC value [1] - [2023-12-21 11:20:15.0]
 2023-12-21 11:21:06.827 DEBUG o.h.o.results:61 - Extracted JDBC value [2] - [tharsa]
 2023-12-21 11:21:06.827 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [null]
@@ -42,11 +42,11 @@
 2023-12-21 11:21:06.827 DEBUG o.h.o.results:61 - Extracted JDBC value [5] - [null]
 2023-12-21 11:21:06.827 DEBUG o.h.o.results:61 - Extracted JDBC value [6] - [0111111111]
 2023-12-21 11:21:06.828 DEBUG o.h.o.results:61 - Extracted JDBC value [7] - [ACT]
-2023-12-21 11:21:06.828 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)#1
+2023-12-21 11:21:06.828 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)#1
 2023-12-21 11:21:06.828 DEBUG o.h.o.r.loading:93 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@7f83bc4a
 2023-12-21 11:21:06.829 DEBUG o.h.o.results:61 - Extracted JDBC value [0] - [2]
-2023-12-21 11:21:06.829 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)): 2
-2023-12-21 11:21:06.829 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)#2] : 557348617
+2023-12-21 11:21:06.829 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)): 2
+2023-12-21 11:21:06.829 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)#2] : 557348617
 2023-12-21 11:21:06.829 DEBUG o.h.o.results:61 - Extracted JDBC value [1] - [2023-12-21 11:20:15.0]
 2023-12-21 11:21:06.829 DEBUG o.h.o.results:61 - Extracted JDBC value [2] - [tharsa]
 2023-12-21 11:21:06.830 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [null]
@@ -54,11 +54,11 @@
 2023-12-21 11:21:06.830 DEBUG o.h.o.results:61 - Extracted JDBC value [5] - [null]
 2023-12-21 11:21:06.830 DEBUG o.h.o.results:61 - Extracted JDBC value [6] - [0111111111]
 2023-12-21 11:21:06.831 DEBUG o.h.o.results:61 - Extracted JDBC value [7] - [ACT]
-2023-12-21 11:21:06.831 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)#2
+2023-12-21 11:21:06.831 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)#2
 2023-12-21 11:21:06.831 DEBUG o.h.o.r.loading:93 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@7f83bc4a
 2023-12-21 11:21:06.831 DEBUG o.h.o.results:61 - Extracted JDBC value [0] - [3]
-2023-12-21 11:21:06.831 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)): 3
-2023-12-21 11:21:06.832 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)#3] : 1895887328
+2023-12-21 11:21:06.831 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)): 3
+2023-12-21 11:21:06.832 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)#3] : 1895887328
 2023-12-21 11:21:06.832 DEBUG o.h.o.results:61 - Extracted JDBC value [1] - [2023-12-21 11:20:16.0]
 2023-12-21 11:21:06.832 DEBUG o.h.o.results:61 - Extracted JDBC value [2] - [tharsa]
 2023-12-21 11:21:06.832 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [null]
@@ -66,7 +66,7 @@
 2023-12-21 11:21:06.833 DEBUG o.h.o.results:61 - Extracted JDBC value [5] - [null]
 2023-12-21 11:21:06.833 DEBUG o.h.o.results:61 - Extracted JDBC value [6] - [0111111111]
 2023-12-21 11:21:06.834 DEBUG o.h.o.results:61 - Extracted JDBC value [7] - [ACT]
-2023-12-21 11:21:06.834 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.mobitel.smsblock.entity.SmsBlockMobile(761547107284900)#3
+2023-12-21 11:21:06.834 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.myproject.smsblock.entity.SmsBlockMobile(761547107284900)#3
 2023-12-21 11:21:06.834 DEBUG o.h.o.r.loading:93 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@7f83bc4a
 2023-12-21 11:21:06.835 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [*/*]
 2023-12-21 11:21:06.836 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor

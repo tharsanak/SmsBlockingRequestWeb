@@ -39,9 +39,9 @@
 2023-12-08 14:32:59.295 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
 2023-12-08 14:32:59.296 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
 2023-12-08 14:33:22.988 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/undefined", parameters={}
-2023-12-08 14:33:22.990 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 14:33:22.990 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
 2023-12-08 14:33:22.991 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
-2023-12-08 14:33:22.993 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.util.List<com.mobitel.smsblock.dto.SmsBlockBlacklistDto>> com.mobitel.smsblock.controller.SmsBlockBlacklistController.getBlocklistBySmsBlockMobile(java.lang.Integer): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"
+2023-12-08 14:33:22.993 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.util.List<com.myproject.smsblock.dto.SmsBlockBlacklistDto>> com.myproject.smsblock.controller.SmsBlockBlacklistController.getBlocklistBySmsBlockMobile(java.lang.Integer): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"
 2023-12-08 14:33:22.994  WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
 2023-12-08 14:33:22.994 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 14:33:22.995 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
@@ -53,9 +53,9 @@
 2023-12-08 14:33:23.000 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 14:33:23.001 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 400
 2023-12-08 14:33:23.005 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/undefined", parameters={}
-2023-12-08 14:33:23.006 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 14:33:23.006 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
 2023-12-08 14:33:23.007 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
-2023-12-08 14:33:23.008 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.util.List<com.mobitel.smsblock.dto.SmsBlockBlacklistDto>> com.mobitel.smsblock.controller.SmsBlockBlacklistController.getBlocklistBySmsBlockMobile(java.lang.Integer): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"
+2023-12-08 14:33:23.008 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.util.List<com.myproject.smsblock.dto.SmsBlockBlacklistDto>> com.myproject.smsblock.controller.SmsBlockBlacklistController.getBlocklistBySmsBlockMobile(java.lang.Integer): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"
 2023-12-08 14:33:23.009  WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
 2023-12-08 14:33:23.010 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 14:33:23.010 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST

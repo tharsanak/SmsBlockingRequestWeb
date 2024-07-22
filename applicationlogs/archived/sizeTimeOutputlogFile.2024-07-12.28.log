@@ -6,7 +6,7 @@
 2024-07-12 12:45:02.789 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@16a83016 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1]
 2024-07-12 12:45:02.791 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@16a83016 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1]
 2024-07-12 12:45:02.793 DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener:114 - After test method: class [SmsblockApplicationTests], method [contextLoads], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
-2024-07-12 12:45:02.793 DEBUG o.s.t.c.w.ServletTestExecutionListener:167 - Resetting RequestContextHolder for test class com.mobitel.smsblock.SmsblockApplicationTests
+2024-07-12 12:45:02.793 DEBUG o.s.t.c.w.ServletTestExecutionListener:167 - Resetting RequestContextHolder for test class com.myproject.smsblock.SmsblockApplicationTests
 2024-07-12 12:45:02.800 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@16a83016 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1]
 2024-07-12 12:45:02.801 DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener:154 - After test class: class [SmsblockApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
 2024-07-12 12:45:02.918 DEBUG o.s.w.c.s.GenericWebApplicationContext:1062 - Closing org.springframework.web.context.support.GenericWebApplicationContext@48e7b3d2, started on Fri Jul 12 12:44:52 IST 2024

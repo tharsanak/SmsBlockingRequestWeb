@@ -1,5 +1,5 @@
 2023-12-08 09:32:56.172 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/83", parameters={}
-2023-12-08 09:32:56.176 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 09:32:56.176 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
 2023-12-08 09:32:56.176 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 09:32:56.179 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
 2023-12-08 09:32:56.180 DEBUG o.h.o.results:56 - Initializer list is empty
@@ -17,11 +17,11 @@
 2023-12-08 09:32:56.206 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [2023-12-08 09:32:45.0]
 2023-12-08 09:32:56.206 DEBUG o.h.o.results:61 - Extracted JDBC value [4] - [tharsana]
 2023-12-08 09:32:56.206 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2023-12-08 09:32:56.207 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [[com.mobitel.smsblock.dto.SmsBlockBlacklistDto@647c4975, com.mobitel.smsblock.dto.SmsBlockBlacklistD (truncated)...]
+2023-12-08 09:32:56.207 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [[com.myproject.smsblock.dto.SmsBlockBlacklistDto@647c4975, com.myproject.smsblock.dto.SmsBlockBlacklistD (truncated)...]
 2023-12-08 09:32:56.207 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 09:32:56.208 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
 2023-12-08 09:32:56.209 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/83", parameters={}
-2023-12-08 09:32:56.210 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 09:32:56.210 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
 2023-12-08 09:32:56.210 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 09:32:56.212 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
 2023-12-08 09:32:56.213 DEBUG o.h.o.results:56 - Initializer list is empty
@@ -39,11 +39,11 @@
 2023-12-08 09:32:56.218 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [2023-12-08 09:32:45.0]
 2023-12-08 09:32:56.219 DEBUG o.h.o.results:61 - Extracted JDBC value [4] - [tharsana]
 2023-12-08 09:32:56.219 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2023-12-08 09:32:56.220 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [[com.mobitel.smsblock.dto.SmsBlockBlacklistDto@4e04b787, com.mobitel.smsblock.dto.SmsBlockBlacklistD (truncated)...]
+2023-12-08 09:32:56.220 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [[com.myproject.smsblock.dto.SmsBlockBlacklistDto@4e04b787, com.myproject.smsblock.dto.SmsBlockBlacklistD (truncated)...]
 2023-12-08 09:32:56.221 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 09:32:56.221 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
 2023-12-08 09:32:59.445 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/83", parameters={}
-2023-12-08 09:32:59.446 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 09:32:59.446 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
 2023-12-08 09:32:59.448 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 09:32:59.450 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
 2023-12-08 09:32:59.450 DEBUG o.h.o.results:56 - Initializer list is empty
@@ -61,11 +61,11 @@
 2023-12-08 09:32:59.455 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [2023-12-08 09:32:45.0]
 2023-12-08 09:32:59.455 DEBUG o.h.o.results:61 - Extracted JDBC value [4] - [tharsana]
 2023-12-08 09:32:59.456 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2023-12-08 09:32:59.456 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [[com.mobitel.smsblock.dto.SmsBlockBlacklistDto@30501ba9, com.mobitel.smsblock.dto.SmsBlockBlacklistD (truncated)...]
+2023-12-08 09:32:59.456 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [[com.myproject.smsblock.dto.SmsBlockBlacklistDto@30501ba9, com.myproject.smsblock.dto.SmsBlockBlacklistD (truncated)...]
 2023-12-08 09:32:59.457 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 09:32:59.458 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
 2023-12-08 09:32:59.460 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/83", parameters={}
-2023-12-08 09:32:59.461 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 09:32:59.461 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.myproject.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
 2023-12-08 09:32:59.462 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 09:32:59.463 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
 2023-12-08 09:32:59.464 DEBUG o.h.o.results:56 - Initializer list is empty
@@ -83,6 +83,6 @@
 2023-12-08 09:32:59.471 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [2023-12-08 09:32:45.0]
 2023-12-08 09:32:59.471 DEBUG o.h.o.results:61 - Extracted JDBC value [4] - [tharsana]
 2023-12-08 09:32:59.472 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
-2023-12-08 09:32:59.472 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [[com.mobitel.smsblock.dto.SmsBlockBlacklistDto@7642ae62, com.mobitel.smsblock.dto.SmsBlockBlacklistD (truncated)...]
+2023-12-08 09:32:59.472 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [[com.myproject.smsblock.dto.SmsBlockBlacklistDto@7642ae62, com.myproject.smsblock.dto.SmsBlockBlacklistD (truncated)...]
 2023-12-08 09:32:59.473 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-08 09:32:59.473 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK

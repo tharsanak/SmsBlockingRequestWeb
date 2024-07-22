@@ -17,7 +17,7 @@
 2024-07-12 10:40:59.745 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpa.named-queries#1'
 2024-07-12 10:40:59.751 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpa.SmsBlockBlacklistRepository.fragments#0'
 2024-07-12 10:40:59.756 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpaSharedEM_entityManagerFactory'
-2024-07-12 10:40:59.760  WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:624 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsBlockBlacklistController' defined in file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\controller\SmsBlockBlacklistController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'smsBlockBlacklistServiceImpl' defined in file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\services\impl\SmsBlockBlacklistServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'smsBlockBlacklistRepository' defined in com.mobitel.smsblock.repository.SmsBlockBlacklistRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+2024-07-12 10:40:59.760  WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:624 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'smsBlockBlacklistController' defined in file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\controller\SmsBlockBlacklistController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'smsBlockBlacklistServiceImpl' defined in file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\services\impl\SmsBlockBlacklistServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'smsBlockBlacklistRepository' defined in com.myproject.smsblock.repository.SmsBlockBlacklistRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
 2024-07-12 10:40:59.764  INFO o.a.c.c.StandardService:173 - Stopping service [Tomcat]
 2024-07-12 10:41:00.446 DEBUG o.s.b.a.l.ConditionEvaluationReportLogger:72 - 
 
@@ -1095,7 +1095,7 @@ org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named '
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.mobitel.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
+	at com.myproject.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
 2024-07-12 10:41:00.485 ERROR o.s.b.d.LoggingFailureAnalysisReporter:40 - 
 
 ***************************
@@ -1104,7 +1104,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.mobitel.smsblock.services.impl.SmsBlockBlacklistServiceImpl required a bean named 'entityManagerFactory' that could not be found.
+Parameter 0 of constructor in com.myproject.smsblock.services.impl.SmsBlockBlacklistServiceImpl required a bean named 'entityManagerFactory' that could not be found.
 
 
 Action:
