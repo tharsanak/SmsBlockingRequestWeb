@@ -1,13 +1,11 @@
-package com.mobitel.smsblock.entity;
+package com.myproject.smsblock.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.core.annotation.Order;
 
-import java.math.BigInteger;
 import java.sql.Timestamp;
 
 @Entity

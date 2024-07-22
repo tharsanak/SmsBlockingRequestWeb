@@ -1,11 +1,10 @@
-package com.mobitel.smsblock.services.impl;
+package com.myproject.smsblock.services.impl;
 
-import com.mobitel.smsblock.dto.SmsBlockBlacklistDto;
-import com.mobitel.smsblock.entity.SmsBlockBlacklist;
-import com.mobitel.smsblock.entity.SmsBlockMobile;
-import com.mobitel.smsblock.repository.SmsBlockBlacklistRepository;
-import com.mobitel.smsblock.repository.SmsBlockMobileRepository;
-import com.mobitel.smsblock.services.SmsBlockBlacklistService;
+import com.myproject.smsblock.dto.SmsBlockBlacklistDto;
+import com.myproject.smsblock.entity.SmsBlockBlacklist;
+import com.myproject.smsblock.entity.SmsBlockMobile;
+import com.myproject.smsblock.repository.SmsBlockBlacklistRepository;
+import com.myproject.smsblock.services.SmsBlockBlacklistService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

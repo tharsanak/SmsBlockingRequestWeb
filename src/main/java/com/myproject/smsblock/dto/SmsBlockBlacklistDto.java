@@ -1,6 +1,5 @@
-package com.mobitel.smsblock.dto;
+package com.myproject.smsblock.dto;
 
-import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 import java.sql.Timestamp;

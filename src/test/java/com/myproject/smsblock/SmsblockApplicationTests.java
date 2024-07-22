@@ -1,4 +1,4 @@
-package com.mobitel.smsblock;
+package com.myproject.smsblock;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

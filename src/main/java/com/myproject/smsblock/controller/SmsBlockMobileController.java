@@ -1,8 +1,8 @@
-package com.mobitel.smsblock.controller;
+package com.myproject.smsblock.controller;
 
-import com.mobitel.smsblock.dto.SmsBlockMobileDto;
-import com.mobitel.smsblock.entity.SmsBlockMobile;
-import com.mobitel.smsblock.services.SmsBlockMobileService;
+import com.myproject.smsblock.dto.SmsBlockMobileDto;
+import com.myproject.smsblock.entity.SmsBlockMobile;
+import com.myproject.smsblock.services.SmsBlockMobileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

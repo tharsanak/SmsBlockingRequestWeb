@@ -1,18 +1,14 @@
-package com.mobitel.smsblock.services.impl;
-import com.mobitel.smsblock.dto.SmsBlockMobileDto;
-import com.mobitel.smsblock.entity.SmsBlockBlacklist;
-import com.mobitel.smsblock.entity.SmsBlockMobile;
-import com.mobitel.smsblock.repository.SmsBlockMobileRepository;
-import com.mobitel.smsblock.services.SmsBlockMobileService;
+package com.myproject.smsblock.services.impl;
+import com.myproject.smsblock.dto.SmsBlockMobileDto;
+import com.myproject.smsblock.entity.SmsBlockMobile;
+import com.myproject.smsblock.repository.SmsBlockMobileRepository;
+import com.myproject.smsblock.services.SmsBlockMobileService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
-import java.util.List;
-import java.util.Optional;
 
 @Service
 public class SmsBlockMobileServiceImpl implements SmsBlockMobileService {

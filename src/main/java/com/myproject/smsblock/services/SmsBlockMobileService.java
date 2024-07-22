@@ -1,7 +1,7 @@
-package com.mobitel.smsblock.services;
+package com.myproject.smsblock.services;
 
-import com.mobitel.smsblock.dto.SmsBlockMobileDto;
-import com.mobitel.smsblock.entity.SmsBlockMobile;
+import com.myproject.smsblock.dto.SmsBlockMobileDto;
+import com.myproject.smsblock.entity.SmsBlockMobile;
 
 public interface SmsBlockMobileService {
 

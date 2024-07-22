@@ -1,8 +1,8 @@
-package com.mobitel.smsblock.services;
+package com.myproject.smsblock.services;
 
-import com.mobitel.smsblock.dto.SmsBlockBlacklistDto;
-import com.mobitel.smsblock.entity.SmsBlockBlacklist;
-import com.mobitel.smsblock.entity.SmsBlockMobile;
+import com.myproject.smsblock.dto.SmsBlockBlacklistDto;
+import com.myproject.smsblock.entity.SmsBlockBlacklist;
+import com.myproject.smsblock.entity.SmsBlockMobile;
 
 import java.util.List;
 

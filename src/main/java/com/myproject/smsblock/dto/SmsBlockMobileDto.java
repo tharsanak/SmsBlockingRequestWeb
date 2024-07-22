@@ -1,4 +1,4 @@
-package com.mobitel.smsblock.dto;
+package com.myproject.smsblock.dto;
 import java.sql.Timestamp;
 
 public class SmsBlockMobileDto {

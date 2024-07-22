@@ -1,15 +1,12 @@
-package com.mobitel.smsblock.repository;
+package com.myproject.smsblock.repository;
 
-import com.mobitel.smsblock.dto.SmsBlockBlacklistDto;
-import com.mobitel.smsblock.dto.SmsBlockBlacklistViewDto;
-import com.mobitel.smsblock.entity.SmsBlockBlacklist;
-import com.mobitel.smsblock.entity.SmsBlockMobile;
+import com.myproject.smsblock.dto.SmsBlockBlacklistDto;
+import com.myproject.smsblock.entity.SmsBlockBlacklist;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import java.math.BigInteger;
 import java.util.List;
 
 @Repository

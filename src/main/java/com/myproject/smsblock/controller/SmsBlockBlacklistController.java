@@ -1,12 +1,9 @@
-package com.mobitel.smsblock.controller;
-import com.mobitel.smsblock.dto.SmsBlockBlacklistDto;
-import com.mobitel.smsblock.dto.SmsBlockBlacklistViewDto;
-import com.mobitel.smsblock.entity.SmsBlockBlacklist;
-import com.mobitel.smsblock.entity.SmsBlockMobile;
-import com.mobitel.smsblock.services.SmsBlockBlacklistService;
+package com.myproject.smsblock.controller;
+import com.myproject.smsblock.dto.SmsBlockBlacklistDto;
+import com.myproject.smsblock.entity.SmsBlockBlacklist;
+import com.myproject.smsblock.entity.SmsBlockMobile;
+import com.myproject.smsblock.services.SmsBlockBlacklistService;
 import org.modelmapper.ModelMapper;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.mobitel.smsblock.entity;
+package com.myproject.smsblock.entity;
 
 import javax.sql.DataSource;
 import org.springframework.context.annotation.Bean;

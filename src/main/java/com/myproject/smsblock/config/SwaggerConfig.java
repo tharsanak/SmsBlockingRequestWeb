@@ -1,4 +1,4 @@
-package com.mobitel.smsblock.config;
+package com.myproject.smsblock.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

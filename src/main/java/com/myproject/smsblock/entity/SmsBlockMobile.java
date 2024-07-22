@@ -1,4 +1,4 @@
-package com.mobitel.smsblock.entity;
+package com.myproject.smsblock.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
