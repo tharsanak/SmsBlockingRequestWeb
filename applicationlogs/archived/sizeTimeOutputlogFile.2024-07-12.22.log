@@ -1,0 +1,75 @@
+2024-07-12 12:11:46.345 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:11:46.366 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:11:46.368 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:12:16.386 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:12:16.388 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:12:16.390 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:12:46.401 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:12:46.403 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:12:46.403 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:13:16.413 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:13:16.415 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:13:16.416 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:13:46.419 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:13:46.421 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:13:46.422 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:14:16.425 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:14:16.426 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:14:16.427 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:14:46.441 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:14:46.443 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:14:46.444 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:15:16.459 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:15:16.461 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:15:16.462 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:15:46.467 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:15:46.467 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:15:46.468 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:16:16.469 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:16:16.471 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:16:16.472 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:16:46.486 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:16:46.489 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:16:46.489 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:17:16.493 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:17:16.493 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:17:16.494 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:17:46.499 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:17:46.500 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:17:46.500 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:18:16.516 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:18:16.518 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:18:16.519 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:18:46.522 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:18:46.523 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:18:46.524 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:19:16.528 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:19:16.530 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:19:16.531 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:19:46.547 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:19:46.548 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:19:46.549 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:20:16.550 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:20:16.552 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:20:16.553 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:20:46.556 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:20:46.557 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:20:46.558 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:21:16.570 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:21:16.573 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:21:16.575 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:21:46.589 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:21:46.591 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:21:46.592 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:22:16.601 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:22:16.604 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:22:16.605 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:22:46.607 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:22:46.609 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:22:46.610 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:23:16.613 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:23:16.613 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:23:16.614 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 12:23:46.615 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:23:46.616 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 12:23:46.617 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).

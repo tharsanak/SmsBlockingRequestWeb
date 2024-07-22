@@ -1,0 +1,74 @@
+2023-12-08 15:29:17.015 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@197f8026: (connection has passed maxLifetime)
+2023-12-08 15:29:17.028 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2359590e
+2023-12-08 15:29:17.483 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28d7d540: (connection has passed maxLifetime)
+2023-12-08 15:29:17.522 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4720cbea
+2023-12-08 15:29:20.222 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2305533a: (connection has passed maxLifetime)
+2023-12-08 15:29:20.255 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55f7865b
+2023-12-08 15:29:20.661 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a0d8c30: (connection has passed maxLifetime)
+2023-12-08 15:29:20.701 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13aa9eed
+2023-12-08 15:29:21.478 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3dd1f7e2: (connection has passed maxLifetime)
+2023-12-08 15:29:21.518 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f031cf4
+2023-12-08 15:29:22.611 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6cb8e431: (connection has passed maxLifetime)
+2023-12-08 15:29:22.646 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@97a3b8d
+2023-12-08 15:29:23.282 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@38610941: (connection has passed maxLifetime)
+2023-12-08 15:29:23.327 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4550d11
+2023-12-08 15:29:26.303 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4daa1145: (connection has passed maxLifetime)
+2023-12-08 15:29:26.346 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16cb1280
+2023-12-08 15:29:26.631 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e746d79: (connection has passed maxLifetime)
+2023-12-08 15:29:26.671 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bd4ae07
+2023-12-08 15:29:29.275 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c971b7e: (connection has passed maxLifetime)
+2023-12-08 15:29:29.286 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4659097
+2023-12-08 15:29:30.538 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:29:30.539 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:29:30.539 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:29:33.451 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@191bafaa: (connection has passed maxLifetime)
+2023-12-08 15:29:33.468 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25169f48
+2023-12-08 15:29:36.074 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e1fa5f8: (connection has passed maxLifetime)
+2023-12-08 15:29:36.109 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61e51137
+2023-12-08 15:29:44.496 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68f67c38: (connection has passed maxLifetime)
+2023-12-08 15:29:44.532 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fecee71
+2023-12-08 15:30:00.544 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:30:00.545 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:30:00.546 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:30:30.552 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:30:30.553 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:30:30.553 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:31:00.567 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:31:00.568 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:31:00.569 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:31:30.574 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:31:30.574 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:31:30.575 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:32:00.579 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:32:00.580 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:32:00.581 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:32:30.586 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:32:30.586 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:32:30.586 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:33:00.587 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:33:00.588 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:33:00.589 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:33:30.599 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:33:30.599 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:33:30.600 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:34:00.608 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:34:00.609 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:34:00.610 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:34:30.614 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:34:30.614 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:34:30.614 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:35:00.620 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:35:00.621 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:35:00.622 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:35:30.628 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:35:30.629 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:35:30.630 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:36:00.643 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:36:00.644 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:36:00.645 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:36:30.650 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:36:30.651 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:36:30.651 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 15:37:00.665 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:37:00.666 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 15:37:00.667 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).

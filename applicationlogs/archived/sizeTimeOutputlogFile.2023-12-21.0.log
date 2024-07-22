@@ -1,0 +1,1178 @@
+2023-12-21 11:19:34.327  INFO c.m.s.SmsblockApplication:51 - Starting SmsblockApplication using Java 17.0.9 with PID 26804 (D:\smsblock_Backend_hiernate\target\classes started by THARSANAK in D:\smsblock_Backend_hiernate)
+2023-12-21 11:19:34.333 DEBUG c.m.s.SmsblockApplication:52 - Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-12-21 11:19:34.334  INFO c.m.s.SmsblockApplication:638 - No active profile set, falling back to 1 default profile: "default"
+2023-12-21 11:19:34.336 DEBUG o.s.b.SpringApplication:671 - Loading source class com.mobitel.smsblock.SmsblockApplication
+2023-12-21 11:19:34.410 DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:662 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27eedb64
+2023-12-21 11:19:34.471 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-12-21 11:19:34.513 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2023-12-21 11:19:34.686 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\controller\SmsBlockBlacklistController.class]
+2023-12-21 11:19:34.690 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\controller\SmsBlockMobileController.class]
+2023-12-21 11:19:34.778 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner:447 - Ignored because not a concrete top-level class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\repository\SmsBlockBlacklistRepository.class]
+2023-12-21 11:19:34.782 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner:447 - Ignored because not a concrete top-level class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\repository\SmsBlockMobileRepository.class]
+2023-12-21 11:19:34.797 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\services\impl\SmsBlockBlacklistServiceImpl.class]
+2023-12-21 11:19:34.810 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\services\impl\SmsBlockMobileServiceImpl.class]
+2023-12-21 11:19:35.773  INFO o.s.d.r.c.RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-21 11:19:35.793 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2023-12-21 11:19:35.813 DEBUG o.s.b.a.AutoConfigurationPackages:213 - @EnableAutoConfiguration was declared on a class in the package 'com.mobitel.smsblock'. Automatic @Repository and @Entity scanning is enabled.
+2023-12-21 11:19:35.817 DEBUG o.s.d.r.c.RepositoryConfigurationDelegate:148 - Scanning for JPA repositories in packages com.mobitel.smsblock.
+2023-12-21 11:19:35.839 DEBUG o.s.d.r.c.RepositoryComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\repository\SmsBlockBlacklistRepository.class]
+2023-12-21 11:19:35.841 DEBUG o.s.d.r.c.RepositoryComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\repository\SmsBlockMobileRepository.class]
+2023-12-21 11:19:35.903 DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\services\impl\SmsBlockBlacklistServiceImpl.class]
+2023-12-21 11:19:35.903 DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider:441 - Identified candidate component class: file [D:\smsblock_Backend_hiernate\target\classes\com\mobitel\smsblock\services\impl\SmsBlockMobileServiceImpl.class]
+2023-12-21 11:19:35.929  INFO o.s.d.r.c.RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2023-12-21 11:19:36.221 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2023-12-21 11:19:36.227 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2023-12-21 11:19:36.229 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2023-12-21 11:19:36.297 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-12-21 11:19:36.302 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2023-12-21 11:19:36.304 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-12-21 11:19:36.305 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2023-12-21 11:19:36.312 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-12-21 11:19:36.316 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-12-21 11:19:36.323 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2023-12-21 11:19:36.326 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2023-12-21 11:19:36.327 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2023-12-21 11:19:36.331 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jdbcConnectionDetailsHikariBeanPostProcessor'
+2023-12-21 11:19:36.337 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2023-12-21 11:19:36.381 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2023-12-21 11:19:36.399 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2023-12-21 11:19:36.409 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2023-12-21 11:19:36.411 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2023-12-21 11:19:36.413 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2023-12-21 11:19:36.417 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2023-12-21 11:19:36.418 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2023-12-21 11:19:36.444 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'transactionAttributeSource'
+2023-12-21 11:19:36.456 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'transactionInterceptor'
+2023-12-21 11:19:36.458 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2023-12-21 11:19:36.473 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2023-12-21 11:19:36.474 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2023-12-21 11:19:36.539 DEBUG o.s.u.c.s.UiApplicationContextUtils:86 - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@10fda3d0]
+2023-12-21 11:19:36.544 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2023-12-21 11:19:36.545 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2023-12-21 11:19:36.619 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2023-12-21 11:19:36.620 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2023-12-21 11:19:36.624 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2023-12-21 11:19:36.626 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2023-12-21 11:19:36.628 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2023-12-21 11:19:36.644 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2023-12-21 11:19:36.690 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2023-12-21 11:19:36.695 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'sslBundleRegistry'
+2023-12-21 11:19:36.696 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration'
+2023-12-21 11:19:36.699 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'sslPropertiesSslBundleRegistrar'
+2023-12-21 11:19:36.701 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+2023-12-21 11:19:36.705 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'sslPropertiesSslBundleRegistrar' via factory method to bean named 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+2023-12-21 11:19:36.711 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'sslBundleRegistry' via factory method to bean named 'sslPropertiesSslBundleRegistrar'
+2023-12-21 11:19:36.721 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2023-12-21 11:19:36.724 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2023-12-21 11:19:36.727 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2023-12-21 11:19:36.728 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2023-12-21 11:19:36.732 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2023-12-21 11:19:36.733 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2023-12-21 11:19:36.738 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2023-12-21 11:19:36.740 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2023-12-21 11:19:36.742 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2023-12-21 11:19:36.844 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'errorPageCustomizer'
+2023-12-21 11:19:36.845 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2023-12-21 11:19:36.847 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2023-12-21 11:19:36.849 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2023-12-21 11:19:36.850 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2023-12-21 11:19:36.852 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'dispatcherServlet'
+2023-12-21 11:19:36.853 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2023-12-21 11:19:36.856 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2023-12-21 11:19:36.865 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2023-12-21 11:19:36.890 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2023-12-21 11:19:36.890 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2023-12-21 11:19:36.894 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'multipartConfigElement'
+2023-12-21 11:19:36.895 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2023-12-21 11:19:36.897 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2023-12-21 11:19:36.906 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2023-12-21 11:19:36.918 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2023-12-21 11:19:37.296 DEBUG o.s.b.w.e.t.TomcatServletWebServerFactory:81 - Code archive: C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot\3.1.5\spring-boot-3.1.5.jar
+2023-12-21 11:19:37.297 DEBUG o.s.b.w.e.t.TomcatServletWebServerFactory:125 - Code archive: C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot\3.1.5\spring-boot-3.1.5.jar
+2023-12-21 11:19:37.299 DEBUG o.s.b.w.e.t.TomcatServletWebServerFactory:149 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2023-12-21 11:19:37.344  INFO o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2023-12-21 11:19:37.359  INFO o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-21 11:19:37.364  INFO o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2023-12-21 11:19:37.365  INFO o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-12-21 11:19:37.578  INFO o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2023-12-21 11:19:37.579 DEBUG o.s.b.w.s.c.ServletWebServerApplicationContext:285 - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2023-12-21 11:19:37.581  INFO o.s.b.w.s.c.ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 3170 ms
+2023-12-21 11:19:37.587 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'requestContextFilter'
+2023-12-21 11:19:37.591 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'formContentFilter'
+2023-12-21 11:19:37.592 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2023-12-21 11:19:37.599 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'characterEncodingFilter'
+2023-12-21 11:19:37.612 DEBUG o.s.b.w.s.ServletContextInitializerBeans:234 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-12-21 11:19:37.613 DEBUG o.s.b.w.s.ServletContextInitializerBeans:234 - Mapping servlets: dispatcherServlet urls=[/]
+2023-12-21 11:19:37.652 DEBUG o.s.b.w.s.f.OrderedRequestContextFilter:240 - Filter 'requestContextFilter' configured for use
+2023-12-21 11:19:37.658 DEBUG o.s.b.w.s.f.OrderedCharacterEncodingFilter:240 - Filter 'characterEncodingFilter' configured for use
+2023-12-21 11:19:37.659 DEBUG o.s.b.w.s.f.OrderedFormContentFilter:240 - Filter 'formContentFilter' configured for use
+2023-12-21 11:19:37.671 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+2023-12-21 11:19:37.671 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+2023-12-21 11:19:37.673 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'dataSource'
+2023-12-21 11:19:37.673 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+2023-12-21 11:19:37.674 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2023-12-21 11:19:37.685 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jdbcConnectionDetails'
+2023-12-21 11:19:37.686 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration'
+2023-12-21 11:19:37.689 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'jdbcConnectionDetails' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2023-12-21 11:19:37.691 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2023-12-21 11:19:37.691 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'dataSource' via factory method to bean named 'jdbcConnectionDetails'
+2023-12-21 11:19:37.698 DEBUG c.z.h.HikariConfig:968 - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa
+2023-12-21 11:19:37.740 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2023-12-21 11:19:37.747 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+2023-12-21 11:19:37.748 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+2023-12-21 11:19:37.759 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'entityManagerFactory'
+2023-12-21 11:19:37.761 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+2023-12-21 11:19:37.764 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2023-12-21 11:19:37.773 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2023-12-21 11:19:37.778 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+2023-12-21 11:19:37.779 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2023-12-21 11:19:37.780 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@a776e'
+2023-12-21 11:19:37.781 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2023-12-21 11:19:37.787 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+2023-12-21 11:19:37.788 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+2023-12-21 11:19:37.800 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+2023-12-21 11:19:37.803 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpaVendorAdapter'
+2023-12-21 11:19:37.866 DEBUG o.j.logging:164 - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2023-12-21 11:19:37.872 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+2023-12-21 11:19:37.877 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'persistenceManagedTypes'
+2023-12-21 11:19:37.879 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'persistenceManagedTypes' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@a776e'
+2023-12-21 11:19:37.880 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'persistenceManagedTypes' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27eedb64'
+2023-12-21 11:19:37.897 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+2023-12-21 11:19:37.897 DEBUG o.s.b.f.s.DefaultListableBeanFactory:951 - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'persistenceManagedTypes'
+2023-12-21 11:19:37.940 DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean:372 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2023-12-21 11:19:37.977 DEBUG o.h.j.i.u.LogHelper:102 - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/D:/smsblock_Backend_hiernate/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.mobitel.smsblock.entity.SmsBlockBlacklist
+		com.mobitel.smsblock.entity.SmsBlockMobile]
+	Mapping files names []
+	Properties []
+2023-12-21 11:19:37.998 DEBUG o.h.i.i.IntegratorServiceImpl:45 - Adding Integrator [org.hibernate.boot.beanvalidation.BeanValidationIntegrator].
+2023-12-21 11:19:38.001 DEBUG o.h.i.i.IntegratorServiceImpl:45 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2023-12-21 11:19:38.090  INFO o.h.Version:44 - HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-12-21 11:19:38.094 DEBUG o.h.c.Environment:174 - HHH000206: 'hibernate.properties' not found
+2023-12-21 11:19:38.096  INFO o.h.c.Environment:191 - HHH000406: Using bytecode reflection optimizer
+2023-12-21 11:19:38.139 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2023-12-21 11:19:38.140 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2023-12-21 11:19:38.142 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2023-12-21 11:19:38.143 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2023-12-21 11:19:38.145 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2023-12-21 11:19:38.147 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2023-12-21 11:19:38.148 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2023-12-21 11:19:38.152 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-12-21 11:19:38.154 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2023-12-21 11:19:38.155 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2023-12-21 11:19:38.156 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-12-21 11:19:38.158 DEBUG o.h.o.i.factory:170 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2023-12-21 11:19:38.169 DEBUG o.h.c.i.RegionFactoryInitiator:117 - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2023-12-21 11:19:38.171 DEBUG o.h.c.i.RegionFactoryInitiator:49 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2023-12-21 11:19:38.357 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@59096b66
+2023-12-21 11:19:38.358 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@59096b66
+2023-12-21 11:19:38.359 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@59096b66
+2023-12-21 11:19:38.359 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@631c6d11
+2023-12-21 11:19:38.360 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@631c6d11
+2023-12-21 11:19:38.360 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration true_false -> org.hibernate.type.BasicTypeReference@65be88ae
+2023-12-21 11:19:38.361 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@65be88ae
+2023-12-21 11:19:38.361 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@62ade015
+2023-12-21 11:19:38.361 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@62ade015
+2023-12-21 11:19:38.362 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration byte -> org.hibernate.type.BasicTypeReference@70ede57d
+2023-12-21 11:19:38.362 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration byte -> org.hibernate.type.BasicTypeReference@70ede57d
+2023-12-21 11:19:38.362 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@70ede57d
+2023-12-21 11:19:38.363 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration binary -> org.hibernate.type.BasicTypeReference@70997a94
+2023-12-21 11:19:38.363 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@70997a94
+2023-12-21 11:19:38.363 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration [B -> org.hibernate.type.BasicTypeReference@70997a94
+2023-12-21 11:19:38.364 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@61f377d1
+2023-12-21 11:19:38.364 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@61f377d1
+2023-12-21 11:19:38.364 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration image -> org.hibernate.type.BasicTypeReference@6c538eb2
+2023-12-21 11:19:38.365 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration blob -> org.hibernate.type.BasicTypeReference@738a5848
+2023-12-21 11:19:38.365 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@738a5848
+2023-12-21 11:19:38.365 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@487cd177
+2023-12-21 11:19:38.366 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@324b6a56
+2023-12-21 11:19:38.366 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration short -> org.hibernate.type.BasicTypeReference@421d54b3
+2023-12-21 11:19:38.367 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration short -> org.hibernate.type.BasicTypeReference@421d54b3
+2023-12-21 11:19:38.367 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@421d54b3
+2023-12-21 11:19:38.367 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration integer -> org.hibernate.type.BasicTypeReference@63f40ca0
+2023-12-21 11:19:38.368 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration int -> org.hibernate.type.BasicTypeReference@63f40ca0
+2023-12-21 11:19:38.368 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@63f40ca0
+2023-12-21 11:19:38.369 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration long -> org.hibernate.type.BasicTypeReference@4dad8ec0
+2023-12-21 11:19:38.369 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration long -> org.hibernate.type.BasicTypeReference@4dad8ec0
+2023-12-21 11:19:38.370 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@4dad8ec0
+2023-12-21 11:19:38.370 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration float -> org.hibernate.type.BasicTypeReference@24dd44f9
+2023-12-21 11:19:38.371 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration float -> org.hibernate.type.BasicTypeReference@24dd44f9
+2023-12-21 11:19:38.371 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@24dd44f9
+2023-12-21 11:19:38.372 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration double -> org.hibernate.type.BasicTypeReference@ccd341d
+2023-12-21 11:19:38.372 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration double -> org.hibernate.type.BasicTypeReference@ccd341d
+2023-12-21 11:19:38.373 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@ccd341d
+2023-12-21 11:19:38.373 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@4f1fb828
+2023-12-21 11:19:38.373 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@4f1fb828
+2023-12-21 11:19:38.374 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@6ee5f485
+2023-12-21 11:19:38.374 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@6ee5f485
+2023-12-21 11:19:38.375 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration character -> org.hibernate.type.BasicTypeReference@20d19f2c
+2023-12-21 11:19:38.375 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration char -> org.hibernate.type.BasicTypeReference@20d19f2c
+2023-12-21 11:19:38.376 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@20d19f2c
+2023-12-21 11:19:38.376 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@45592af7
+2023-12-21 11:19:38.376 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration string -> org.hibernate.type.BasicTypeReference@77b5148c
+2023-12-21 11:19:38.377 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@77b5148c
+2023-12-21 11:19:38.377 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration nstring -> org.hibernate.type.BasicTypeReference@36359723
+2023-12-21 11:19:38.377 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration characters -> org.hibernate.type.BasicTypeReference@1ab14636
+2023-12-21 11:19:38.378 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration char[] -> org.hibernate.type.BasicTypeReference@1ab14636
+2023-12-21 11:19:38.378 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration [C -> org.hibernate.type.BasicTypeReference@1ab14636
+2023-12-21 11:19:38.378 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@16b3c905
+2023-12-21 11:19:38.379 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration text -> org.hibernate.type.BasicTypeReference@49fdbe2b
+2023-12-21 11:19:38.379 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration ntext -> org.hibernate.type.BasicTypeReference@53eba4b8
+2023-12-21 11:19:38.379 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration clob -> org.hibernate.type.BasicTypeReference@437bd805
+2023-12-21 11:19:38.380 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@437bd805
+2023-12-21 11:19:38.380 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration nclob -> org.hibernate.type.BasicTypeReference@4b88ca8e
+2023-12-21 11:19:38.380 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@4b88ca8e
+2023-12-21 11:19:38.381 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@6fa02932
+2023-12-21 11:19:38.381 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@61608e1a
+2023-12-21 11:19:38.381 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@7c46c9c3
+2023-12-21 11:19:38.382 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@7197b07f
+2023-12-21 11:19:38.382 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@1f10fec6
+2023-12-21 11:19:38.382 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@7a65a360
+2023-12-21 11:19:38.383 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration Duration -> org.hibernate.type.BasicTypeReference@30a7653e
+2023-12-21 11:19:38.383 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@30a7653e
+2023-12-21 11:19:38.383 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@7cff3f1d
+2023-12-21 11:19:38.384 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@7cff3f1d
+2023-12-21 11:19:38.384 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@6401188a
+2023-12-21 11:19:38.384 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@6401188a
+2023-12-21 11:19:38.385 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@33a8c9c9
+2023-12-21 11:19:38.385 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@33a8c9c9
+2023-12-21 11:19:38.385 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@382dc417
+2023-12-21 11:19:38.386 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@382dc417
+2023-12-21 11:19:38.386 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@3daf03d8
+2023-12-21 11:19:38.386 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@510689af
+2023-12-21 11:19:38.387 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@2415e4c7
+2023-12-21 11:19:38.387 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@2415e4c7
+2023-12-21 11:19:38.387 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@72ce812e
+2023-12-21 11:19:38.388 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@373afd6c
+2023-12-21 11:19:38.388 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@521441d5
+2023-12-21 11:19:38.389 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@592ca48c
+2023-12-21 11:19:38.389 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@592ca48c
+2023-12-21 11:19:38.390 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@5fed9976
+2023-12-21 11:19:38.390 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@3fdcde7a
+2023-12-21 11:19:38.390 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration date -> org.hibernate.type.BasicTypeReference@4f363abd
+2023-12-21 11:19:38.391 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@4f363abd
+2023-12-21 11:19:38.391 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration time -> org.hibernate.type.BasicTypeReference@7302ff13
+2023-12-21 11:19:38.392 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@7302ff13
+2023-12-21 11:19:38.392 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@4017fe2c
+2023-12-21 11:19:38.393 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@4017fe2c
+2023-12-21 11:19:38.393 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@4017fe2c
+2023-12-21 11:19:38.394 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration calendar -> org.hibernate.type.BasicTypeReference@1961d75a
+2023-12-21 11:19:38.394 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@1961d75a
+2023-12-21 11:19:38.395 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@1961d75a
+2023-12-21 11:19:38.395 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@677ce519
+2023-12-21 11:19:38.396 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@3e26482
+2023-12-21 11:19:38.396 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration instant -> org.hibernate.type.BasicTypeReference@7cfb0c4c
+2023-12-21 11:19:38.397 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@7cfb0c4c
+2023-12-21 11:19:38.397 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration uuid -> org.hibernate.type.BasicTypeReference@6b37df8e
+2023-12-21 11:19:38.398 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@6b37df8e
+2023-12-21 11:19:38.398 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@6b37df8e
+2023-12-21 11:19:38.399 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@6b63abdc
+2023-12-21 11:19:38.399 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@7b351446
+2023-12-21 11:19:38.400 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration class -> org.hibernate.type.BasicTypeReference@5f08fe00
+2023-12-21 11:19:38.401 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@5f08fe00
+2023-12-21 11:19:38.401 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration currency -> org.hibernate.type.BasicTypeReference@a1691c0
+2023-12-21 11:19:38.402 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration Currency -> org.hibernate.type.BasicTypeReference@a1691c0
+2023-12-21 11:19:38.403 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@a1691c0
+2023-12-21 11:19:38.403 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration locale -> org.hibernate.type.BasicTypeReference@7c5df615
+2023-12-21 11:19:38.404 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@7c5df615
+2023-12-21 11:19:38.404 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration serializable -> org.hibernate.type.BasicTypeReference@2f995afc
+2023-12-21 11:19:38.405 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@2f995afc
+2023-12-21 11:19:38.405 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration timezone -> org.hibernate.type.BasicTypeReference@377949f1
+2023-12-21 11:19:38.406 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@377949f1
+2023-12-21 11:19:38.406 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@9df564f
+2023-12-21 11:19:38.407 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@9df564f
+2023-12-21 11:19:38.407 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration url -> org.hibernate.type.BasicTypeReference@1a21f43f
+2023-12-21 11:19:38.408 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@1a21f43f
+2023-12-21 11:19:38.408 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration row_version -> org.hibernate.type.BasicTypeReference@7f0a133d
+2023-12-21 11:19:38.416 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration object -> org.hibernate.type.JavaObjectType@2f3928ac
+2023-12-21 11:19:38.417 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@2f3928ac
+2023-12-21 11:19:38.419 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration null -> org.hibernate.type.NullType@7675c171
+2023-12-21 11:19:38.419 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@44e4cb76
+2023-12-21 11:19:38.419 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@51cab489
+2023-12-21 11:19:38.420 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@2f9a10df
+2023-12-21 11:19:38.420 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@773c2214
+2023-12-21 11:19:38.420 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@15e1f8fe
+2023-12-21 11:19:38.420 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@110b7837
+2023-12-21 11:19:38.421 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@6ee88e21
+2023-12-21 11:19:38.421 DEBUG o.h.t.BasicTypeRegistry:401 - Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@78d23d6a
+2023-12-21 11:19:38.428 DEBUG o.h.b.i.BootstrapContextImpl:291 - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@491cafec] into BootstrapContext; was [null]
+2023-12-21 11:19:38.428 DEBUG o.h.b.i.ClassLoaderAccessImpl:45 - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@491cafec) [was null]
+2023-12-21 11:19:38.429 DEBUG o.h.b.i.BootstrapContextImpl:301 - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@1e545821] into BootstrapContext; was [null]
+2023-12-21 11:19:38.430 DEBUG o.h.b.i.BootstrapContextImpl:296 - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@12952aff] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@76a7fcbd]
+2023-12-21 11:19:38.455 DEBUG o.h.b.i.BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-12-21 11:19:38.714  INFO o.s.o.j.p.SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-21 11:19:38.714 DEBUG o.h.b.i.BootstrapContextImpl:291 - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@491cafec]
+2023-12-21 11:19:38.715 DEBUG o.h.b.i.ClassLoaderAccessImpl:45 - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@491cafec]
+2023-12-21 11:19:38.758 DEBUG c.z.h.HikariConfig:1100 - HikariPool-1 - configuration:
+2023-12-21 11:19:38.765 DEBUG c.z.h.HikariConfig:1132 - allowPoolSuspension.............false
+2023-12-21 11:19:38.766 DEBUG c.z.h.HikariConfig:1132 - autoCommit......................true
+2023-12-21 11:19:38.766 DEBUG c.z.h.HikariConfig:1132 - catalog.........................none
+2023-12-21 11:19:38.767 DEBUG c.z.h.HikariConfig:1132 - connectionInitSql...............none
+2023-12-21 11:19:38.768 DEBUG c.z.h.HikariConfig:1132 - connectionTestQuery.............none
+2023-12-21 11:19:38.768 DEBUG c.z.h.HikariConfig:1132 - connectionTimeout...............10000
+2023-12-21 11:19:38.769 DEBUG c.z.h.HikariConfig:1132 - dataSource......................none
+2023-12-21 11:19:38.769 DEBUG c.z.h.HikariConfig:1132 - dataSourceClassName.............none
+2023-12-21 11:19:38.770 DEBUG c.z.h.HikariConfig:1132 - dataSourceJNDI..................none
+2023-12-21 11:19:38.771 DEBUG c.z.h.HikariConfig:1132 - dataSourceProperties............{password=<masked>}
+2023-12-21 11:19:38.771 DEBUG c.z.h.HikariConfig:1132 - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-21 11:19:38.772 DEBUG c.z.h.HikariConfig:1132 - exceptionOverrideClassName......none
+2023-12-21 11:19:38.772 DEBUG c.z.h.HikariConfig:1132 - healthCheckProperties...........{}
+2023-12-21 11:19:38.772 DEBUG c.z.h.HikariConfig:1132 - healthCheckRegistry.............none
+2023-12-21 11:19:38.773 DEBUG c.z.h.HikariConfig:1132 - idleTimeout.....................200000
+2023-12-21 11:19:38.773 DEBUG c.z.h.HikariConfig:1132 - initializationFailTimeout.......1
+2023-12-21 11:19:38.773 DEBUG c.z.h.HikariConfig:1132 - isolateInternalQueries..........false
+2023-12-21 11:19:38.774 DEBUG c.z.h.HikariConfig:1132 - jdbcUrl.........................jdbc:mysql://localhost:3306/smsmanagementdb
+2023-12-21 11:19:38.774 DEBUG c.z.h.HikariConfig:1132 - keepaliveTime...................0
+2023-12-21 11:19:38.774 DEBUG c.z.h.HikariConfig:1132 - leakDetectionThreshold..........0
+2023-12-21 11:19:38.775 DEBUG c.z.h.HikariConfig:1132 - maxLifetime.....................1100000
+2023-12-21 11:19:38.775 DEBUG c.z.h.HikariConfig:1132 - maximumPoolSize.................200
+2023-12-21 11:19:38.776 DEBUG c.z.h.HikariConfig:1132 - metricRegistry..................none
+2023-12-21 11:19:38.776 DEBUG c.z.h.HikariConfig:1132 - metricsTrackerFactory...........none
+2023-12-21 11:19:38.776 DEBUG c.z.h.HikariConfig:1132 - minimumIdle.....................50
+2023-12-21 11:19:38.777 DEBUG c.z.h.HikariConfig:1132 - password........................<masked>
+2023-12-21 11:19:38.777 DEBUG c.z.h.HikariConfig:1132 - poolName........................"HikariPool-1"
+2023-12-21 11:19:38.777 DEBUG c.z.h.HikariConfig:1132 - readOnly........................false
+2023-12-21 11:19:38.778 DEBUG c.z.h.HikariConfig:1132 - registerMbeans..................false
+2023-12-21 11:19:38.778 DEBUG c.z.h.HikariConfig:1132 - scheduledExecutor...............none
+2023-12-21 11:19:38.778 DEBUG c.z.h.HikariConfig:1132 - schema..........................none
+2023-12-21 11:19:38.779 DEBUG c.z.h.HikariConfig:1132 - threadFactory...................internal
+2023-12-21 11:19:38.779 DEBUG c.z.h.HikariConfig:1132 - transactionIsolation............default
+2023-12-21 11:19:38.779 DEBUG c.z.h.HikariConfig:1132 - username........................"root"
+2023-12-21 11:19:38.780 DEBUG c.z.h.HikariConfig:1132 - validationTimeout...............5000
+2023-12-21 11:19:38.780  INFO c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-12-21 11:19:39.325  INFO c.z.h.p.HikariPool:565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e51ec2e
+2023-12-21 11:19:39.328  INFO c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-12-21 11:19:39.335 DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator:286 - Database ->
+       name : MySQL
+    version : 8.0.35
+      major : 8
+      minor : 0
+2023-12-21 11:19:39.335 DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator:297 - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+      major : 8
+      minor : 0
+2023-12-21 11:19:39.336 DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator:388 - JDBC version : 4.2
+2023-12-21 11:19:39.392  WARN o.h.o.deprecation:152 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-21 11:19:39.395 DEBUG o.h.o.dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.35
+2023-12-21 11:19:39.407 DEBUG o.h.e.j.e.s.IdentifierHelperBuilder:121 - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2023-12-21 11:19:39.407 DEBUG o.h.e.j.e.s.IdentifierHelperBuilder:210 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2023-12-21 11:19:39.434 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2023-12-21 11:19:39.435 DEBUG o.h.t.d.s.s.DdlTypeRegistry:63 - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2aac8ad7) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6a4a2090)
+2023-12-21 11:19:39.436 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2023-12-21 11:19:39.436 DEBUG o.h.t.d.s.s.DdlTypeRegistry:63 - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@778c2e7c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@b70fa38)
+2023-12-21 11:19:39.436 DEBUG o.h.t.d.s.s.DdlTypeRegistry:63 - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@45c423b3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7e31d53b)
+2023-12-21 11:19:39.437 DEBUG o.h.t.d.s.s.DdlTypeRegistry:63 - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@68d8eb4f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@64757d56)
+2023-12-21 11:19:39.437 DEBUG o.h.t.d.s.s.DdlTypeRegistry:63 - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4813d0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@702096ef)
+2023-12-21 11:19:39.438 DEBUG o.h.t.d.s.s.DdlTypeRegistry:63 - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5f0d8937) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@105dc04d)
+2023-12-21 11:19:39.438 DEBUG o.h.t.d.s.s.DdlTypeRegistry:63 - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@504b8705) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@24a8e40d)
+2023-12-21 11:19:39.439 DEBUG o.h.t.d.s.s.DdlTypeRegistry:63 - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@175f859e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@69fe7090)
+2023-12-21 11:19:39.439 DEBUG o.h.t.d.s.s.DdlTypeRegistry:63 - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6501b105) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@66ab924)
+2023-12-21 11:19:39.444 DEBUG o.h.t.d.j.s.JdbcTypeRegistry:56 - addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+2023-12-21 11:19:39.445 DEBUG o.h.t.d.j.s.JdbcTypeRegistry:56 - addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+2023-12-21 11:19:39.446 DEBUG o.h.t.d.j.s.JdbcTypeRegistry:56 - addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+2023-12-21 11:19:39.452 DEBUG o.h.t.d.j.s.JdbcTypeRegistry:56 - addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2023-12-21 11:19:39.453 DEBUG o.h.t.d.j.s.JdbcTypeRegistry:64 - addDescriptor(2005, ClobTypeDescriptor(STREAM_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2023-12-21 11:19:39.462 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration null -> org.hibernate.type.NullType@5f6e2ad9
+2023-12-21 11:19:39.463 DEBUG o.h.t.BasicTypeRegistry:380 - Type registration key [null] overrode previous entry : `org.hibernate.type.NullType@7675c171`
+2023-12-21 11:19:39.473 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration Duration -> basicType@1(java.time.Duration,2)
+2023-12-21 11:19:39.474 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration java.time.Duration -> basicType@1(java.time.Duration,2)
+2023-12-21 11:19:39.481 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f654e18
+2023-12-21 11:19:39.486 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration org.hibernate.type.OffsetDateTimeType -> basicType@2(java.time.OffsetDateTime,3003)
+2023-12-21 11:19:39.487 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2023-12-21 11:19:39.488 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration java.time.OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2023-12-21 11:19:39.489 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration org.hibernate.type.ZonedDateTimeType -> basicType@3(java.time.ZonedDateTime,3003)
+2023-12-21 11:19:39.489 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2023-12-21 11:19:39.489 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration java.time.ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2023-12-21 11:19:39.491 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration org.hibernate.type.OffsetTimeType -> basicType@4(java.time.OffsetTime,3007)
+2023-12-21 11:19:39.491 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2023-12-21 11:19:39.491 DEBUG o.h.t.BasicTypeRegistry:376 - Adding type registration java.time.OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2023-12-21 11:19:39.493 DEBUG o.h.t.s.TypeConfiguration$Scope:191 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5a466dd] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@1ed9d173]
+2023-12-21 11:19:39.547 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f4ab157
+2023-12-21 11:19:39.598 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a83a5b0
+2023-12-21 11:19:39.602 DEBUG o.h.b.m.r.Namespace:64 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2023-12-21 11:19:39.657 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b04cabc
+2023-12-21 11:19:39.660 DEBUG o.h.b.m.i.EntityBinder:206 - Binding entity from annotated class: com.mobitel.smsblock.entity.SmsBlockBlacklist
+2023-12-21 11:19:39.673 DEBUG o.h.b.m.i.EntityBinder:1224 - Import with entity name SmsBlockBlacklist
+2023-12-21 11:19:39.685 DEBUG o.h.b.m.i.EntityBinder:1769 - Bind entity com.mobitel.smsblock.entity.SmsBlockBlacklist on table sms_block_blacklisted_mobile
+2023-12-21 11:19:39.706 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
+2023-12-21 11:19:39.714 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@404b6d5e
+2023-12-21 11:19:39.757 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='id')
+2023-12-21 11:19:39.762 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.mobitel.smsblock.entity.SmsBlockBlacklist] is safe
+2023-12-21 11:19:39.763 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.mobitel.smsblock.entity.SmsBlockBlacklist
+2023-12-21 11:19:39.775 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cc6d3a6
+2023-12-21 11:19:39.777 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property id with lazy=false
+2023-12-21 11:19:39.790 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:id]
+2023-12-21 11:19:39.816 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for id
+2023-12-21 11:19:39.823 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.id
+2023-12-21 11:19:39.827 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property id
+2023-12-21 11:19:39.837 DEBUG o.h.b.m.i.BinderHelper:73 - #makeIdGenerator(BasicValue([Column(id)]), id, identity, , ...)
+2023-12-21 11:19:39.837 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57efe0d6
+2023-12-21 11:19:39.840 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='activated_on')
+2023-12-21 11:19:39.841 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property activatedOn with lazy=false
+2023-12-21 11:19:39.842 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:activatedOn]
+2023-12-21 11:19:39.843 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for activatedOn
+2023-12-21 11:19:39.844 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.activated_on
+2023-12-21 11:19:39.845 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property activatedOn
+2023-12-21 11:19:39.846 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='added_by')
+2023-12-21 11:19:39.847 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property addedBy with lazy=false
+2023-12-21 11:19:39.848 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:addedBy]
+2023-12-21 11:19:39.849 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for addedBy
+2023-12-21 11:19:39.849 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.added_by
+2023-12-21 11:19:39.850 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property addedBy
+2023-12-21 11:19:39.850 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='blacklist_mobile')
+2023-12-21 11:19:39.851 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property blacklistMobile with lazy=false
+2023-12-21 11:19:39.851 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:blacklistMobile]
+2023-12-21 11:19:39.852 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for blacklistMobile
+2023-12-21 11:19:39.853 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.blacklist_mobile
+2023-12-21 11:19:39.853 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property blacklistMobile
+2023-12-21 11:19:39.854 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='comment')
+2023-12-21 11:19:39.855 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property comment with lazy=false
+2023-12-21 11:19:39.856 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:comment]
+2023-12-21 11:19:39.857 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for comment
+2023-12-21 11:19:39.857 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.comment
+2023-12-21 11:19:39.858 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property comment
+2023-12-21 11:19:39.861 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='deactivated_by')
+2023-12-21 11:19:39.861 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property deactivatedBy with lazy=false
+2023-12-21 11:19:39.861 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:deactivatedBy]
+2023-12-21 11:19:39.862 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for deactivatedBy
+2023-12-21 11:19:39.863 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.deactivated_by
+2023-12-21 11:19:39.865 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property deactivatedBy
+2023-12-21 11:19:39.866 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='deactivated_on')
+2023-12-21 11:19:39.867 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property deactivatedOn with lazy=false
+2023-12-21 11:19:39.867 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:deactivatedOn]
+2023-12-21 11:19:39.868 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for deactivatedOn
+2023-12-21 11:19:39.868 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.deactivated_on
+2023-12-21 11:19:39.869 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property deactivatedOn
+2023-12-21 11:19:39.874 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedJoinColumn(column='sms_block_mobile_id',referencedColumn='id')
+2023-12-21 11:19:39.878 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn()
+2023-12-21 11:19:39.889 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1960c81d
+2023-12-21 11:19:39.890 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property smsBlockMobile
+2023-12-21 11:19:39.891 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='status')
+2023-12-21 11:19:39.892 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property status with lazy=false
+2023-12-21 11:19:39.893 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockBlacklist:status]
+2023-12-21 11:19:39.893 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for status
+2023-12-21 11:19:39.893 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_blacklisted_mobile.status
+2023-12-21 11:19:39.894 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property status
+2023-12-21 11:19:39.905 DEBUG o.h.b.m.i.EntityBinder:206 - Binding entity from annotated class: com.mobitel.smsblock.entity.SmsBlockMobile
+2023-12-21 11:19:39.906 DEBUG o.h.b.m.i.EntityBinder:1224 - Import with entity name SmsBlockMobile
+2023-12-21 11:19:39.906 DEBUG o.h.b.m.i.EntityBinder:1769 - Bind entity com.mobitel.smsblock.entity.SmsBlockMobile on table sms_block_mobile
+2023-12-21 11:19:39.907 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
+2023-12-21 11:19:39.912 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='id')
+2023-12-21 11:19:39.912 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.mobitel.smsblock.entity.SmsBlockMobile] is safe
+2023-12-21 11:19:39.913 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.mobitel.smsblock.entity.SmsBlockMobile
+2023-12-21 11:19:39.914 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property id with lazy=false
+2023-12-21 11:19:39.914 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:id]
+2023-12-21 11:19:39.915 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for id
+2023-12-21 11:19:39.916 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.id
+2023-12-21 11:19:39.916 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property id
+2023-12-21 11:19:39.917 DEBUG o.h.b.m.i.BinderHelper:73 - #makeIdGenerator(BasicValue([Column(id)]), id, identity, , ...)
+2023-12-21 11:19:39.918 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='activated_on')
+2023-12-21 11:19:39.919 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property activatedOn with lazy=false
+2023-12-21 11:19:39.919 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:activatedOn]
+2023-12-21 11:19:39.920 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for activatedOn
+2023-12-21 11:19:39.920 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.activated_on
+2023-12-21 11:19:39.921 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property activatedOn
+2023-12-21 11:19:39.922 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='added_by')
+2023-12-21 11:19:39.922 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property addedBy with lazy=false
+2023-12-21 11:19:39.923 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:addedBy]
+2023-12-21 11:19:39.923 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for addedBy
+2023-12-21 11:19:39.924 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.added_by
+2023-12-21 11:19:39.925 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property addedBy
+2023-12-21 11:19:39.926 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='comment')
+2023-12-21 11:19:39.927 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property comment with lazy=false
+2023-12-21 11:19:39.928 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:comment]
+2023-12-21 11:19:39.928 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for comment
+2023-12-21 11:19:39.929 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.comment
+2023-12-21 11:19:39.929 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property comment
+2023-12-21 11:19:39.931 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57beb97a
+2023-12-21 11:19:39.932 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='deactivated_by')
+2023-12-21 11:19:39.933 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property deactivatedBy with lazy=false
+2023-12-21 11:19:39.933 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:deactivatedBy]
+2023-12-21 11:19:39.934 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for deactivatedBy
+2023-12-21 11:19:39.934 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.deactivated_by
+2023-12-21 11:19:39.934 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property deactivatedBy
+2023-12-21 11:19:39.935 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='deactivated_on')
+2023-12-21 11:19:39.936 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property deactivatedOn with lazy=false
+2023-12-21 11:19:39.936 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:deactivatedOn]
+2023-12-21 11:19:39.936 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for deactivatedOn
+2023-12-21 11:19:39.937 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.deactivated_on
+2023-12-21 11:19:39.937 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property deactivatedOn
+2023-12-21 11:19:39.938 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='mobile_no')
+2023-12-21 11:19:39.938 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property mobileNo with lazy=false
+2023-12-21 11:19:39.939 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:mobileNo]
+2023-12-21 11:19:39.939 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for mobileNo
+2023-12-21 11:19:39.939 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.mobile_no
+2023-12-21 11:19:39.940 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property mobileNo
+2023-12-21 11:19:39.940 DEBUG o.h.b.m.i.AnnotatedColumn:249 - Binding column: AnnotatedColumn(column='status')
+2023-12-21 11:19:39.941 DEBUG o.h.b.m.i.PropertyBinder:251 - MetadataSourceProcessor property status with lazy=false
+2023-12-21 11:19:39.941 DEBUG o.h.b.m.i.AbstractPropertyHolder:107 - Attempting to locate auto-apply AttributeConverter for property [com.mobitel.smsblock.entity.SmsBlockMobile:status]
+2023-12-21 11:19:39.942 DEBUG o.h.b.m.i.BasicValueBinder:1196 - building BasicValue for status
+2023-12-21 11:19:39.942 DEBUG o.h.m.BasicValue:259 - Skipping column re-registration: sms_block_mobile.status
+2023-12-21 11:19:39.943 DEBUG o.h.b.m.i.PropertyBinder:391 - Building property status
+2023-12-21 11:19:39.945 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for id
+2023-12-21 11:19:39.949 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for activatedOn
+2023-12-21 11:19:39.949 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for addedBy
+2023-12-21 11:19:39.950 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for blacklistMobile
+2023-12-21 11:19:39.951 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for comment
+2023-12-21 11:19:39.952 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for deactivatedBy
+2023-12-21 11:19:39.952 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for deactivatedOn
+2023-12-21 11:19:39.953 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for status
+2023-12-21 11:19:39.954 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for id
+2023-12-21 11:19:39.954 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for activatedOn
+2023-12-21 11:19:39.955 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for addedBy
+2023-12-21 11:19:39.955 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for comment
+2023-12-21 11:19:39.956 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for deactivatedBy
+2023-12-21 11:19:39.956 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for deactivatedOn
+2023-12-21 11:19:39.957 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for mobileNo
+2023-12-21 11:19:39.958 DEBUG o.h.b.m.i.BasicValueBinder:1270 - Starting `BasicValueBinder#fillSimpleValue` for status
+2023-12-21 11:19:39.980 DEBUG o.h.m.PrimaryKey:40 - Forcing column [id] to be non-null as it is part of the primary key for table [sms_block_blacklisted_mobile]
+2023-12-21 11:19:39.980 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51e74f5
+2023-12-21 11:19:39.981 DEBUG o.h.m.PrimaryKey:40 - Forcing column [id] to be non-null as it is part of the primary key for table [sms_block_mobile]
+2023-12-21 11:19:39.986 DEBUG o.h.b.i.InFlightMetadataCollectorImpl:2004 - Resolving reference to class: com.mobitel.smsblock.entity.SmsBlockMobile
+2023-12-21 11:19:40.021 DEBUG o.h.b.i.InFlightMetadataCollectorImpl:2004 - Resolving reference to class: com.mobitel.smsblock.entity.SmsBlockMobile
+2023-12-21 11:19:40.034 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62f8fba9
+2023-12-21 11:19:40.065 DEBUG o.h.b.i.BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-12-21 11:19:40.093 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44ec951
+2023-12-21 11:19:40.105 DEBUG o.h.i.SessionFactoryImpl:208 - Building session factory
+2023-12-21 11:19:40.134 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9aba93a
+2023-12-21 11:19:40.196 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@289bb86b
+2023-12-21 11:19:40.218 DEBUG o.h.s.i.SessionFactoryServiceRegistryImpl:91 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-12-21 11:19:40.220 DEBUG o.h.i.SessionFactoryImpl:225 - Instantiating SessionFactory with settings: {java.specification.version=17, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@4bff28e7, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=D:\smsblock_Backend_hiernate\target\classes;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.1.5\spring-boot-starter-data-jpa-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.1.5\spring-boot-starter-aop-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-aop\6.0.13\spring-aop-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\org\aspectj\aspectjweaver\1.9.20\aspectjweaver-1.9.20.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.1.5\spring-boot-starter-jdbc-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-jdbc\6.0.13\spring-jdbc-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\org\hibernate\orm\hibernate-core\6.2.13.Final\hibernate-core-6.2.13.Final.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\data\spring-data-jpa\3.1.5\spring-data-jpa-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\data\spring-data-commons\3.1.5\spring-data-commons-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-orm\6.0.13\spring-orm-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-context\6.0.13\spring-context-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-tx\6.0.13\spring-tx-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-beans\6.0.13\spring-beans-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Tharsanak\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-aspects\6.0.13\spring-aspects-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.5\spring-boot-starter-web-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.5\spring-boot-starter-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot\3.1.5\spring-boot-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.5\spring-boot-autoconfigure-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.5\spring-boot-starter-logging-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Tharsanak\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Tharsanak\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\Tharsanak\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Tharsanak\.m2\repository\org\slf4j\jul-to-slf4j\2.0.9\jul-to-slf4j-2.0.9.jar;C:\Users\Tharsanak\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.5\spring-boot-starter-json-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Tharsanak\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Tharsanak\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\Tharsanak\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;C:\Users\Tharsanak\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;C:\Users\Tharsanak\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.5\spring-boot-starter-tomcat-3.1.5.jar;C:\Users\Tharsanak\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.15\tomcat-embed-core-10.1.15.jar;C:\Users\Tharsanak\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.15\tomcat-embed-el-10.1.15.jar;C:\Users\Tharsanak\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.15\tomcat-embed-websocket-10.1.15.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-web\6.0.13\spring-web-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\io\micrometer\micrometer-observation\1.11.5\micrometer-observation-1.11.5.jar;C:\Users\Tharsanak\.m2\repository\io\micrometer\micrometer-commons\1.11.5\micrometer-commons-1.11.5.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-webmvc\6.0.13\spring-webmvc-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-expression\6.0.13\spring-expression-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\Tharsanak\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Tharsanak\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\Tharsanak\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-core\6.0.13\spring-core-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\org\springframework\spring-jcl\6.0.13\spring-jcl-6.0.13.jar;C:\Users\Tharsanak\.m2\repository\org\modelmapper\modelmapper\3.2.0\modelmapper-3.2.0.jar;C:\Users\Tharsanak\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Tharsanak\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Tharsanak\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\Tharsanak\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Tharsanak\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Tharsanak\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Tharsanak\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\Tharsanak\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.3\jaxb-runtime-4.0.3.jar;C:\Users\Tharsanak\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.3\jaxb-core-4.0.3.jar;C:\Users\Tharsanak\.m2\repository\org\eclipse\angus\angus-activation\2.0.1\angus-activation-2.0.1.jar;C:\Users\Tharsanak\.m2\repository\org\glassfish\jaxb\txw2\4.0.3\txw2-4.0.3.jar;C:\Users\Tharsanak\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Tharsanak\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Tharsanak\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Tharsanak\.m2\repository\org\hibernate\hibernate-entitymanager\5.6.15.Final\hibernate-entitymanager-5.6.15.Final.jar;C:\Users\Tharsanak\.m2\repository\org\hibernate\hibernate-core\5.6.15.Final\hibernate-core-5.6.15.Final.jar;C:\Users\Tharsanak\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Tharsanak\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\Tharsanak\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Tharsanak\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Tharsanak\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Tharsanak\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar, java.vm.vendor=Amazon.com Inc., sun.arch.data.model=64, user.variant=, java.vendor.url=https://aws.amazon.com/corretto/, catalina.useNaming=false, user.timezone=Asia/Colombo, jakarta.persistence.sharedCache.mode=UNSPECIFIED, org.jboss.logging.provider=slf4j, java.vm.specification.version=17, os.name=Windows 10, jakarta.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Users\Tharsanak\.jdks\corretto-17.0.9\bin, sun.java.command=com.mobitel.smsblock.SmsblockApplication, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@39e7e040, jdk.debug=release, sun.cpu.endian=little, hibernate.cdi.extensions=true, user.home=C:\Users\Tharsanak, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2023-10-17, java.home=C:\Users\Tharsanak\.jdks\corretto-17.0.9, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, hibernate.persistenceUnitName=default, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.headless=true, jakarta.persistence.validation.mode=AUTO, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.9+8-LTS, user.name=THARSANAK, path.separator=;, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, java.vendor.version=Corretto-17.0.9.8.1, java.vendor.url.bug=https://github.com/corretto/corretto-17/issues/, java.io.tmpdir=C:\Users\THARSA~1\AppData\Local\Temp\, catalina.home=C:\Users\Tharsanak\AppData\Local\Temp\tomcat.8080.3604207245596544767, java.version=17.0.9, hibernate.physical_naming_strategy=org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy, user.dir=D:\smsblock_Backend_hiernate, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=26804, sun.os.patch.level=, CONSOLE_LOG_CHARSET=UTF-8, catalina.base=C:\Users\Tharsanak\AppData\Local\Temp\tomcat.8080.3604207245596544767, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@2591d23a, native.encoding=Cp1252, java.library.path=C:\Users\Tharsanak\.jdks\corretto-17.0.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\isuruj\AppData\Local\Programs\Python\Python311;C:\Users\isuruj\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Tharsanak\AppData\Local\Microsoft\WindowsApps;C:\Users\Tharsanak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tharsanak\AppData\Roaming\npm;., java.vendor=Amazon.com Inc., java.vm.info=mixed mode, sharing, java.vm.version=17.0.9+8-LTS, hibernate.bytecode.use_reflection_optimizer=true, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), java.class.version=61.0}
+2023-12-21 11:19:40.236 DEBUG o.h.i.SessionFactoryImpl:239 - Session factory constructed with filter configurations : {}
+2023-12-21 11:19:40.256 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fc171fb
+2023-12-21 11:19:40.306 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@266ac2e1
+2023-12-21 11:19:40.349 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c1ba7bb
+2023-12-21 11:19:40.357 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(max)] under max; prior registration was null
+2023-12-21 11:19:40.358 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(min)] under min; prior registration was null
+2023-12-21 11:19:40.359 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sum)] under sum; prior registration was null
+2023-12-21 11:19:40.359 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(avg)] under avg; prior registration was null
+2023-12-21 11:19:40.362 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CountFunction@7482309c] under count; prior registration was null
+2023-12-21 11:19:40.364 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.EveryAnyEmulation@a63643e] under every; prior registration was null
+2023-12-21 11:19:40.364 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.EveryAnyEmulation@43294e9b] under any; prior registration was null
+2023-12-21 11:19:40.365 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(floor)] under floor; prior registration was null
+2023-12-21 11:19:40.365 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ceiling)] under ceiling; prior registration was null
+2023-12-21 11:19:40.366 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(mod)] under mod; prior registration was null
+2023-12-21 11:19:40.366 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(abs)] under abs; prior registration was null
+2023-12-21 11:19:40.367 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sign)] under sign; prior registration was null
+2023-12-21 11:19:40.367 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sqrt)] under sqrt; prior registration was null
+2023-12-21 11:19:40.367 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ln)] under ln; prior registration was null
+2023-12-21 11:19:40.367 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(exp)] under exp; prior registration was null
+2023-12-21 11:19:40.368 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(power)] under power; prior registration was null
+2023-12-21 11:19:40.369 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(round)] under round; prior registration was null
+2023-12-21 11:19:40.369 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sin)] under sin; prior registration was null
+2023-12-21 11:19:40.369 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cos)] under cos; prior registration was null
+2023-12-21 11:19:40.370 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(tan)] under tan; prior registration was null
+2023-12-21 11:19:40.370 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(asin)] under asin; prior registration was null
+2023-12-21 11:19:40.371 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(acos)] under acos; prior registration was null
+2023-12-21 11:19:40.372 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan)] under atan; prior registration was null
+2023-12-21 11:19:40.372 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan2)] under atan2; prior registration was null
+2023-12-21 11:19:40.379 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@22a63740] under sinh; prior registration was null
+2023-12-21 11:19:40.379 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@211da640] under cosh; prior registration was null
+2023-12-21 11:19:40.380 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@2ec92631] under tanh; prior registration was null
+2023-12-21 11:19:40.381 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@76220ef1] under pi; prior registration was null
+2023-12-21 11:19:40.382 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@65ad2b42] under log; prior registration was null
+2023-12-21 11:19:40.383 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(coalesce)] under coalesce; prior registration was null
+2023-12-21 11:19:40.384 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nullif)] under nullif; prior registration was null
+2023-12-21 11:19:40.384 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(left)] under left; prior registration was null
+2023-12-21 11:19:40.385 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(right)] under right; prior registration was null
+2023-12-21 11:19:40.386 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(replace)] under replace; prior registration was null
+2023-12-21 11:19:40.387 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(concat)] under concat; prior registration was null
+2023-12-21 11:19:40.387 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lower)] under lower; prior registration was null
+2023-12-21 11:19:40.388 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(upper)] under upper; prior registration was null
+2023-12-21 11:19:40.388 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substring)] under substring; prior registration was null
+2023-12-21 11:19:40.389 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(locate)] under locate; prior registration was null
+2023-12-21 11:19:40.389 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(character_length)] under character_length; prior registration was null
+2023-12-21 11:19:40.390 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : length -> character_length
+2023-12-21 11:19:40.392 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LocatePositionEmulation@45849604] under position; prior registration was null
+2023-12-21 11:19:40.396 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42fdc379
+2023-12-21 11:19:40.396 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InsertSubstringOverlayEmulation@779b4f9c] under overlay; prior registration was null
+2023-12-21 11:19:40.398 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TrimFunction@6b0ba697] under trim; prior registration was null
+2023-12-21 11:19:40.403 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastFunction@ca10069] under cast; prior registration was null
+2023-12-21 11:19:40.403 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@45e69324] under collate; prior registration was null
+2023-12-21 11:19:40.405 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ExtractFunction@41a8f0d8] under extract; prior registration was null
+2023-12-21 11:19:40.406 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(least)] under least; prior registration was null
+2023-12-21 11:19:40.407 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(greatest)] under greatest; prior registration was null
+2023-12-21 11:19:40.408 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CoalesceIfnullEmulation@5cb8580] under ifnull; prior registration was null
+2023-12-21 11:19:40.409 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lpad)] under lpad; prior registration was null
+2023-12-21 11:19:40.410 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rpad)] under rpad; prior registration was null
+2023-12-21 11:19:40.411 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LpadRpadPadEmulation@5c740c5a] under pad; prior registration was null
+2023-12-21 11:19:40.414 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastStrEmulation@3c3cd13a] under str; prior registration was null
+2023-12-21 11:19:40.419 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@48d31d25] under format; prior registration was null
+2023-12-21 11:19:40.424 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampaddFunction@4de158ca] under timestampadd; prior registration was null
+2023-12-21 11:19:40.429 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampdiffFunction@68f2363] under timestampdiff; prior registration was null
+2023-12-21 11:19:40.429 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : dateadd -> timestampadd
+2023-12-21 11:19:40.430 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : datediff -> timestampdiff
+2023-12-21 11:19:40.434 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@77998ea7] under current_date; prior registration was null
+2023-12-21 11:19:40.435 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@252d8df6] under current_time; prior registration was null
+2023-12-21 11:19:40.436 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@36638b59] under current_timestamp; prior registration was null
+2023-12-21 11:19:40.437 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : current date -> current_date
+2023-12-21 11:19:40.438 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : current time -> current_time
+2023-12-21 11:19:40.439 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : current timestamp -> current_timestamp
+2023-12-21 11:19:40.440 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@2f8f40cc] under local_date; prior registration was null
+2023-12-21 11:19:40.441 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@14d81f2c] under local_time; prior registration was null
+2023-12-21 11:19:40.443 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@5dd3727c] under local_datetime; prior registration was null
+2023-12-21 11:19:40.444 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@774013dc] under offset_datetime; prior registration was null
+2023-12-21 11:19:40.445 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : local date -> local_date
+2023-12-21 11:19:40.446 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : local time -> local_time
+2023-12-21 11:19:40.446 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : local datetime -> local_datetime
+2023-12-21 11:19:40.447 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : offset datetime -> offset_datetime
+2023-12-21 11:19:40.448 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@229cb4d8] under instant; prior registration was null
+2023-12-21 11:19:40.449 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : current_instant -> instant
+2023-12-21 11:19:40.450 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.SqlFunction@bb5f9d] under sql; prior registration was null
+2023-12-21 11:19:40.452 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(soundex)] under soundex; prior registration was null
+2023-12-21 11:19:40.453 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(radians)] under radians; prior registration was null
+2023-12-21 11:19:40.454 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(degrees)] under degrees; prior registration was null
+2023-12-21 11:19:40.457 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cot)] under cot; prior registration was null
+2023-12-21 11:19:40.458 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log)] under log; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@65ad2b42
+2023-12-21 11:19:40.459 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log2)] under log2; prior registration was null
+2023-12-21 11:19:40.461 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log10)] under log10; prior registration was null
+2023-12-21 11:19:40.462 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ltrim)] under ltrim; prior registration was null
+2023-12-21 11:19:40.462 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rtrim)] under rtrim; prior registration was null
+2023-12-21 11:19:40.463 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(octet_length)] under octet_length; prior registration was null
+2023-12-21 11:19:40.466 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(reverse)] under reverse; prior registration was null
+2023-12-21 11:19:40.467 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(space)] under space; prior registration was null
+2023-12-21 11:19:40.465 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71560dac
+2023-12-21 11:19:40.467 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(repeat)] under repeat; prior registration was null
+2023-12-21 11:19:40.470 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@5dce5c03] under lpad; prior registration was NamedSqmFunctionTemplate(lpad)
+2023-12-21 11:19:40.472 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@b76b7d8] under rpad; prior registration was NamedSqmFunctionTemplate(rpad)
+2023-12-21 11:19:40.474 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(md5)] under md5; prior registration was null
+2023-12-21 11:19:40.475 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(day)] under day; prior registration was null
+2023-12-21 11:19:40.477 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(month)] under month; prior registration was null
+2023-12-21 11:19:40.477 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(year)] under year; prior registration was null
+2023-12-21 11:19:40.478 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(hour)] under hour; prior registration was null
+2023-12-21 11:19:40.479 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(minute)] under minute; prior registration was null
+2023-12-21 11:19:40.480 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(second)] under second; prior registration was null
+2023-12-21 11:19:40.480 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(microsecond)] under microsecond; prior registration was null
+2023-12-21 11:19:40.481 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofweek)] under dayofweek; prior registration was null
+2023-12-21 11:19:40.481 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofmonth)] under dayofmonth; prior registration was null
+2023-12-21 11:19:40.481 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : day -> dayofmonth
+2023-12-21 11:19:40.482 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofyear)] under dayofyear; prior registration was null
+2023-12-21 11:19:40.483 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(week)] under week; prior registration was null
+2023-12-21 11:19:40.483 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(quarter)] under quarter; prior registration was null
+2023-12-21 11:19:40.485 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(monthname)] under monthname; prior registration was null
+2023-12-21 11:19:40.486 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayname)] under dayname; prior registration was null
+2023-12-21 11:19:40.487 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_day)] under last_day; prior registration was null
+2023-12-21 11:19:40.488 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(date)] under date; prior registration was null
+2023-12-21 11:19:40.488 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(timestamp)] under timestamp; prior registration was null
+2023-12-21 11:19:40.489 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(time)] under time; prior registration was null
+2023-12-21 11:19:40.489 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_date)] under utc_date; prior registration was null
+2023-12-21 11:19:40.490 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_time)] under utc_time; prior registration was null
+2023-12-21 11:19:40.491 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_timestamp)] under utc_timestamp; prior registration was null
+2023-12-21 11:19:40.491 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rand)] under rand; prior registration was null
+2023-12-21 11:19:40.492 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(crc32)] under crc32; prior registration was null
+2023-12-21 11:19:40.494 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha1)] under sha1; prior registration was null
+2023-12-21 11:19:40.495 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha2)] under sha2; prior registration was null
+2023-12-21 11:19:40.496 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha)] under sha; prior registration was null
+2023-12-21 11:19:40.497 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_length)] under bit_length; prior registration was null
+2023-12-21 11:19:40.498 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(octet_length)] under octet_length; prior registration was NamedSqmFunctionTemplate(octet_length)
+2023-12-21 11:19:40.498 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ascii)] under ascii; prior registration was null
+2023-12-21 11:19:40.499 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(instr)] under instr; prior registration was null
+2023-12-21 11:19:40.500 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substr; prior registration was null
+2023-12-21 11:19:40.502 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@1c135f63] under position; prior registration was org.hibernate.dialect.function.LocatePositionEmulation@45849604
+2023-12-21 11:19:40.502 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(curtime)] under curtime; prior registration was null
+2023-12-21 11:19:40.503 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(curdate)] under curdate; prior registration was null
+2023-12-21 11:19:40.503 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(now)] under now; prior registration was null
+2023-12-21 11:19:40.517 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TruncFunction@34695b23] under trunc; prior registration was null
+2023-12-21 11:19:40.518 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : truncate -> trunc
+2023-12-21 11:19:40.519 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c4d04ea
+2023-12-21 11:19:40.519 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(insert)] under insert; prior registration was null
+2023-12-21 11:19:40.520 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@611a2d82] under bitand; prior registration was null
+2023-12-21 11:19:40.521 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@6774f264] under bitor; prior registration was null
+2023-12-21 11:19:40.522 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@2299f6d7] under bitxor; prior registration was null
+2023-12-21 11:19:40.522 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@5cd701e4] under bitnot; prior registration was null
+2023-12-21 11:19:40.524 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_and)] under bit_and; prior registration was null
+2023-12-21 11:19:40.524 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_or)] under bit_or; prior registration was null
+2023-12-21 11:19:40.525 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev)] under stddev; prior registration was null
+2023-12-21 11:19:40.526 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_pop)] under stddev_pop; prior registration was null
+2023-12-21 11:19:40.527 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_samp)] under stddev_samp; prior registration was null
+2023-12-21 11:19:40.528 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(variance)] under variance; prior registration was null
+2023-12-21 11:19:40.528 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_pop)] under var_pop; prior registration was null
+2023-12-21 11:19:40.529 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_samp)] under var_samp; prior registration was null
+2023-12-21 11:19:40.529 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(datediff)] under datediff; prior registration was null
+2023-12-21 11:19:40.529 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(adddate)] under adddate; prior registration was null
+2023-12-21 11:19:40.530 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(subdate)] under subdate; prior registration was null
+2023-12-21 11:19:40.531 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(addtime)] under addtime; prior registration was null
+2023-12-21 11:19:40.531 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(subtime)] under subtime; prior registration was null
+2023-12-21 11:19:40.532 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@6c9151c1] under format; prior registration was org.hibernate.dialect.function.FormatFunction@48d31d25
+2023-12-21 11:19:40.533 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(makedate)] under makedate; prior registration was null
+2023-12-21 11:19:40.533 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(maketime)] under maketime; prior registration was null
+2023-12-21 11:19:40.534 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under localtime; prior registration was null
+2023-12-21 11:19:40.534 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under localtimestamp; prior registration was null
+2023-12-21 11:19:40.535 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under local_time; prior registration was org.hibernate.dialect.function.CurrentFunction@14d81f2c
+2023-12-21 11:19:40.535 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under local_datetime; prior registration was org.hibernate.dialect.function.CurrentFunction@5dd3727c
+2023-12-21 11:19:40.536 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under localtime; prior registration was NamedSqmFunctionTemplate(localtime)
+2023-12-21 11:19:40.536 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@2c3679e5] under pi; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@76220ef1
+2023-12-21 11:19:40.537 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@41f40dfa] under chr; prior registration was null
+2023-12-21 11:19:40.537 DEBUG o.h.q.s.f.SqmFunctionRegistry:307 - Registering alternate key : char -> chr
+2023-12-21 11:19:40.538 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@2548fc01] under sysdate; prior registration was null
+2023-12-21 11:19:40.539 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(row_number)] under row_number; prior registration was null
+2023-12-21 11:19:40.541 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lag)] under lag; prior registration was null
+2023-12-21 11:19:40.542 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lead)] under lead; prior registration was null
+2023-12-21 11:19:40.544 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(first_value)] under first_value; prior registration was null
+2023-12-21 11:19:40.546 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_value)] under last_value; prior registration was null
+2023-12-21 11:19:40.547 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nth_value)] under nth_value; prior registration was null
+2023-12-21 11:19:40.552 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@65d23aa3] under rank; prior registration was null
+2023-12-21 11:19:40.554 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@52eca410] under dense_rank; prior registration was null
+2023-12-21 11:19:40.556 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@63d0e8d] under percent_rank; prior registration was null
+2023-12-21 11:19:40.556 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@69a76b74] under cume_dist; prior registration was null
+2023-12-21 11:19:40.560 DEBUG o.h.q.s.f.SqmFunctionRegistry:90 - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ListaggGroupConcatEmulation@1626bddf] under listagg; prior registration was null
+2023-12-21 11:19:40.569 DEBUG o.h.HQL_FUNCTIONS:105 - abs(NUMERIC arg)
+2023-12-21 11:19:40.570 DEBUG o.h.HQL_FUNCTIONS:105 - Double acos(NUMERIC arg)
+2023-12-21 11:19:40.572 DEBUG o.h.HQL_FUNCTIONS:105 - adddate(DATE datetime, INTEGER days)
+2023-12-21 11:19:40.572 DEBUG o.h.HQL_FUNCTIONS:105 - addtime(TIME datetime, TIME time)
+2023-12-21 11:19:40.573 DEBUG o.h.HQL_FUNCTIONS:105 - Boolean any(BOOLEAN arg)
+2023-12-21 11:19:40.573 DEBUG o.h.HQL_FUNCTIONS:105 - Integer ascii(STRING arg)
+2023-12-21 11:19:40.574 DEBUG o.h.HQL_FUNCTIONS:105 - Double asin(NUMERIC arg)
+2023-12-21 11:19:40.576 DEBUG o.h.HQL_FUNCTIONS:105 - Double atan(NUMERIC arg)
+2023-12-21 11:19:40.578 DEBUG o.h.HQL_FUNCTIONS:105 - Double atan2(NUMERIC arg0, NUMERIC arg1)
+2023-12-21 11:19:40.578 DEBUG o.h.HQL_FUNCTIONS:105 - Double avg(NUMERIC arg)
+2023-12-21 11:19:40.579 DEBUG o.h.HQL_FUNCTIONS:105 - bit_and(arg)
+2023-12-21 11:19:40.580 DEBUG o.h.HQL_FUNCTIONS:105 - Integer bit_length(STRING_OR_CLOB arg)
+2023-12-21 11:19:40.581 DEBUG o.h.HQL_FUNCTIONS:105 - bit_or(arg)
+2023-12-21 11:19:40.582 DEBUG o.h.HQL_FUNCTIONS:105 - bitand(arg0, arg1)
+2023-12-21 11:19:40.584 DEBUG o.h.HQL_FUNCTIONS:105 - bitnot(arg)
+2023-12-21 11:19:40.585 DEBUG o.h.HQL_FUNCTIONS:105 - bitor(arg0, arg1)
+2023-12-21 11:19:40.585 DEBUG o.h.HQL_FUNCTIONS:105 - bitxor(arg0, arg1)
+2023-12-21 11:19:40.586 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67df25da
+2023-12-21 11:19:40.586 DEBUG o.h.HQL_FUNCTIONS:105 - cast(arg as Type)
+2023-12-21 11:19:40.587 DEBUG o.h.HQL_FUNCTIONS:105 - ceiling(NUMERIC arg)
+2023-12-21 11:19:40.587 DEBUG o.h.HQL_FUNCTIONS:105 - Character char(INTEGER arg)
+2023-12-21 11:19:40.588 DEBUG o.h.HQL_FUNCTIONS:105 - Integer character_length(STRING_OR_CLOB arg)
+2023-12-21 11:19:40.588 DEBUG o.h.HQL_FUNCTIONS:105 - Character chr(INTEGER arg)
+2023-12-21 11:19:40.589 DEBUG o.h.HQL_FUNCTIONS:105 - coalesce(arg0[, arg1[, ...]])
+2023-12-21 11:19:40.589 DEBUG o.h.HQL_FUNCTIONS:105 - String collate(STRING string as COLLATION collation)
+2023-12-21 11:19:40.590 DEBUG o.h.HQL_FUNCTIONS:105 - String concat(STRING string0[, STRING string1[, ...]])
+2023-12-21 11:19:40.591 DEBUG o.h.HQL_FUNCTIONS:105 - Double cos(NUMERIC arg)
+2023-12-21 11:19:40.592 DEBUG o.h.HQL_FUNCTIONS:105 - Double cosh(NUMERIC arg)
+2023-12-21 11:19:40.592 DEBUG o.h.HQL_FUNCTIONS:105 - Double cot(NUMERIC arg)
+2023-12-21 11:19:40.593 DEBUG o.h.HQL_FUNCTIONS:105 - Long count([distinct ]{arg|*})
+2023-12-21 11:19:40.594 DEBUG o.h.HQL_FUNCTIONS:105 - Integer crc32(arg)
+2023-12-21 11:19:40.594 DEBUG o.h.HQL_FUNCTIONS:105 - Double cume_dist([arg0[, ...]])
+2023-12-21 11:19:40.595 DEBUG o.h.HQL_FUNCTIONS:105 - Date curdate()
+2023-12-21 11:19:40.595 DEBUG o.h.HQL_FUNCTIONS:105 - Date current date
+2023-12-21 11:19:40.596 DEBUG o.h.HQL_FUNCTIONS:105 - Time current time
+2023-12-21 11:19:40.596 DEBUG o.h.HQL_FUNCTIONS:105 - Timestamp current timestamp
+2023-12-21 11:19:40.596 DEBUG o.h.HQL_FUNCTIONS:105 - Date current_date
+2023-12-21 11:19:40.597 DEBUG o.h.HQL_FUNCTIONS:105 - Instant current_instant
+2023-12-21 11:19:40.597 DEBUG o.h.HQL_FUNCTIONS:105 - Time current_time
+2023-12-21 11:19:40.598 DEBUG o.h.HQL_FUNCTIONS:105 - Timestamp current_timestamp
+2023-12-21 11:19:40.598 DEBUG o.h.HQL_FUNCTIONS:105 - Time curtime()
+2023-12-21 11:19:40.599 DEBUG o.h.HQL_FUNCTIONS:105 - Date date(arg)
+2023-12-21 11:19:40.599 DEBUG o.h.HQL_FUNCTIONS:105 - dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+2023-12-21 11:19:40.600 DEBUG o.h.HQL_FUNCTIONS:105 - Integer datediff(DATE end, DATE start)
+2023-12-21 11:19:40.600 DEBUG o.h.HQL_FUNCTIONS:105 - Integer day(DATE arg)
+2023-12-21 11:19:40.601 DEBUG o.h.HQL_FUNCTIONS:105 - String dayname(DATE arg)
+2023-12-21 11:19:40.601 DEBUG o.h.HQL_FUNCTIONS:105 - Integer dayofmonth(DATE arg)
+2023-12-21 11:19:40.602 DEBUG o.h.HQL_FUNCTIONS:105 - Integer dayofweek(DATE arg)
+2023-12-21 11:19:40.603 DEBUG o.h.HQL_FUNCTIONS:105 - Integer dayofyear(DATE arg)
+2023-12-21 11:19:40.603 DEBUG o.h.HQL_FUNCTIONS:105 - Double degrees(NUMERIC arg)
+2023-12-21 11:19:40.604 DEBUG o.h.HQL_FUNCTIONS:105 - Long dense_rank([arg0[, ...]])
+2023-12-21 11:19:40.604 DEBUG o.h.HQL_FUNCTIONS:105 - Boolean every(BOOLEAN arg)
+2023-12-21 11:19:40.604 DEBUG o.h.HQL_FUNCTIONS:105 - Double exp(NUMERIC arg)
+2023-12-21 11:19:40.607 DEBUG o.h.HQL_FUNCTIONS:105 - extract(TEMPORAL_UNIT field from TEMPORAL arg)
+2023-12-21 11:19:40.609 DEBUG o.h.HQL_FUNCTIONS:105 - first_valueANY value
+2023-12-21 11:19:40.610 DEBUG o.h.HQL_FUNCTIONS:105 - floor(NUMERIC arg)
+2023-12-21 11:19:40.610 DEBUG o.h.HQL_FUNCTIONS:105 - String format(TEMPORAL datetime as STRING pattern)
+2023-12-21 11:19:40.611 DEBUG o.h.HQL_FUNCTIONS:105 - greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2023-12-21 11:19:40.614 DEBUG o.h.HQL_FUNCTIONS:105 - Integer hour(TIME arg)
+2023-12-21 11:19:40.616 DEBUG o.h.HQL_FUNCTIONS:105 - ifnull(arg0, arg1)
+2023-12-21 11:19:40.617 DEBUG o.h.HQL_FUNCTIONS:105 - String insert(STRING string, INTEGER start, INTEGER length, STRING replacement)
+2023-12-21 11:19:40.618 DEBUG o.h.HQL_FUNCTIONS:105 - Instant instant
+2023-12-21 11:19:40.618 DEBUG o.h.HQL_FUNCTIONS:105 - Integer instr(STRING string, STRING pattern[, INTEGER start[, INTEGER occurrence]])
+2023-12-21 11:19:40.619 DEBUG o.h.HQL_FUNCTIONS:105 - lagANY value[, INTEGER offset[, ANY default]]
+2023-12-21 11:19:40.619 DEBUG o.h.HQL_FUNCTIONS:105 - Date last_day(DATE arg)
+2023-12-21 11:19:40.621 DEBUG o.h.HQL_FUNCTIONS:105 - last_valueANY value
+2023-12-21 11:19:40.621 DEBUG o.h.HQL_FUNCTIONS:105 - leadANY value[, INTEGER offset[, ANY default]]
+2023-12-21 11:19:40.622 DEBUG o.h.HQL_FUNCTIONS:105 - least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2023-12-21 11:19:40.623 DEBUG o.h.HQL_FUNCTIONS:105 - String left(STRING string, INTEGER length)
+2023-12-21 11:19:40.624 DEBUG o.h.HQL_FUNCTIONS:105 - Integer length(STRING_OR_CLOB arg)
+2023-12-21 11:19:40.625 DEBUG o.h.HQL_FUNCTIONS:105 - String listagg(STRING arg0, STRING arg1)
+2023-12-21 11:19:40.627 DEBUG o.h.HQL_FUNCTIONS:105 - Double ln(NUMERIC arg)
+2023-12-21 11:19:40.628 DEBUG o.h.HQL_FUNCTIONS:105 - LocalDate local date
+2023-12-21 11:19:40.629 DEBUG o.h.HQL_FUNCTIONS:105 - LocalDateTime local datetime
+2023-12-21 11:19:40.630 DEBUG o.h.HQL_FUNCTIONS:105 - LocalTime local time
+2023-12-21 11:19:40.631 DEBUG o.h.HQL_FUNCTIONS:105 - LocalDate local_date
+2023-12-21 11:19:40.632 DEBUG o.h.HQL_FUNCTIONS:105 - LocalDateTime local_datetime
+2023-12-21 11:19:40.632 DEBUG o.h.HQL_FUNCTIONS:105 - LocalTime local_time
+2023-12-21 11:19:40.633 DEBUG o.h.HQL_FUNCTIONS:105 - Timestamp localtime
+2023-12-21 11:19:40.634 DEBUG o.h.HQL_FUNCTIONS:105 - Timestamp localtimestamp
+2023-12-21 11:19:40.635 DEBUG o.h.HQL_FUNCTIONS:105 - Integer locate(STRING pattern, STRING string[, INTEGER start])
+2023-12-21 11:19:40.636 DEBUG o.h.HQL_FUNCTIONS:105 - Double log(NUMERIC arg0[, NUMERIC arg1])
+2023-12-21 11:19:40.637 DEBUG o.h.HQL_FUNCTIONS:105 - Double log10(NUMERIC arg)
+2023-12-21 11:19:40.638 DEBUG o.h.HQL_FUNCTIONS:105 - Double log2(NUMERIC arg)
+2023-12-21 11:19:40.639 DEBUG o.h.HQL_FUNCTIONS:105 - String lower(STRING string)
+2023-12-21 11:19:40.640 DEBUG o.h.HQL_FUNCTIONS:105 - String lpad(string, length[, padding])
+2023-12-21 11:19:40.641 DEBUG o.h.HQL_FUNCTIONS:105 - String ltrim(STRING string[, STRING characters])
+2023-12-21 11:19:40.642 DEBUG o.h.HQL_FUNCTIONS:105 - Date makedate(INTEGER year, INTEGER dayofyear)
+2023-12-21 11:19:40.643 DEBUG o.h.HQL_FUNCTIONS:105 - Time maketime(INTEGER hour, INTEGER min, INTEGER sec)
+2023-12-21 11:19:40.644 DEBUG o.h.HQL_FUNCTIONS:105 - max(COMPARABLE arg)
+2023-12-21 11:19:40.644 DEBUG o.h.HQL_FUNCTIONS:105 - String md5(arg)
+2023-12-21 11:19:40.645 DEBUG o.h.HQL_FUNCTIONS:105 - Integer microsecond(TIME arg)
+2023-12-21 11:19:40.646 DEBUG o.h.HQL_FUNCTIONS:105 - min(COMPARABLE arg)
+2023-12-21 11:19:40.647 DEBUG o.h.HQL_FUNCTIONS:105 - Integer minute(TIME arg)
+2023-12-21 11:19:40.648 DEBUG o.h.HQL_FUNCTIONS:105 - Integer mod(INTEGER arg0, INTEGER arg1)
+2023-12-21 11:19:40.648 DEBUG o.h.HQL_FUNCTIONS:105 - Integer month(DATE arg)
+2023-12-21 11:19:40.649 DEBUG o.h.HQL_FUNCTIONS:105 - String monthname(DATE arg)
+2023-12-21 11:19:40.650 DEBUG o.h.HQL_FUNCTIONS:105 - Timestamp now()
+2023-12-21 11:19:40.651 DEBUG o.h.HQL_FUNCTIONS:105 - nth_valueANY value, INTEGER nth
+2023-12-21 11:19:40.652 DEBUG o.h.HQL_FUNCTIONS:105 - nullif(arg0, arg1)
+2023-12-21 11:19:40.653 DEBUG o.h.HQL_FUNCTIONS:105 - Integer octet_length(STRING_OR_CLOB arg)
+2023-12-21 11:19:40.653 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c453eb3
+2023-12-21 11:19:40.653 DEBUG o.h.HQL_FUNCTIONS:105 - OffsetDateTime offset datetime
+2023-12-21 11:19:40.654 DEBUG o.h.HQL_FUNCTIONS:105 - OffsetDateTime offset_datetime
+2023-12-21 11:19:40.655 DEBUG o.h.HQL_FUNCTIONS:105 - String overlay(STRING string placing STRING replacement from INTEGER start[ for INTEGER length])
+2023-12-21 11:19:40.656 DEBUG o.h.HQL_FUNCTIONS:105 - String pad(STRING string with INTEGER length {leading|trailing}[ STRING character])
+2023-12-21 11:19:40.656 DEBUG o.h.HQL_FUNCTIONS:105 - Double percent_rank([arg0[, ...]])
+2023-12-21 11:19:40.657 DEBUG o.h.HQL_FUNCTIONS:105 - Double pi
+2023-12-21 11:19:40.658 DEBUG o.h.HQL_FUNCTIONS:105 - Integer position(STRING pattern in STRING string)
+2023-12-21 11:19:40.659 DEBUG o.h.HQL_FUNCTIONS:105 - Double power(NUMERIC arg0, NUMERIC arg1)
+2023-12-21 11:19:40.659 DEBUG o.h.HQL_FUNCTIONS:105 - Integer quarter(DATE arg)
+2023-12-21 11:19:40.660 DEBUG o.h.HQL_FUNCTIONS:105 - Double radians(NUMERIC arg)
+2023-12-21 11:19:40.661 DEBUG o.h.HQL_FUNCTIONS:105 - Double rand([INTEGER seed])
+2023-12-21 11:19:40.661 DEBUG o.h.HQL_FUNCTIONS:105 - Long rank([arg0[, ...]])
+2023-12-21 11:19:40.662 DEBUG o.h.HQL_FUNCTIONS:105 - String repeat(STRING string, INTEGER times)
+2023-12-21 11:19:40.662 DEBUG o.h.HQL_FUNCTIONS:105 - String replace(STRING string, STRING pattern, STRING replacement)
+2023-12-21 11:19:40.662 DEBUG o.h.HQL_FUNCTIONS:105 - String reverse(STRING arg)
+2023-12-21 11:19:40.663 DEBUG o.h.HQL_FUNCTIONS:105 - String right(STRING string, INTEGER length)
+2023-12-21 11:19:40.663 DEBUG o.h.HQL_FUNCTIONS:105 - round(NUMERIC number[, INTEGER places])
+2023-12-21 11:19:40.664 DEBUG o.h.HQL_FUNCTIONS:105 - Long row_number()
+2023-12-21 11:19:40.664 DEBUG o.h.HQL_FUNCTIONS:105 - String rpad(string, length[, padding])
+2023-12-21 11:19:40.665 DEBUG o.h.HQL_FUNCTIONS:105 - String rtrim(STRING string[, STRING characters])
+2023-12-21 11:19:40.665 DEBUG o.h.HQL_FUNCTIONS:105 - Integer second(TIME arg)
+2023-12-21 11:19:40.666 DEBUG o.h.HQL_FUNCTIONS:105 - String sha(arg)
+2023-12-21 11:19:40.666 DEBUG o.h.HQL_FUNCTIONS:105 - String sha1(arg)
+2023-12-21 11:19:40.667 DEBUG o.h.HQL_FUNCTIONS:105 - String sha2(arg0, arg1)
+2023-12-21 11:19:40.668 DEBUG o.h.HQL_FUNCTIONS:105 - Integer sign(NUMERIC arg)
+2023-12-21 11:19:40.668 DEBUG o.h.HQL_FUNCTIONS:105 - Double sin(NUMERIC arg)
+2023-12-21 11:19:40.669 DEBUG o.h.HQL_FUNCTIONS:105 - Double sinh(NUMERIC arg)
+2023-12-21 11:19:40.670 DEBUG o.h.HQL_FUNCTIONS:105 - String soundex(arg)
+2023-12-21 11:19:40.670 DEBUG o.h.HQL_FUNCTIONS:105 - String space(INTEGER arg)
+2023-12-21 11:19:40.671 DEBUG o.h.HQL_FUNCTIONS:105 - Object sql
+2023-12-21 11:19:40.672 DEBUG o.h.HQL_FUNCTIONS:105 - Double sqrt(NUMERIC arg)
+2023-12-21 11:19:40.674 DEBUG o.h.HQL_FUNCTIONS:105 - Double stddev(NUMERIC arg)
+2023-12-21 11:19:40.674 DEBUG o.h.HQL_FUNCTIONS:105 - Double stddev_pop(NUMERIC arg)
+2023-12-21 11:19:40.675 DEBUG o.h.HQL_FUNCTIONS:105 - Double stddev_samp(NUMERIC arg)
+2023-12-21 11:19:40.676 DEBUG o.h.HQL_FUNCTIONS:105 - String str(arg)
+2023-12-21 11:19:40.677 DEBUG o.h.HQL_FUNCTIONS:105 - subdate(DATE datetime, INTEGER days)
+2023-12-21 11:19:40.678 DEBUG o.h.HQL_FUNCTIONS:105 - String substr(STRING string, INTEGER start[, INTEGER length])
+2023-12-21 11:19:40.679 DEBUG o.h.HQL_FUNCTIONS:105 - String substring(STRING string{ from|,} INTEGER start[{ for|,} INTEGER length])
+2023-12-21 11:19:40.679 DEBUG o.h.HQL_FUNCTIONS:105 - subtime(TIME datetime, TIME time)
+2023-12-21 11:19:40.680 DEBUG o.h.HQL_FUNCTIONS:105 - sum(arg)
+2023-12-21 11:19:40.681 DEBUG o.h.HQL_FUNCTIONS:105 - Timestamp sysdate()
+2023-12-21 11:19:40.681 DEBUG o.h.HQL_FUNCTIONS:105 - Double tan(NUMERIC arg)
+2023-12-21 11:19:40.682 DEBUG o.h.HQL_FUNCTIONS:105 - Double tanh(NUMERIC arg)
+2023-12-21 11:19:40.683 DEBUG o.h.HQL_FUNCTIONS:105 - String time(arg)
+2023-12-21 11:19:40.683 DEBUG o.h.HQL_FUNCTIONS:105 - Timestamp timestamp(arg0[, arg1])
+2023-12-21 11:19:40.684 DEBUG o.h.HQL_FUNCTIONS:105 - timestampadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+2023-12-21 11:19:40.685 DEBUG o.h.HQL_FUNCTIONS:105 - basicType@5(java.lang.Long,-5)|basicType@17(java.lang.Double,8) timestampdiff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+2023-12-21 11:19:40.686 DEBUG o.h.HQL_FUNCTIONS:105 - String trim([[{leading|trailing|both} ][STRING arg0 ]from] STRING arg1)
+2023-12-21 11:19:40.686 DEBUG o.h.HQL_FUNCTIONS:105 - trunc( ... )
+2023-12-21 11:19:40.687 DEBUG o.h.HQL_FUNCTIONS:105 - truncate( ... )
+2023-12-21 11:19:40.687 DEBUG o.h.HQL_FUNCTIONS:105 - String upper(STRING string)
+2023-12-21 11:19:40.688 DEBUG o.h.HQL_FUNCTIONS:105 - Date utc_date
+2023-12-21 11:19:40.689 DEBUG o.h.HQL_FUNCTIONS:105 - Time utc_time
+2023-12-21 11:19:40.697 DEBUG o.h.HQL_FUNCTIONS:105 - Timestamp utc_timestamp
+2023-12-21 11:19:40.698 DEBUG o.h.HQL_FUNCTIONS:105 - Double var_pop(NUMERIC arg)
+2023-12-21 11:19:40.699 DEBUG o.h.HQL_FUNCTIONS:105 - Double var_samp(NUMERIC arg)
+2023-12-21 11:19:40.701 DEBUG o.h.HQL_FUNCTIONS:105 - Double variance(NUMERIC arg)
+2023-12-21 11:19:40.702 DEBUG o.h.HQL_FUNCTIONS:105 - Integer week(DATE arg)
+2023-12-21 11:19:40.705 DEBUG o.h.HQL_FUNCTIONS:105 - Integer year(DATE arg)
+2023-12-21 11:19:40.710 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fbcaf6e
+2023-12-21 11:19:40.719 DEBUG o.h.o.q.p.cache:48 - Starting QueryPlanCache(2048)
+2023-12-21 11:19:40.764 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a4ac13e
+2023-12-21 11:19:40.823 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c73a117
+2023-12-21 11:19:40.868 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@114a2a5
+2023-12-21 11:19:40.903 DEBUG o.h.s.i.SessionFactoryServiceRegistryImpl:91 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-12-21 11:19:40.906 DEBUG o.h.e.i.EntityCopyObserverFactoryInitiator:39 - Configured EntityCopyObserver strategy: disallow
+2023-12-21 11:19:40.918 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@308ea75
+2023-12-21 11:19:40.962 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@540dd1d6
+2023-12-21 11:19:41.005 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b7c920
+2023-12-21 11:19:41.058 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@eb31688
+2023-12-21 11:19:41.096 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.mobitel.smsblock.entity.SmsBlockMobile] is safe
+2023-12-21 11:19:41.097 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.mobitel.smsblock.entity.SmsBlockMobile
+2023-12-21 11:19:41.124 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@321b0376
+2023-12-21 11:19:41.181 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47f6437b
+2023-12-21 11:19:41.249 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e8c8a1d
+2023-12-21 11:19:41.297 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@525e828d
+2023-12-21 11:19:41.347 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6db12f88
+2023-12-21 11:19:41.413 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b0f9728
+2023-12-21 11:19:41.488 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44d2d44f
+2023-12-21 11:19:41.564 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@703bd7b
+2023-12-21 11:19:41.653 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2eb4da17
+2023-12-21 11:19:41.839 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@226ff3b
+2023-12-21 11:19:41.923 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46db0413
+2023-12-21 11:19:42.023 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4857bf55
+2023-12-21 11:19:42.205 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20ae2732
+2023-12-21 11:19:42.255 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@421b4dcb
+2023-12-21 11:19:42.263 DEBUG o.h.b.i.b.BytecodeProviderImpl:235 - HHH000513: Unable to create the ReflectionOptimizer for [com.mobitel.smsblock.entity.SmsBlockMobile]: private accessor [activatedOn]
+2023-12-21 11:19:42.300 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7749764f
+2023-12-21 11:19:42.317 DEBUG o.h.o.interceptor:46 - To-one property `com.mobitel.smsblock.entity.SmsBlockBlacklist#smsBlockMobile` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-12-21 11:19:42.319 DEBUG o.h.o.interceptor:46 - To-one property `com.mobitel.smsblock.entity.SmsBlockBlacklist#smsBlockMobile` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-12-21 11:19:42.319 DEBUG o.h.b.i.ClassLoaderAccessImpl:60 - Not known whether passed class name [com.mobitel.smsblock.entity.SmsBlockBlacklist] is safe
+2023-12-21 11:19:42.320 DEBUG o.h.b.i.ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.mobitel.smsblock.entity.SmsBlockBlacklist
+2023-12-21 11:19:42.357 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4744a285
+2023-12-21 11:19:42.378 DEBUG o.h.b.i.b.BytecodeProviderImpl:235 - HHH000513: Unable to create the ReflectionOptimizer for [com.mobitel.smsblock.entity.SmsBlockBlacklist]: private accessor [activatedOn]
+2023-12-21 11:19:42.379 DEBUG o.h.o.interceptor:46 - To-one property `com.mobitel.smsblock.entity.SmsBlockBlacklist#smsBlockMobile` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-12-21 11:19:42.407 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27c0c95d
+2023-12-21 11:19:42.423 DEBUG o.h.o.m.m.creation:92 - Starting post-init callbacks
+2023-12-21 11:19:42.424 DEBUG o.h.o.m.m.creation:242 - Starting PostInitCallbackEntry : Entity(com.mobitel.smsblock.entity.SmsBlockMobile) `staticFetchableList` generator
+2023-12-21 11:19:42.425 DEBUG o.h.o.m.m.creation:242 - Starting PostInitCallbackEntry : To-one key - NavigableRole[com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile]
+2023-12-21 11:19:42.434 DEBUG o.h.o.m.m.creation:242 - Starting PostInitCallbackEntry : Entity(com.mobitel.smsblock.entity.SmsBlockBlacklist) `staticFetchableList` generator
+2023-12-21 11:19:42.454 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54874cfb
+2023-12-21 11:19:42.500 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57f2c0ff
+2023-12-21 11:19:42.524 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After adding stats (total=50, active=0, idle=50, waiting=0)
+2023-12-21 11:19:42.554 DEBUG o.h.p.e.AbstractEntityPersister:2904 - Static SQL for entity: com.mobitel.smsblock.entity.SmsBlockMobile
+2023-12-21 11:19:42.554 DEBUG o.h.p.e.AbstractEntityPersister:2909 -  Version select: select id from sms_block_mobile where id=?
+2023-12-21 11:19:42.555 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Insert (0): insert into sms_block_mobile (activated_on,added_by,comment,deactivated_by,deactivated_on,mobile_no,status) values (?,?,?,?,?,?,?)
+2023-12-21 11:19:42.556 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Update (0): update sms_block_mobile set activated_on=?,added_by=?,comment=?,deactivated_by=?,deactivated_on=?,mobile_no=?,status=? where id=?
+2023-12-21 11:19:42.556 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Delete (0): delete from sms_block_mobile where id=?
+2023-12-21 11:19:42.580 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s1_0
+2023-12-21 11:19:42.584 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.mobitel.smsblock.entity.SmsBlockMobile)] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockMobile] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockMobile] 
+2023-12-21 11:19:42.609 DEBUG o.h.o.r.g.AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.mobitel.smsblock.entity.SmsBlockMobile]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.activatedOn]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.addedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.comment]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.deactivatedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.deactivatedOn]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.mobileNo]
+ |  \-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile.status]
+
+2023-12-21 11:19:42.614 DEBUG o.h.o.s.a.tree:46 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (s1 : com.mobitel.smsblock.entity.SmsBlockMobile) {
+          primaryTableReference : sms_block_mobile as s1_0
+        }
+      }
+    }
+
+2023-12-21 11:19:42.629 DEBUG o.h.p.e.AbstractEntityPersister:2904 - Static SQL for entity: com.mobitel.smsblock.entity.SmsBlockBlacklist
+2023-12-21 11:19:42.629 DEBUG o.h.p.e.AbstractEntityPersister:2909 -  Version select: select id from sms_block_blacklisted_mobile where id=?
+2023-12-21 11:19:42.630 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Insert (0): insert into sms_block_blacklisted_mobile (activated_on,added_by,blacklist_mobile,comment,deactivated_by,deactivated_on,sms_block_mobile_id,status) values (?,?,?,?,?,?,?,?)
+2023-12-21 11:19:42.630 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Update (0): update sms_block_blacklisted_mobile set activated_on=?,added_by=?,blacklist_mobile=?,comment=?,deactivated_by=?,deactivated_on=?,sms_block_mobile_id=?,status=? where id=?
+2023-12-21 11:19:42.630 DEBUG o.h.p.e.AbstractEntityPersister:393 -  Delete (0): delete from sms_block_blacklisted_mobile where id=?
+2023-12-21 11:19:42.631 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s1_0
+2023-12-21 11:19:42.631 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.mobitel.smsblock.entity.SmsBlockBlacklist)] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockBlacklist] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockBlacklist] 
+2023-12-21 11:19:42.638 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@90394d] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile] 
+2023-12-21 11:19:42.640 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s2_0
+2023-12-21 11:19:42.644 DEBUG o.h.o.r.g.AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.mobitel.smsblock.entity.SmsBlockBlacklist]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.activatedOn]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.addedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.blacklistMobile]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.comment]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.deactivatedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.deactivatedOn]
+ |  +-EntityFetchJoinedImpl [com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile]
+ |  \-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist.status]
+
+2023-12-21 11:19:42.645 DEBUG o.h.o.s.a.tree:46 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (s1 : com.mobitel.smsblock.entity.SmsBlockBlacklist) {
+          primaryTableReference : sms_block_blacklisted_mobile as s1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (s2 : com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile) {
+              primaryTableReference : sms_block_mobile as s2_0
+            }
+          }
+        }
+      }
+    }
+
+2023-12-21 11:19:42.728  INFO o.h.e.t.j.p.i.JtaPlatformInitiator:55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-21 11:19:42.729 DEBUG o.h.t.s.TypeConfiguration$Scope:203 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5a466dd] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@14fe085b]
+2023-12-21 11:19:42.733 DEBUG o.h.q.n.NamedObjectRepository:234 - Checking 0 named HQL queries
+2023-12-21 11:19:42.734 DEBUG o.h.q.n.NamedObjectRepository:251 - Checking 0 named SQL queries
+2023-12-21 11:19:42.843 DEBUG o.h.m.Table:101 - No alter strings for table : sms_block_blacklisted_mobile
+2023-12-21 11:19:42.844 DEBUG o.h.m.Table:101 - No alter strings for table : sms_block_mobile
+2023-12-21 11:19:42.881 DEBUG o.h.i.SessionFactoryRegistry:52 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@64829470
+2023-12-21 11:19:42.881 DEBUG o.h.i.SessionFactoryRegistry:74 - Registering SessionFactory: 2432519d-4494-42e3-a0d9-679207e9887b (<unnamed>)
+2023-12-21 11:19:42.882 DEBUG o.h.i.SessionFactoryRegistry:81 - Not binding SessionFactory to JNDI, no JNDI name configured
+2023-12-21 11:19:42.882 DEBUG o.h.i.SessionFactoryImpl:312 - Instantiated SessionFactory
+2023-12-21 11:19:42.883  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-21 11:19:42.889 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'smsblockApplication'
+2023-12-21 11:19:42.892 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'smsBlockBlacklistController'
+2023-12-21 11:19:42.909 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'smsBlockBlacklistServiceImpl'
+2023-12-21 11:19:42.911 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'smsBlockBlacklistRepository'
+2023-12-21 11:19:42.924 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpa.named-queries#0'
+2023-12-21 11:19:42.934 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpa.SmsBlockBlacklistRepository.fragments#0'
+2023-12-21 11:19:42.940 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpaSharedEM_entityManagerFactory'
+2023-12-21 11:19:42.996 DEBUG o.s.b.f.s.DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'jpaMappingContext'
+2023-12-21 11:19:42.998 DEBUG o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:65 - Initializing JpaMetamodelMappingContext…
+2023-12-21 11:19:43.024 DEBUG o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:72 - Finished initializing JpaMetamodelMappingContext
+2023-12-21 11:19:43.083 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
+2023-12-21 11:19:43.167 DEBUG o.h.s.i.StatisticsInitiator:88 - Statistics initialized [enabled=false]
+2023-12-21 11:19:43.180 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
+2023-12-21 11:19:43.318 DEBUG o.s.d.r.c.s.RepositoryFactorySupport:272 - Initializing repository instance for com.mobitel.smsblock.repository.SmsBlockBlacklistRepository…
+2023-12-21 11:19:43.367 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
+2023-12-21 11:19:43.517 DEBUG o.s.d.j.r.q.NamedQuery:138 - Looking up named query SmsBlockBlacklist.findAllByBlacklistMobile
+2023-12-21 11:19:43.522 DEBUG o.h.r.t.b.j.i.JdbcResourceLocalTransactionCoordinatorImpl:310 - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:310)
+	at org.hibernate.internal.AbstractSharedSessionContract.buildNamedQuery(AbstractSharedSessionContract.java:1021)
+	at org.hibernate.internal.AbstractSharedSessionContract.createNamedQuery(AbstractSharedSessionContract.java:899)
+	at org.hibernate.internal.AbstractSharedSessionContract.createNamedQuery(AbstractSharedSessionContract.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360)
+	at jdk.proxy2/jdk.proxy2.$Proxy109.createNamedQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.NamedQuery.hasNamedQuery(NamedQuery.java:113)
+	at org.springframework.data.jpa.repository.query.NamedQuery.lookupFrom(NamedQuery.java:141)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:180)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:252)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:111)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:99)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:88)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:88)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:357)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:279)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:245)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:285)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.mobitel.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
+2023-12-21 11:19:43.539 DEBUG o.s.d.j.r.q.NamedQuery:118 - Did not find named query SmsBlockBlacklist.findAllByBlacklistMobile
+2023-12-21 11:19:43.549 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
+2023-12-21 11:19:43.719  INFO o.s.d.j.r.q.QueryEnhancerFactory:47 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-21 11:19:44.252 DEBUG o.h.r.t.b.j.i.JdbcResourceLocalTransactionCoordinatorImpl:310 - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:310)
+	at org.hibernate.internal.AbstractSharedSessionContract.buildNamedQuery(AbstractSharedSessionContract.java:1021)
+	at org.hibernate.internal.AbstractSharedSessionContract.createNamedQuery(AbstractSharedSessionContract.java:899)
+	at org.hibernate.internal.AbstractSharedSessionContract.createNamedQuery(AbstractSharedSessionContract.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360)
+	at jdk.proxy2/jdk.proxy2.$Proxy109.createNamedQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.NamedQuery.hasNamedQuery(NamedQuery.java:113)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.getCountQuery(JpaQueryLookupStrategy.java:204)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:171)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:252)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:111)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:99)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:88)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:88)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:357)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:279)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:245)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:285)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.mobitel.smsblock.SmsblockApplication.main(SmsblockApplication.java:11)
+2023-12-21 11:19:44.253 DEBUG o.s.d.j.r.q.NamedQuery:118 - Did not find named query SmsBlockBlacklist.findAllBySmsBlockMobile.count
+2023-12-21 11:19:44.254 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler:302 - Creating new EntityManager for shared EntityManager invocation
+2023-12-21 11:19:44.263 DEBUG o.h.o.q.hql:75 - HQL : SELECT new com.mobitel.smsblock.dto.SmsBlockBlacklistDto(s.blacklistMobile, s.smsBlockMobile.id, s.comment, s.activatedOn, s.addedBy) FROM SmsBlockBlacklist s WHERE s.smsBlockMobile.id = :smsBlockMobile AND s.status = 'ACT'

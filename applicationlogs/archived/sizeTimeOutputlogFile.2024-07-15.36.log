@@ -1,0 +1,81 @@
+2024-07-15 15:18:42.762 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6e708bda: (connection has passed maxLifetime)
+2024-07-15 15:18:42.799 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20f62a10
+2024-07-15 15:18:45.056 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f4d81e1: (connection has passed maxLifetime)
+2024-07-15 15:18:45.086 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61cb202b
+2024-07-15 15:18:50.411 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18d6c0da: (connection has passed maxLifetime)
+2024-07-15 15:18:50.439 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3aee7ffe
+2024-07-15 15:18:51.836 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1e288c21: (connection has passed maxLifetime)
+2024-07-15 15:18:51.866 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bd375c5
+2024-07-15 15:18:52.479 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68c5fb11: (connection has passed maxLifetime)
+2024-07-15 15:18:52.508 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ae2aa7d
+2024-07-15 15:18:53.002 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4d438ca8: (connection has passed maxLifetime)
+2024-07-15 15:18:53.030 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bfc8a8a
+2024-07-15 15:18:57.472 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ca4f815: (connection has passed maxLifetime)
+2024-07-15 15:18:57.501 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1659166b
+2024-07-15 15:18:58.384 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ef861c0: (connection has passed maxLifetime)
+2024-07-15 15:18:58.414 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fb275d7
+2024-07-15 15:18:58.557 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@8ea045e: (connection has passed maxLifetime)
+2024-07-15 15:18:58.585 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37246738
+2024-07-15 15:19:01.980 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@29f8f12a: (connection has passed maxLifetime)
+2024-07-15 15:19:02.009 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73c5d5f4
+2024-07-15 15:19:03.778 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c16e4fc: (connection has passed maxLifetime)
+2024-07-15 15:19:03.807 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8c22593
+2024-07-15 15:19:03.872 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f105697: (connection has passed maxLifetime)
+2024-07-15 15:19:03.920 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22f86d6
+2024-07-15 15:19:03.934 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@59e73123: (connection has passed maxLifetime)
+2024-07-15 15:19:03.964 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b3746c4
+2024-07-15 15:19:05.258 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78d0fddf: (connection has passed maxLifetime)
+2024-07-15 15:19:05.289 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e46c5c0
+2024-07-15 15:19:06.814 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-15 15:19:06.815 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-15 15:19:06.815 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-15 15:19:07.713 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1912a6c2: (connection has passed maxLifetime)
+2024-07-15 15:19:07.741 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d498a00
+2024-07-15 15:19:07.808 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2261d421: (connection has passed maxLifetime)
+2024-07-15 15:19:07.836 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a56dc0c
+2024-07-15 15:19:10.971 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5dea64fe: (connection has passed maxLifetime)
+2024-07-15 15:19:11.000 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38952b0a
+2024-07-15 15:19:12.398 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6cdb2a00: (connection has passed maxLifetime)
+2024-07-15 15:19:12.427 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@354252c7
+2024-07-15 15:19:12.872 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@a067a96: (connection has passed maxLifetime)
+2024-07-15 15:19:12.901 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20eae97e
+2024-07-15 15:19:12.965 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e10a296: (connection has passed maxLifetime)
+2024-07-15 15:19:13.012 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c00b587
+2024-07-15 15:19:13.233 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@368b7b4d: (connection has passed maxLifetime)
+2024-07-15 15:19:13.263 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68aaf3b7
+2024-07-15 15:19:13.296 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33fb30ba: (connection has passed maxLifetime)
+2024-07-15 15:19:13.325 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@522dfba3
+2024-07-15 15:19:13.784 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6339fea3: (connection has passed maxLifetime)
+2024-07-15 15:19:13.812 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10e51568
+2024-07-15 15:19:14.112 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10996758: (connection has passed maxLifetime)
+2024-07-15 15:19:14.141 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@202392d0
+2024-07-15 15:19:14.519 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6a725e20: (connection has passed maxLifetime)
+2024-07-15 15:19:14.549 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c1fab29
+2024-07-15 15:19:14.992 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4780887c: (connection has passed maxLifetime)
+2024-07-15 15:19:15.019 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@980940e
+2024-07-15 15:19:17.407 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c6e0aae: (connection has passed maxLifetime)
+2024-07-15 15:19:17.439 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c3cd9d
+2024-07-15 15:19:19.892 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13a6388c: (connection has passed maxLifetime)
+2024-07-15 15:19:19.920 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7030f95c
+2024-07-15 15:19:20.348 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b3be339: (connection has passed maxLifetime)
+2024-07-15 15:19:20.375 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cc541bb
+2024-07-15 15:19:20.456 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1cc65755: (connection has passed maxLifetime)
+2024-07-15 15:19:20.485 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f512762
+2024-07-15 15:19:26.250 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@146283b: (connection has passed maxLifetime)
+2024-07-15 15:19:26.281 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40b04d3d
+2024-07-15 15:19:27.086 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@77daa412: (connection has passed maxLifetime)
+2024-07-15 15:19:27.115 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18d4706
+2024-07-15 15:19:29.075 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@378205ed: (connection has passed maxLifetime)
+2024-07-15 15:19:29.103 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30c6a4c5
+2024-07-15 15:19:30.693 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c401a14: (connection has passed maxLifetime)
+2024-07-15 15:19:30.721 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61a2b849
+2024-07-15 15:19:31.609 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ad57c1c: (connection has passed maxLifetime)
+2024-07-15 15:19:31.637 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78364c7e
+2024-07-15 15:19:32.020 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5ac7d0c: (connection has passed maxLifetime)
+2024-07-15 15:19:32.051 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65ec254a
+2024-07-15 15:19:32.271 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21afb443: (connection has passed maxLifetime)
+2024-07-15 15:19:32.301 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b38384b
+2024-07-15 15:19:33.390 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@775a1da9: (connection has passed maxLifetime)
+2024-07-15 15:19:33.418 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1be8806d
+2024-07-15 15:19:34.368 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@77eaeb03: (connection has passed maxLifetime)
+2024-07-15 15:19:34.397 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e8d8eb0

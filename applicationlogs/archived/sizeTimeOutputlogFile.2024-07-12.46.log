@@ -1,0 +1,76 @@
+2024-07-12 15:19:55.160  INFO o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12 15:19:55.168  INFO o.s.w.s.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-07-12 15:19:55.168 DEBUG o.s.w.s.DispatcherServlet:528 - Detected StandardServletMultipartResolver
+2024-07-12 15:19:55.169 DEBUG o.s.w.s.DispatcherServlet:552 - Detected AcceptHeaderLocaleResolver
+2024-07-12 15:19:55.169 DEBUG o.s.w.s.DispatcherServlet:578 - Detected FixedThemeResolver
+2024-07-12 15:19:55.171 DEBUG o.s.w.s.DispatcherServlet:728 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4dea763c
+2024-07-12 15:19:55.172 DEBUG o.s.w.s.DispatcherServlet:792 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4fdea2de
+2024-07-12 15:19:55.287 DEBUG o.s.w.s.DispatcherServlet:549 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-07-12 15:19:55.288  INFO o.s.w.s.DispatcherServlet:554 - Completed initialization in 120 ms
+2024-07-12 15:19:55.310 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/swagger-ui/", parameters={}
+2024-07-12 15:19:55.625 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:19:55.626 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:19:55.626 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 15:19:55.682 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-12 15:19:55.695 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:19:55.704 DEBUG o.s.w.s.r.ResourceHttpRequestHandler:557 - Resource not found
+2024-07-12 15:19:55.705 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:19:55.706 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 404 NOT_FOUND
+2024-07-12 15:19:55.717 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2024-07-12 15:19:55.720 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-07-12 15:19:55.720 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:19:55.756 DEBUG o.s.w.s.v.ContentNegotiatingViewResolver:354 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-07-12 15:19:55.760 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:19:55.763 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 404
+2024-07-12 15:19:56.723 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/favicon.ico", parameters={}
+2024-07-12 15:19:56.725 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-12 15:19:56.726 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:19:56.730 DEBUG o.s.w.s.r.ResourceHttpRequestHandler:557 - Resource not found
+2024-07-12 15:19:56.731 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:19:56.731 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 404 NOT_FOUND
+2024-07-12 15:19:56.733 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2024-07-12 15:19:56.735 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-07-12 15:19:56.737 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:19:56.975 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2024-07-12 15:19:56.979 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [{timestamp=Fri Jul 12 15:19:56 IST 2024, status=404, error=Not Found, path=/favicon.ico}]
+2024-07-12 15:19:57.080 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:19:57.081 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 404
+2024-07-12 15:20:25.642 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:20:25.643 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:20:25.643 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 15:20:54.827 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/swagger-ui/index.html", parameters={}
+2024-07-12 15:20:54.828 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-12 15:20:54.829 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:20:54.832 DEBUG o.s.w.s.r.ResourceHttpRequestHandler:557 - Resource not found
+2024-07-12 15:20:54.832 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:20:54.832 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 404 NOT_FOUND
+2024-07-12 15:20:54.833 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2024-07-12 15:20:54.834 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-07-12 15:20:54.834 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:20:54.836 DEBUG o.s.w.s.v.ContentNegotiatingViewResolver:354 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-07-12 15:20:54.837 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:20:54.838 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 404
+2024-07-12 15:20:55.651 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:20:55.652 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:20:55.653 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 15:21:05.444 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/swagger-ui/index.html/", parameters={}
+2024-07-12 15:21:05.446 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-12 15:21:05.446 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:21:05.449 DEBUG o.s.w.s.r.ResourceHttpRequestHandler:557 - Resource not found
+2024-07-12 15:21:05.449 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:21:05.449 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 404 NOT_FOUND
+2024-07-12 15:21:05.450 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2024-07-12 15:21:05.451 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-07-12 15:21:05.451 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:21:05.453 DEBUG o.s.w.s.v.ContentNegotiatingViewResolver:354 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-07-12 15:21:05.453 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 15:21:05.454 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 404
+2024-07-12 15:21:25.665 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:21:25.665 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:21:25.666 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 15:21:55.677 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:21:55.677 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:21:55.678 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 15:22:25.689 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:22:25.690 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 15:22:25.691 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).

@@ -1,0 +1,135 @@
+2024-07-12 11:49:47.839  INFO o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12 11:49:47.853  INFO o.s.w.s.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-07-12 11:49:47.854 DEBUG o.s.w.s.DispatcherServlet:528 - Detected StandardServletMultipartResolver
+2024-07-12 11:49:47.855 DEBUG o.s.w.s.DispatcherServlet:552 - Detected AcceptHeaderLocaleResolver
+2024-07-12 11:49:47.855 DEBUG o.s.w.s.DispatcherServlet:578 - Detected FixedThemeResolver
+2024-07-12 11:49:47.857 DEBUG o.s.w.s.DispatcherServlet:728 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@31aec04a
+2024-07-12 11:49:47.860 DEBUG o.s.w.s.DispatcherServlet:792 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4ac7927a
+2024-07-12 11:49:47.863 DEBUG o.s.w.s.DispatcherServlet:549 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-07-12 11:49:47.864  INFO o.s.w.s.DispatcherServlet:554 - Completed initialization in 10 ms
+2024-07-12 11:49:47.879 DEBUG o.s.w.s.DispatcherServlet:120 - POST "/createMobile", parameters={}
+2024-07-12 11:49:47.898 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockMobileController#saveSmsBlockMobile(SmsBlockMobileDto)
+2024-07-12 11:49:47.901 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 11:49:48.005 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockMobileDto@dfa133e]
+2024-07-12 11:49:48.069 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s1_0
+2024-07-12 11:49:48.071 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100))] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockMobile] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockMobile] 
+2024-07-12 11:49:48.083 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5700 - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@4ff46a4c
+2024-07-12 11:49:48.084 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5590 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100).mobileNo) 
+2024-07-12 11:49:48.088 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5700 - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@2de15095
+2024-07-12 11:49:48.088 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5590 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100).status) 
+2024-07-12 11:49:48.095 DEBUG o.h.o.r.g.AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100)]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100).activatedOn]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100).addedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100).comment]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100).deactivatedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100).deactivatedOn]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100).mobileNo]
+ |  \-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100).status]
+
+2024-07-12 11:49:48.095 DEBUG o.h.o.s.a.tree:46 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (s1 : com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100)) {
+          primaryTableReference : sms_block_mobile as s1_0
+        }
+      }
+    }
+
+2024-07-12 11:49:48.112 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2024-07-12 11:49:48.127 DEBUG o.h.o.results:76 - Initializer list:
+	  com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100) -> EntityResultInitializer(com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100))@558753555 (SingleTableEntityPersister(com.mobitel.smsblock.entity.SmsBlockMobile))
+
+2024-07-12 11:49:48.133 DEBUG o.h.SQL:133 - select s1_0.id,s1_0.activated_on,s1_0.added_by,s1_0.comment,s1_0.deactivated_by,s1_0.deactivated_on,s1_0.mobile_no,s1_0.status from sms_block_mobile s1_0 where s1_0.mobile_no=? and s1_0.status=?
+2024-07-12 11:49:48.139 DEBUG o.h.o.results:61 - Extracted JDBC value [0] - [5]
+2024-07-12 11:49:48.140 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100)): 5
+2024-07-12 11:49:48.142 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100)#5] : 1875280826
+2024-07-12 11:49:48.143 DEBUG o.h.o.results:61 - Extracted JDBC value [1] - [2024-07-12 11:45:10.0]
+2024-07-12 11:49:48.143 DEBUG o.h.o.results:61 - Extracted JDBC value [2] - [Thar]
+2024-07-12 11:49:48.144 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - []
+2024-07-12 11:49:48.144 DEBUG o.h.o.results:61 - Extracted JDBC value [4] - [null]
+2024-07-12 11:49:48.144 DEBUG o.h.o.results:61 - Extracted JDBC value [5] - [null]
+2024-07-12 11:49:48.145 DEBUG o.h.o.results:61 - Extracted JDBC value [6] - [0763688711]
+2024-07-12 11:49:48.145 DEBUG o.h.o.results:61 - Extracted JDBC value [7] - [ACT]
+2024-07-12 11:49:48.151 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.mobitel.smsblock.entity.SmsBlockMobile(1557038337704100)#5
+2024-07-12 11:49:48.151 DEBUG o.h.o.r.loading:93 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@6d931476
+2024-07-12 11:49:48.167 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/octet-stream', given [*/*] and supported [*/*]
+2024-07-12 11:49:48.169 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 11:49:48.170 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 409 CONFLICT
+2024-07-12 11:50:04.561 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:50:04.562 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:50:04.563 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:50:34.574 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:50:34.574 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:50:34.575 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:51:04.584 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:51:04.584 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:51:04.584 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:51:05.410 DEBUG o.s.b.a.ApplicationAvailabilityBean:77 - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-07-12 11:51:05.411 DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:1062 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31c7528f, started on Fri Jul 12 11:49:31 IST 2024
+2024-07-12 11:51:05.413 DEBUG o.s.c.s.DefaultLifecycleProcessor:366 - Stopping beans in phase 2147482623
+2024-07-12 11:51:05.416 DEBUG o.s.c.s.DefaultLifecycleProcessor:239 - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-07-12 11:51:05.416 DEBUG o.s.c.s.DefaultLifecycleProcessor:366 - Stopping beans in phase 2147481599
+2024-07-12 11:51:05.452 DEBUG o.s.c.s.DefaultLifecycleProcessor:239 - Bean 'webServerStartStop' completed its stop procedure
+2024-07-12 11:51:05.453 DEBUG o.s.c.s.DefaultLifecycleProcessor:366 - Stopping beans in phase -2147483647
+2024-07-12 11:51:05.453 DEBUG o.s.c.s.DefaultLifecycleProcessor:239 - Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-07-12 11:51:05.454 DEBUG o.s.s.c.ThreadPoolTaskExecutor:224 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-12 11:51:05.454  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 11:51:05.454 DEBUG o.h.i.SessionFactoryImpl:864 - HHH000031: Closing
+2024-07-12 11:51:05.455 DEBUG o.h.t.s.TypeConfiguration$Scope:550 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@22b20550] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@39159b14]
+2024-07-12 11:51:05.456 DEBUG o.h.s.i.AbstractServiceRegistryImpl:413 - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2024-07-12 11:51:05.457 DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl:296 - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2024-07-12 11:51:05.457  INFO c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-07-12 11:51:05.458 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before shutdown stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:51:05.459 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52909a97: (connection evicted)
+2024-07-12 11:51:05.463 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e048ecf: (connection evicted)
+2024-07-12 11:51:05.464 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e2b7180: (connection evicted)
+2024-07-12 11:51:05.464 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@436b931: (connection evicted)
+2024-07-12 11:51:05.465 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2a652b0a: (connection evicted)
+2024-07-12 11:51:05.466 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76ab9a48: (connection evicted)
+2024-07-12 11:51:05.467 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15f2d9a6: (connection evicted)
+2024-07-12 11:51:05.468 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52cc0b41: (connection evicted)
+2024-07-12 11:51:05.469 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23a69a37: (connection evicted)
+2024-07-12 11:51:05.470 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@14a69926: (connection evicted)
+2024-07-12 11:51:05.471 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67533450: (connection evicted)
+2024-07-12 11:51:05.472 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@72e8627f: (connection evicted)
+2024-07-12 11:51:05.473 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5725c605: (connection evicted)
+2024-07-12 11:51:05.474 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5353d4ba: (connection evicted)
+2024-07-12 11:51:05.475 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3192d95a: (connection evicted)
+2024-07-12 11:51:05.477 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f10b841: (connection evicted)
+2024-07-12 11:51:05.479 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c2c724e: (connection evicted)
+2024-07-12 11:51:05.480 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@35975f90: (connection evicted)
+2024-07-12 11:51:05.490 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2854243: (connection evicted)
+2024-07-12 11:51:05.491 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7b0c3f83: (connection evicted)
+2024-07-12 11:51:05.492 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@79d09948: (connection evicted)
+2024-07-12 11:51:05.492 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5348872e: (connection evicted)
+2024-07-12 11:51:05.493 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@598e39b: (connection evicted)
+2024-07-12 11:51:05.495 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@49caa833: (connection evicted)
+2024-07-12 11:51:05.496 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@a0a87b1: (connection evicted)
+2024-07-12 11:51:05.497 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@292763a7: (connection evicted)
+2024-07-12 11:51:05.498 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e236bcd: (connection evicted)
+2024-07-12 11:51:05.498 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f789203: (connection evicted)
+2024-07-12 11:51:05.499 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@684334f4: (connection evicted)
+2024-07-12 11:51:05.500 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3958bfb7: (connection evicted)
+2024-07-12 11:51:05.501 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f3d315b: (connection evicted)
+2024-07-12 11:51:05.502 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fd8ddb6: (connection evicted)
+2024-07-12 11:51:05.502 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@455a554e: (connection evicted)
+2024-07-12 11:51:05.503 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74c459be: (connection evicted)
+2024-07-12 11:51:05.504 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@281fb3f8: (connection evicted)
+2024-07-12 11:51:05.504 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13239417: (connection evicted)
+2024-07-12 11:51:05.505 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3af90ae0: (connection evicted)
+2024-07-12 11:51:05.506 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@11c8ec27: (connection evicted)
+2024-07-12 11:51:05.506 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b144557: (connection evicted)
+2024-07-12 11:51:05.507 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1151d0f: (connection evicted)
+2024-07-12 11:51:05.508 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16e04b23: (connection evicted)
+2024-07-12 11:51:05.509 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b0a0b3d: (connection evicted)
+2024-07-12 11:51:05.510 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4cc82a00: (connection evicted)
+2024-07-12 11:51:05.511 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@414021f5: (connection evicted)
+2024-07-12 11:51:05.511 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a1d0851: (connection evicted)
+2024-07-12 11:51:05.512 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1427bc3b: (connection evicted)
+2024-07-12 11:51:05.513 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34346d5f: (connection evicted)
+2024-07-12 11:51:05.514 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ae28345: (connection evicted)
+2024-07-12 11:51:05.514 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@364b60dc: (connection evicted)
+2024-07-12 11:51:05.515 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@62c1e179: (connection evicted)
+2024-07-12 11:51:05.516 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-12 11:51:05.517  INFO c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,109 @@
+2023-12-08 13:58:58.482 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 13:58:58.491 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 13:58:58.493 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 13:59:28.496 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 13:59:28.498 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 13:59:28.500 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 13:59:58.518 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 13:59:58.520 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 13:59:58.521 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 14:00:28.536 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:00:28.537 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:00:28.538 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 14:00:58.543 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:00:58.545 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:00:58.546 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 14:01:28.558 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:01:28.560 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:01:28.561 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 14:01:58.578 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:01:58.579 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:01:58.580 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 14:02:28.582 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:02:28.582 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:02:28.583 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 14:02:46.138  INFO o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 14:02:46.139  INFO o.s.w.s.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2023-12-08 14:02:46.140 DEBUG o.s.w.s.DispatcherServlet:528 - Detected StandardServletMultipartResolver
+2023-12-08 14:02:46.140 DEBUG o.s.w.s.DispatcherServlet:552 - Detected AcceptHeaderLocaleResolver
+2023-12-08 14:02:46.141 DEBUG o.s.w.s.DispatcherServlet:578 - Detected FixedThemeResolver
+2023-12-08 14:02:46.144 DEBUG o.s.w.s.DispatcherServlet:728 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@23b62cc3
+2023-12-08 14:02:46.145 DEBUG o.s.w.s.DispatcherServlet:792 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@31d327b6
+2023-12-08 14:02:46.146 DEBUG o.s.w.s.DispatcherServlet:549 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-12-08 14:02:46.147  INFO o.s.w.s.DispatcherServlet:554 - Completed initialization in 8 ms
+2023-12-08 14:02:46.182 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/createMobile", parameters={}
+2023-12-08 14:02:46.219 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockMobileController#saveSmsBlockMobile(SmsBlockMobileDto)
+2023-12-08 14:02:46.224 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:46.304 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:46.310 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
+2023-12-08 14:02:46.332 DEBUG o.s.w.s.DispatcherServlet:120 - POST "/createMobile", parameters={}
+2023-12-08 14:02:46.333 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockMobileController#saveSmsBlockMobile(SmsBlockMobileDto)
+2023-12-08 14:02:46.340 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:46.664 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockMobileDto@47ee21e7]
+2023-12-08 14:02:46.906 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2023-12-08 14:02:46.910 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing ["Phone number cannot be null or empty"]
+2023-12-08 14:02:46.926 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:46.928 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
+2023-12-08 14:02:54.595 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/createBlockMobile/undefined", parameters={}
+2023-12-08 14:02:54.597 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
+2023-12-08 14:02:54.598 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:54.600 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:54.600 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
+2023-12-08 14:02:54.606 DEBUG o.s.w.s.DispatcherServlet:120 - POST "/createBlockMobile/undefined", parameters={}
+2023-12-08 14:02:54.608 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
+2023-12-08 14:02:54.610 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:54.632 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockBlacklistDto@38c4e70e]
+2023-12-08 14:02:54.674 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [1] in public org.springframework.http.ResponseEntity<java.lang.String> com.mobitel.smsblock.controller.SmsBlockBlacklistController.saveSmsBlockBlacklist(com.mobitel.smsblock.dto.SmsBlockBlacklistDto,com.mobitel.smsblock.entity.SmsBlockMobile): Failed to convert value of type 'java.lang.String' to required type 'com.mobitel.smsblock.entity.SmsBlockMobile'; Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [undefined]
+2023-12-08 14:02:54.682  WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'com.mobitel.smsblock.entity.SmsBlockMobile'; Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [undefined]]
+2023-12-08 14:02:54.683 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:54.684 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
+2023-12-08 14:02:54.703 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for POST "/error", parameters={}
+2023-12-08 14:02:54.706 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-12-08 14:02:54.707 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:54.723 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2023-12-08 14:02:54.725 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [{timestamp=Fri Dec 08 14:02:54 IST 2023, status=400, error=Bad Request, path=/createBlockMobile/unde (truncated)...]
+2023-12-08 14:02:54.745 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:02:54.749 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 400
+2023-12-08 14:02:58.587 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:02:58.588 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 14:02:58.589 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 14:03:03.443 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/createBlockMobile/44", parameters={}
+2023-12-08 14:03:03.445 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
+2023-12-08 14:03:03.446 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:03:03.447 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:03:03.448 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
+2023-12-08 14:03:03.454 DEBUG o.s.w.s.DispatcherServlet:120 - POST "/createBlockMobile/44", parameters={}
+2023-12-08 14:03:03.454 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
+2023-12-08 14:03:03.455 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:03:03.457 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockBlacklistDto@7f7fb3df]
+2023-12-08 14:03:03.473 DEBUG o.s.o.j.JpaTransactionManager:374 - Found thread-bound EntityManager [SessionImpl(822875524<open>)] for JPA transaction
+2023-12-08 14:03:03.474 DEBUG o.s.o.j.JpaTransactionManager:370 - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2023-12-08 14:03:03.481 DEBUG o.s.j.d.DataSourceUtils:188 - Setting JDBC Connection [HikariProxyConnection@862065159 wrapping com.mysql.cj.jdbc.ConnectionImpl@5c573229] read-only
+2023-12-08 14:03:03.485 DEBUG o.h.e.t.i.TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-12-08 14:03:03.486 DEBUG o.h.e.t.i.TransactionImpl:81 - begin
+2023-12-08 14:03:03.490 DEBUG o.s.o.j.JpaTransactionManager:439 - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3cbcd157]
+2023-12-08 14:03:03.572 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2023-12-08 14:03:03.607 DEBUG o.h.o.results:76 - Initializer list:
+	  com.mobitel.smsblock.entity.SmsBlockMobile -> EntityResultInitializer(com.mobitel.smsblock.entity.SmsBlockMobile)@519727482 (SingleTableEntityPersister(com.mobitel.smsblock.entity.SmsBlockMobile))
+
+2023-12-08 14:03:03.620 DEBUG o.h.SQL:133 - select s1_0.id,s1_0.activated_on,s1_0.added_by,s1_0.comment,s1_0.deactivated_by,s1_0.deactivated_on,s1_0.mobile_no,s1_0.status from sms_block_mobile s1_0 where s1_0.id=?
+2023-12-08 14:03:03.632 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.mobitel.smsblock.entity.SmsBlockMobile): 44
+2023-12-08 14:03:03.636 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.mobitel.smsblock.entity.SmsBlockMobile#44] : 417765796
+2023-12-08 14:03:03.638 DEBUG o.h.o.results:61 - Extracted JDBC value [1] - [2023-12-05 14:01:14.0]
+2023-12-08 14:03:03.639 DEBUG o.h.o.results:61 - Extracted JDBC value [2] - [tharsana]
+2023-12-08 14:03:03.640 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [null]
+2023-12-08 14:03:03.641 DEBUG o.h.o.results:61 - Extracted JDBC value [4] - [null]
+2023-12-08 14:03:03.642 DEBUG o.h.o.results:61 - Extracted JDBC value [5] - [null]
+2023-12-08 14:03:03.643 DEBUG o.h.o.results:61 - Extracted JDBC value [6] - [0712309090]
+2023-12-08 14:03:03.644 DEBUG o.h.o.results:61 - Extracted JDBC value [7] - [ACT]
+2023-12-08 14:03:03.659 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.mobitel.smsblock.entity.SmsBlockMobile#44
+2023-12-08 14:03:03.660 DEBUG o.h.o.r.loading:93 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@6541454b
+2023-12-08 14:03:03.673 DEBUG o.s.o.j.JpaTransactionManager:740 - Initiating transaction commit
+2023-12-08 14:03:03.674 DEBUG o.s.o.j.JpaTransactionManager:556 - Committing JPA transaction on EntityManager [SessionImpl(822875524<open>)]
+2023-12-08 14:03:03.675 DEBUG o.h.e.t.i.TransactionImpl:98 - committing
+2023-12-08 14:03:03.680 DEBUG o.s.j.d.DataSourceUtils:252 - Resetting read-only flag of JDBC Connection [HikariProxyConnection@862065159 wrapping com.mysql.cj.jdbc.ConnectionImpl@5c573229]
+2023-12-08 14:03:03.682 DEBUG o.s.o.j.JpaTransactionManager:652 - Not closing pre-bound JPA EntityManager after transaction
+2023-12-08 14:03:03.684 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2023-12-08 14:03:03.685 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing ["Phone number cannot be null or empty"]
+2023-12-08 14:03:03.687 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 14:03:03.689 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST

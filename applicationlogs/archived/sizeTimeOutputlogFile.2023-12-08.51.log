@@ -1,0 +1,90 @@
+2023-12-08 11:33:13.989 DEBUG o.s.w.s.DispatcherServlet:120 - POST "/createMobile", parameters={}
+2023-12-08 11:33:13.992 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockMobileController#saveSmsBlockMobile(SmsBlockMobileDto)
+2023-12-08 11:33:13.993 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:13.994 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockMobileDto@6c4cdac0]
+2023-12-08 11:33:13.994 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2023-12-08 11:33:13.995 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:305 - Nothing to write: null body
+2023-12-08 11:33:13.995 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:13.996 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
+2023-12-08 11:33:16.778 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@77af8ffa: (connection has passed maxLifetime)
+2023-12-08 11:33:16.809 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ea66931
+2023-12-08 11:33:18.002 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/undefined", parameters={}
+2023-12-08 11:33:18.002 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 11:33:18.003 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:18.004 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.util.List<com.mobitel.smsblock.dto.SmsBlockBlacklistDto>> com.mobitel.smsblock.controller.SmsBlockBlacklistController.getBlocklistBySmsBlockMobile(java.lang.Integer): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"
+2023-12-08 11:33:18.005  WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2023-12-08 11:33:18.005 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:18.006 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
+2023-12-08 11:33:18.006 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2023-12-08 11:33:18.007 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-12-08 11:33:18.007 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:18.007 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2023-12-08 11:33:18.008 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [{timestamp=Fri Dec 08 11:33:18 IST 2023, status=400, error=Bad Request, path=/mobile/undefined}]
+2023-12-08 11:33:18.009 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:18.009 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 400
+2023-12-08 11:33:18.114 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/undefined", parameters={}
+2023-12-08 11:33:18.115 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 11:33:18.116 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:18.117 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.util.List<com.mobitel.smsblock.dto.SmsBlockBlacklistDto>> com.mobitel.smsblock.controller.SmsBlockBlacklistController.getBlocklistBySmsBlockMobile(java.lang.Integer): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"
+2023-12-08 11:33:18.118  WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2023-12-08 11:33:18.118 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:18.118 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
+2023-12-08 11:33:18.119 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2023-12-08 11:33:18.120 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-12-08 11:33:18.120 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:18.121 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2023-12-08 11:33:18.122 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [{timestamp=Fri Dec 08 11:33:18 IST 2023, status=400, error=Bad Request, path=/mobile/undefined}]
+2023-12-08 11:33:18.123 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:18.124 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 400
+2023-12-08 11:33:18.907 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6e7af5e2: (connection has passed maxLifetime)
+2023-12-08 11:33:18.933 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f9b630a
+2023-12-08 11:33:19.597 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@40c7fe0f: (connection has passed maxLifetime)
+2023-12-08 11:33:19.618 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e4e18f8
+2023-12-08 11:33:20.162 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a870ea: (connection has passed maxLifetime)
+2023-12-08 11:33:20.180 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fb49c45
+2023-12-08 11:33:20.629 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16a1538d: (connection has passed maxLifetime)
+2023-12-08 11:33:20.648 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fee151
+2023-12-08 11:33:20.724 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3d5316ac: (connection has passed maxLifetime)
+2023-12-08 11:33:20.738 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bfa8758
+2023-12-08 11:33:21.020 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2dd21d0f: (connection has passed maxLifetime)
+2023-12-08 11:33:21.062 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f9c75a3
+2023-12-08 11:33:21.428 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@543f4983: (connection has passed maxLifetime)
+2023-12-08 11:33:21.451 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b92c23e
+2023-12-08 11:33:21.475 DEBUG c.z.h.p.HikariPool:335 - HikariPool-1 - Add connection elided, waiting=0, adders pending/running=2
+2023-12-08 11:33:21.475 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e550aad: (connection has passed maxLifetime)
+2023-12-08 11:33:21.487 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52e998bb
+2023-12-08 11:33:21.601 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7d86a8d: (connection has passed maxLifetime)
+2023-12-08 11:33:21.611 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e9d1eb
+2023-12-08 11:33:22.120 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/undefined", parameters={}
+2023-12-08 11:33:22.120 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 11:33:22.121 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:22.123 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.util.List<com.mobitel.smsblock.dto.SmsBlockBlacklistDto>> com.mobitel.smsblock.controller.SmsBlockBlacklistController.getBlocklistBySmsBlockMobile(java.lang.Integer): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"
+2023-12-08 11:33:22.123  WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2023-12-08 11:33:22.124 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:22.124 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
+2023-12-08 11:33:22.125 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2023-12-08 11:33:22.125 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-12-08 11:33:22.126 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:22.127 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2023-12-08 11:33:22.128 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [{timestamp=Fri Dec 08 11:33:22 IST 2023, status=400, error=Bad Request, path=/mobile/undefined}]
+2023-12-08 11:33:22.129 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:22.129 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 400
+2023-12-08 11:33:22.132 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/undefined", parameters={}
+2023-12-08 11:33:22.133 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 11:33:22.134 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:22.135 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.util.List<com.mobitel.smsblock.dto.SmsBlockBlacklistDto>> com.mobitel.smsblock.controller.SmsBlockBlacklistController.getBlocklistBySmsBlockMobile(java.lang.Integer): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"
+2023-12-08 11:33:22.136  WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2023-12-08 11:33:22.136 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:22.136 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
+2023-12-08 11:33:22.137 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2023-12-08 11:33:22.137 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-12-08 11:33:22.138 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:22.139 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2023-12-08 11:33:22.139 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [{timestamp=Fri Dec 08 11:33:22 IST 2023, status=400, error=Bad Request, path=/mobile/undefined}]
+2023-12-08 11:33:22.140 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:33:22.140 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 400
+2023-12-08 11:33:23.896 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 11:33:23.897 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 11:33:23.898 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 11:33:23.958 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e36a00f: (connection has passed maxLifetime)
+2023-12-08 11:33:23.981 DEBUG c.z.h.p.HikariPool:738 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@177adcec

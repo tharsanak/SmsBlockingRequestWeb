@@ -1,0 +1,72 @@
+2023-12-08 12:16:03.306 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=51, active=0, idle=51, waiting=0)
+2023-12-08 12:16:03.312 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=51, active=0, idle=51, waiting=0)
+2023-12-08 12:16:03.313 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:16:08.806 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:16:08.807 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:16:08.808 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:08.810 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:08.810 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:16:10.394 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:16:10.395 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:16:10.396 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:10.397 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:10.397 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:16:11.051 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:16:11.051 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:16:11.052 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:11.052 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:11.052 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:16:33.319 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=51, active=0, idle=51, waiting=0)
+2023-12-08 12:16:33.319 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=51, active=0, idle=51, waiting=0)
+2023-12-08 12:16:33.319 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:16:38.247 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:16:38.248 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:16:38.249 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:38.250 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:38.250 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:16:43.428 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:16:43.429 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:16:43.429 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:43.430 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:43.430 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:16:45.312 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:16:45.313 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:16:45.313 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:45.314 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:45.314 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:16:45.876 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:16:45.877 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:16:45.878 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:45.879 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:16:45.879 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:17:03.334 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=51, active=0, idle=51, waiting=0)
+2023-12-08 12:17:03.337 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=51, active=0, idle=51, waiting=0)
+2023-12-08 12:17:03.338 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:17:33.348 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=51, active=0, idle=51, waiting=0)
+2023-12-08 12:17:33.349 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=51, active=0, idle=51, waiting=0)
+2023-12-08 12:17:33.350 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:18:03.352 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=51, active=0, idle=51, waiting=0)
+2023-12-08 12:18:03.354 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:18:03.354 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:18:03.354 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@348091f: (connection has passed idleTimeout)
+2023-12-08 12:18:08.393 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:18:08.395 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:18:08.395 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:18:08.396 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:18:08.397 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:18:10.665 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:18:10.666 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:18:10.667 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:18:10.668 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:18:10.668 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:18:33.360 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:18:33.361 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:18:33.361 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:19:03.367 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:19:03.368 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:19:03.369 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:19:16.741 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:19:16.742 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:19:16.742 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:19:16.744 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:19:16.744 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN

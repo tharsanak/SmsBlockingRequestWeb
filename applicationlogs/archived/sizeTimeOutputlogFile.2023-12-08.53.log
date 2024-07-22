@@ -1,0 +1,77 @@
+2023-12-08 11:33:53.904 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 11:33:53.910 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 11:33:53.911 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 11:34:01.560 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/mobile/undefined", parameters={}
+2023-12-08 11:34:01.562 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#getBlocklistBySmsBlockMobile(Integer)
+2023-12-08 11:34:01.566 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:01.568 DEBUG o.s.w.m.HandlerMethod:186 - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.util.List<com.mobitel.smsblock.dto.SmsBlockBlacklistDto>> com.mobitel.smsblock.controller.SmsBlockBlacklistController.getBlocklistBySmsBlockMobile(java.lang.Integer): Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"
+2023-12-08 11:34:01.569  WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2023-12-08 11:34:01.569 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:01.570 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
+2023-12-08 11:34:01.571 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2023-12-08 11:34:01.572 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-12-08 11:34:01.573 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:01.652 DEBUG o.s.w.s.v.ContentNegotiatingViewResolver:354 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-12-08 11:34:01.716 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:01.716 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 400
+2023-12-08 11:34:01.958 DEBUG o.s.w.s.DispatcherServlet:120 - GET "/favicon.ico", parameters={}
+2023-12-08 11:34:01.958 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 11:34:01.959 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:01.961 DEBUG o.s.w.s.r.ResourceHttpRequestHandler:557 - Resource not found
+2023-12-08 11:34:01.961 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:01.962 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 404 NOT_FOUND
+2023-12-08 11:34:01.962 DEBUG o.s.w.s.DispatcherServlet:120 - "ERROR" dispatch for GET "/error", parameters={}
+2023-12-08 11:34:01.963 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-12-08 11:34:01.964 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:01.964 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json;q=0.8', given [image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2023-12-08 11:34:01.965 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [{timestamp=Fri Dec 08 11:34:01 IST 2023, status=404, error=Not Found, path=/favicon.ico}]
+2023-12-08 11:34:01.987 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:01.988 DEBUG o.s.w.s.DispatcherServlet:1132 - Exiting from "ERROR" dispatch, status 404
+2023-12-08 11:34:14.642 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/createBlockMobile/2", parameters={}
+2023-12-08 11:34:14.644 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
+2023-12-08 11:34:14.644 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:14.645 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:14.646 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
+2023-12-08 11:34:14.649 DEBUG o.s.w.s.DispatcherServlet:120 - POST "/createBlockMobile/2", parameters={}
+2023-12-08 11:34:14.650 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#saveSmsBlockBlacklist(SmsBlockBlacklistDto, SmsBlockMobile)
+2023-12-08 11:34:14.651 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:14.653 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockBlacklistDto@4af3ec49]
+2023-12-08 11:34:14.654 DEBUG o.s.o.j.JpaTransactionManager:374 - Found thread-bound EntityManager [SessionImpl(566770064<open>)] for JPA transaction
+2023-12-08 11:34:14.655 DEBUG o.s.o.j.JpaTransactionManager:370 - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2023-12-08 11:34:14.656 DEBUG o.s.j.d.DataSourceUtils:188 - Setting JDBC Connection [HikariProxyConnection@541894458 wrapping com.mysql.cj.jdbc.ConnectionImpl@5ea66931] read-only
+2023-12-08 11:34:14.657 DEBUG o.h.e.t.i.TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-12-08 11:34:14.658 DEBUG o.h.e.t.i.TransactionImpl:81 - begin
+2023-12-08 11:34:14.659 DEBUG o.s.o.j.JpaTransactionManager:439 - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@2a5cf329]
+2023-12-08 11:34:14.660 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2023-12-08 11:34:14.661 DEBUG o.h.o.results:76 - Initializer list:
+	  com.mobitel.smsblock.entity.SmsBlockMobile -> EntityResultInitializer(com.mobitel.smsblock.entity.SmsBlockMobile)@2132329359 (SingleTableEntityPersister(com.mobitel.smsblock.entity.SmsBlockMobile))
+
+2023-12-08 11:34:14.662 DEBUG o.h.SQL:133 - select s1_0.id,s1_0.activated_on,s1_0.added_by,s1_0.comment,s1_0.deactivated_by,s1_0.deactivated_on,s1_0.mobile_no,s1_0.status from sms_block_mobile s1_0 where s1_0.id=?
+2023-12-08 11:34:14.665 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.mobitel.smsblock.entity.SmsBlockMobile): 2
+2023-12-08 11:34:14.666 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.mobitel.smsblock.entity.SmsBlockMobile#2] : 398722348
+2023-12-08 11:34:14.667 DEBUG o.h.o.results:61 - Extracted JDBC value [1] - [2023-11-30 08:40:34.0]
+2023-12-08 11:34:14.667 DEBUG o.h.o.results:61 - Extracted JDBC value [2] - [Tharsana]
+2023-12-08 11:34:14.668 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [089787675]
+2023-12-08 11:34:14.668 DEBUG o.h.o.results:61 - Extracted JDBC value [4] - [Sana]
+2023-12-08 11:34:14.669 DEBUG o.h.o.results:61 - Extracted JDBC value [5] - [2023-11-30 09:22:23.0]
+2023-12-08 11:34:14.670 DEBUG o.h.o.results:61 - Extracted JDBC value [6] - [0711690967]
+2023-12-08 11:34:14.671 DEBUG o.h.o.results:61 - Extracted JDBC value [7] - [DEACT]
+2023-12-08 11:34:14.671 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.mobitel.smsblock.entity.SmsBlockMobile#2
+2023-12-08 11:34:14.672 DEBUG o.h.o.r.loading:93 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@2ef9a8e0
+2023-12-08 11:34:14.672 DEBUG o.s.o.j.JpaTransactionManager:740 - Initiating transaction commit
+2023-12-08 11:34:14.673 DEBUG o.s.o.j.JpaTransactionManager:556 - Committing JPA transaction on EntityManager [SessionImpl(566770064<open>)]
+2023-12-08 11:34:14.673 DEBUG o.h.e.t.i.TransactionImpl:98 - committing
+2023-12-08 11:34:14.674 DEBUG o.s.j.d.DataSourceUtils:252 - Resetting read-only flag of JDBC Connection [HikariProxyConnection@541894458 wrapping com.mysql.cj.jdbc.ConnectionImpl@5ea66931]
+2023-12-08 11:34:14.675 DEBUG o.s.o.j.JpaTransactionManager:652 - Not closing pre-bound JPA EntityManager after transaction
+2023-12-08 11:34:14.677 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2023-12-08 11:34:14.677 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing ["Phone number cannot be null or empty"]
+2023-12-08 11:34:14.679 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:14.679 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 400 BAD_REQUEST
+2023-12-08 11:34:22.673 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 11:34:22.675 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 11:34:22.676 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:22.677 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 11:34:22.677 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 11:34:23.928 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 11:34:23.929 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 11:34:23.929 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).

@@ -1,0 +1,151 @@
+2023-12-08 12:04:59.243 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:04:59.250 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:04:59.251 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:05:29.256 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:05:29.257 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:05:29.258 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:05:59.261 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:05:59.262 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:05:59.263 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:06:29.270 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:06:29.271 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:06:29.272 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:06:59.283 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:06:59.284 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:06:59.285 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:07:29.299 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:07:29.299 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:07:29.300 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:07:39.511 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:07:39.516 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:07:39.517 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:07:39.518 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:07:39.518 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:07:59.307 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:07:59.309 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:07:59.310 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:08:03.858 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:08:03.859 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:08:03.860 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:08:03.860 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:08:03.861 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:08:29.327 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:08:29.328 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:08:29.328 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:08:59.335 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:08:59.337 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:08:59.338 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:09:29.350 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:09:29.350 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:09:29.350 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:09:59.353 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:09:59.354 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:09:59.354 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:10:29.362 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:10:29.363 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:10:29.364 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:10:59.372 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:10:59.374 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2023-12-08 12:10:59.374 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-12-08 12:11:17.769 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/", parameters={}
+2023-12-08 12:11:17.770 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:528 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-12-08 12:11:17.771 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:11:17.772 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:11:17.773 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 403 FORBIDDEN
+2023-12-08 12:11:26.849 DEBUG o.s.w.s.DispatcherServlet:120 - OPTIONS "/deleteBlacklistMobile/0729892222", parameters={}
+2023-12-08 12:11:26.850 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#deactivateSmsBlacklistMobile(SmsBlockBlacklistDto)
+2023-12-08 12:11:26.851 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:11:26.852 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:11:26.852 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK
+2023-12-08 12:11:26.855 DEBUG o.s.w.s.DispatcherServlet:120 - PUT "/deleteBlacklistMobile/0729892222", parameters={}
+2023-12-08 12:11:26.855 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockBlacklistController#deactivateSmsBlacklistMobile(SmsBlockBlacklistDto)
+2023-12-08 12:11:26.856 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:11:26.858 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockBlacklistDto@2afd5d31]
+2023-12-08 12:11:26.859 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s1_0
+2023-12-08 12:11:26.860 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000))] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockBlacklist] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockBlacklist] 
+2023-12-08 12:11:26.861 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@4b3aa1de] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile] 
+2023-12-08 12:11:26.862 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5700 - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@3b091975
+2023-12-08 12:11:26.862 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5590 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).blacklistMobile) 
+2023-12-08 12:11:26.863 DEBUG o.h.o.r.g.AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000)]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).activatedOn]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).addedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).blacklistMobile]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).comment]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).deactivatedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).deactivatedOn]
+ |  +-EntityFetchSelectImpl [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).smsBlockMobile]
+ |  \-BasicFetch [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).status]
+
+2023-12-08 12:11:26.863 DEBUG o.h.o.s.a.tree:46 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (s1 : com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000)) {
+          primaryTableReference : sms_block_blacklisted_mobile as s1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (s2 : com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).smsBlockMobile) {
+            }
+          }
+        }
+      }
+    }
+
+2023-12-08 12:11:26.863 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2023-12-08 12:11:26.867 DEBUG o.h.o.results:76 - Initializer list:
+	  com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000) -> EntityResultInitializer(com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000))@1775730014 (SingleTableEntityPersister(com.mobitel.smsblock.entity.SmsBlockBlacklist))
+	  com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).smsBlockMobile -> EntitySelectFetchInitializer(com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).smsBlockMobile)@657412771 (ToOneAttributeMapping(NavigableRole[com.mobitel.smsblock.entity.SmsBlockBlacklist.smsBlockMobile])@1592199665)
+
+2023-12-08 12:11:26.867 DEBUG o.h.SQL:133 - select s1_0.id,s1_0.activated_on,s1_0.added_by,s1_0.blacklist_mobile,s1_0.comment,s1_0.deactivated_by,s1_0.deactivated_on,s1_0.sms_block_mobile_id,s1_0.status from sms_block_blacklisted_mobile s1_0 where s1_0.blacklist_mobile=?
+2023-12-08 12:11:26.869 DEBUG o.h.o.results:61 - Extracted JDBC value [0] - [37]
+2023-12-08 12:11:26.870 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000)): 37
+2023-12-08 12:11:26.870 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000)#37] : 1229803704
+2023-12-08 12:11:26.870 DEBUG o.h.o.results:61 - Extracted JDBC value [7] - [42]
+2023-12-08 12:11:26.870 DEBUG o.h.o.r.l.entity:190 - (EntitySelectFetchInitializer) Invoking session#internalLoad for entity (com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).smsBlockMobile#42) : 42
+2023-12-08 12:11:26.874 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2023-12-08 12:11:26.874 DEBUG o.h.o.results:76 - Initializer list:
+	  com.mobitel.smsblock.entity.SmsBlockMobile -> EntityResultInitializer(com.mobitel.smsblock.entity.SmsBlockMobile)@226110610 (SingleTableEntityPersister(com.mobitel.smsblock.entity.SmsBlockMobile))
+
+2023-12-08 12:11:26.874 DEBUG o.h.SQL:133 - select s1_0.id,s1_0.activated_on,s1_0.added_by,s1_0.comment,s1_0.deactivated_by,s1_0.deactivated_on,s1_0.mobile_no,s1_0.status from sms_block_mobile s1_0 where s1_0.id=?
+2023-12-08 12:11:26.876 DEBUG o.h.o.r.l.entity:300 - (EntityResultInitializer) Hydrated EntityKey (com.mobitel.smsblock.entity.SmsBlockMobile): 42
+2023-12-08 12:11:26.876 DEBUG o.h.o.r.l.entity:689 - (EntityResultInitializer) Created new entity instance [com.mobitel.smsblock.entity.SmsBlockMobile#42] : 1411370063
+2023-12-08 12:11:26.877 DEBUG o.h.o.results:61 - Extracted JDBC value [1] - [2023-12-05 10:49:59.0]
+2023-12-08 12:11:26.877 DEBUG o.h.o.results:61 - Extracted JDBC value [2] - [jhhj]
+2023-12-08 12:11:26.877 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [null]
+2023-12-08 12:11:26.877 DEBUG o.h.o.results:61 - Extracted JDBC value [4] - [null]
+2023-12-08 12:11:26.877 DEBUG o.h.o.results:61 - Extracted JDBC value [5] - [null]
+2023-12-08 12:11:26.878 DEBUG o.h.o.results:61 - Extracted JDBC value [6] - [+0712397911]
+2023-12-08 12:11:26.878 DEBUG o.h.o.results:61 - Extracted JDBC value [7] - [ACT]
+2023-12-08 12:11:26.878 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.mobitel.smsblock.entity.SmsBlockMobile#42
+2023-12-08 12:11:26.878 DEBUG o.h.o.r.loading:93 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3cc47ed
+2023-12-08 12:11:26.878 DEBUG o.h.o.r.l.entity:216 - (EntitySelectFetchInitializer) Entity [com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000).smsBlockMobile#42] : 42 has being loaded by session.internalLoad.
+2023-12-08 12:11:26.879 DEBUG o.h.o.results:61 - Extracted JDBC value [1] - [2023-12-06 15:08:57.0]
+2023-12-08 12:11:26.879 DEBUG o.h.o.results:61 - Extracted JDBC value [2] - [tharsana]
+2023-12-08 12:11:26.879 DEBUG o.h.o.results:61 - Extracted JDBC value [3] - [0729892222]
+2023-12-08 12:11:26.879 DEBUG o.h.o.results:61 - Extracted JDBC value [4] - [null]
+2023-12-08 12:11:26.879 DEBUG o.h.o.results:61 - Extracted JDBC value [5] - [null]
+2023-12-08 12:11:26.880 DEBUG o.h.o.results:61 - Extracted JDBC value [6] - [null]
+2023-12-08 12:11:26.880 DEBUG o.h.o.results:61 - Extracted JDBC value [8] - [ACT]
+2023-12-08 12:11:26.880 DEBUG o.h.o.r.l.entity:889 - (EntityResultInitializer) Done materializing entityInstance : com.mobitel.smsblock.entity.SmsBlockBlacklist(1538638172198000)#37
+2023-12-08 12:11:26.880 DEBUG o.h.o.r.loading:93 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@daf6049
+2023-12-08 12:11:26.886 DEBUG o.s.o.j.JpaTransactionManager:374 - Found thread-bound EntityManager [SessionImpl(1934312338<open>)] for JPA transaction
+2023-12-08 12:11:26.886 DEBUG o.s.o.j.JpaTransactionManager:370 - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2023-12-08 12:11:26.888 DEBUG o.h.e.t.i.TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-12-08 12:11:26.889 DEBUG o.h.e.t.i.TransactionImpl:81 - begin
+2023-12-08 12:11:26.891 DEBUG o.s.o.j.JpaTransactionManager:439 - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1a8e6569]
+2023-12-08 12:11:26.893 DEBUG o.h.j.i.PersistenceUnitUtilImpl:89 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
+2023-12-08 12:11:26.898 DEBUG o.s.o.j.JpaTransactionManager:740 - Initiating transaction commit
+2023-12-08 12:11:26.898 DEBUG o.s.o.j.JpaTransactionManager:556 - Committing JPA transaction on EntityManager [SessionImpl(1934312338<open>)]
+2023-12-08 12:11:26.898 DEBUG o.h.e.t.i.TransactionImpl:98 - committing
+2023-12-08 12:11:26.899 DEBUG o.h.e.i.AbstractFlushingEventListener:136 - Processing flush-time cascades
+2023-12-08 12:11:26.900 DEBUG o.h.e.i.AbstractFlushingEventListener:185 - Dirty checking collections
+2023-12-08 12:11:26.915 DEBUG o.h.e.i.AbstractFlushingEventListener:110 - Flushed: 0 insertions, 1 updates, 0 deletions to 2 objects
+2023-12-08 12:11:26.916 DEBUG o.h.e.i.AbstractFlushingEventListener:117 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2023-12-08 12:11:26.916 DEBUG o.h.i.u.EntityPrinter:111 - Listing entities:
+2023-12-08 12:11:26.917 DEBUG o.h.i.u.EntityPrinter:118 - com.mobitel.smsblock.entity.SmsBlockMobile{activatedOn=2023-12-05 10:49:59.0, addedBy=jhhj, deactivatedOn=null, comment=null, id=42, mobileNo=+0712397911, deactivatedBy=null, status=ACT}
+2023-12-08 12:11:26.917 DEBUG o.h.i.u.EntityPrinter:118 - com.mobitel.smsblock.entity.SmsBlockBlacklist{activatedOn=2023-12-06 15:08:57.0, smsBlockMobile=com.mobitel.smsblock.entity.SmsBlockMobile#42, addedBy=tharsana, deactivatedOn=2023-12-08 12:11:26.8820662, blacklistMobile=0729892222, comment=null, id=37, deactivatedBy=tharsana, status=DEACT}
+2023-12-08 12:11:26.932 DEBUG o.h.SQL:133 - update sms_block_blacklisted_mobile set activated_on=?,added_by=?,blacklist_mobile=?,comment=?,deactivated_by=?,deactivated_on=?,sms_block_mobile_id=?,status=? where id=?
+2023-12-08 12:11:27.045 DEBUG o.s.o.j.JpaTransactionManager:652 - Not closing pre-bound JPA EntityManager after transaction
+2023-12-08 12:11:27.046 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2023-12-08 12:11:27.047 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing ["Deactivated"]
+2023-12-08 12:11:27.048 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-12-08 12:11:27.048 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 200 OK

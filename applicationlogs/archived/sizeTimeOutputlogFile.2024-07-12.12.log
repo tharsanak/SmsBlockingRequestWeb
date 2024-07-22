@@ -1,0 +1,83 @@
+2024-07-12 11:44:44.539 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:44:44.629 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:44:44.630 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:45:10.089 DEBUG o.s.w.s.DispatcherServlet:120 - POST "/createMobile", parameters={}
+2024-07-12 11:45:10.090 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:528 - Mapped to com.mobitel.smsblock.controller.SmsBlockMobileController#saveSmsBlockMobile(SmsBlockMobileDto)
+2024-07-12 11:45:10.090 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:86 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 11:45:10.091 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - Read "application/json;charset=UTF-8" to [com.mobitel.smsblock.dto.SmsBlockMobileDto@4786a8ed]
+2024-07-12 11:45:10.092 DEBUG o.h.o.s.a.create:33 - Created new SQL alias : s1_0
+2024-07-12 11:45:10.092 DEBUG o.h.o.s.a.create:98 - Registration of TableGroup [StandardTableGroup(com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600))] with identifierForTableGroup [com.mobitel.smsblock.entity.SmsBlockMobile] for NavigablePath [com.mobitel.smsblock.entity.SmsBlockMobile] 
+2024-07-12 11:45:10.093 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5700 - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@49414e6d
+2024-07-12 11:45:10.093 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5590 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600).mobileNo) 
+2024-07-12 11:45:10.094 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5700 - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@4d7ec39d
+2024-07-12 11:45:10.094 DEBUG o.h.q.s.s.BaseSqmToSqlAstConverter:5590 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600).status) 
+2024-07-12 11:45:10.095 DEBUG o.h.o.r.g.AST:67 - DomainResult Graph:
+ \-EntityResultImpl [com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600)]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600).activatedOn]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600).addedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600).comment]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600).deactivatedBy]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600).deactivatedOn]
+ |  +-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600).mobileNo]
+ |  \-BasicFetch [com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600).status]
+
+2024-07-12 11:45:10.096 DEBUG o.h.o.s.a.tree:46 - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (s1 : com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600)) {
+          primaryTableReference : sms_block_mobile as s1_0
+        }
+      }
+    }
+
+2024-07-12 11:45:10.096 DEBUG o.h.o.s.exec:455 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2024-07-12 11:45:10.097 DEBUG o.h.o.results:76 - Initializer list:
+	  com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600) -> EntityResultInitializer(com.mobitel.smsblock.entity.SmsBlockMobile(1556599292154600))@48697831 (SingleTableEntityPersister(com.mobitel.smsblock.entity.SmsBlockMobile))
+
+2024-07-12 11:45:10.097 DEBUG o.h.SQL:133 - select s1_0.id,s1_0.activated_on,s1_0.added_by,s1_0.comment,s1_0.deactivated_by,s1_0.deactivated_on,s1_0.mobile_no,s1_0.status from sms_block_mobile s1_0 where s1_0.mobile_no=? and s1_0.status=?
+2024-07-12 11:45:10.099 DEBUG o.s.o.j.JpaTransactionManager:374 - Found thread-bound EntityManager [SessionImpl(434363557<open>)] for JPA transaction
+2024-07-12 11:45:10.100 DEBUG o.s.o.j.JpaTransactionManager:370 - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2024-07-12 11:45:10.100 DEBUG o.h.e.t.i.TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-07-12 11:45:10.100 DEBUG o.h.e.t.i.TransactionImpl:81 - begin
+2024-07-12 11:45:10.101 DEBUG o.s.o.j.JpaTransactionManager:439 - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6c1d27f3]
+2024-07-12 11:45:10.101 DEBUG o.h.j.i.PersistenceUnitUtilImpl:89 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
+2024-07-12 11:45:10.101 DEBUG o.h.e.s.ActionQueue:290 - Executing identity-insert immediately
+2024-07-12 11:45:10.102 DEBUG o.h.SQL:133 - insert into sms_block_mobile (activated_on,added_by,comment,deactivated_by,deactivated_on,mobile_no,status) values (?,?,?,?,?,?,?)
+2024-07-12 11:45:10.104 DEBUG o.h.i.IdentifierGeneratorHelper:84 - Natively generated identity (com.mobitel.smsblock.entity.SmsBlockMobile) : 5
+2024-07-12 11:45:10.104 DEBUG o.h.r.j.i.ResourceRegistryStandardImpl:105 - HHH000387: ResultSet's statement was not registered
+2024-07-12 11:45:10.104 DEBUG o.h.r.j.i.ResourceRegistryStandardImpl:203 - Exception clearing maxRows/queryTimeout [No operations allowed after statement closed.]
+2024-07-12 11:45:10.105 DEBUG o.s.o.j.JpaTransactionManager:740 - Initiating transaction commit
+2024-07-12 11:45:10.105 DEBUG o.s.o.j.JpaTransactionManager:556 - Committing JPA transaction on EntityManager [SessionImpl(434363557<open>)]
+2024-07-12 11:45:10.105 DEBUG o.h.e.t.i.TransactionImpl:98 - committing
+2024-07-12 11:45:10.105 DEBUG o.h.e.i.AbstractFlushingEventListener:136 - Processing flush-time cascades
+2024-07-12 11:45:10.106 DEBUG o.h.e.i.AbstractFlushingEventListener:185 - Dirty checking collections
+2024-07-12 11:45:10.106 DEBUG o.h.e.i.AbstractFlushingEventListener:110 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2024-07-12 11:45:10.106 DEBUG o.h.e.i.AbstractFlushingEventListener:117 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2024-07-12 11:45:10.106 DEBUG o.h.i.u.EntityPrinter:111 - Listing entities:
+2024-07-12 11:45:10.107 DEBUG o.h.i.u.EntityPrinter:118 - com.mobitel.smsblock.entity.SmsBlockMobile{activatedOn=2024-07-12 11:45:10.0994664, addedBy=Thar, deactivatedOn=null, comment=, id=5, mobileNo=0763688711, deactivatedBy=null, status=ACT}
+2024-07-12 11:45:10.256 DEBUG o.s.o.j.JpaTransactionManager:652 - Not closing pre-bound JPA EntityManager after transaction
+2024-07-12 11:45:10.257 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-07-12 11:45:10.258 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - Writing [SmsBlockMobile(id=5, mobileNo=0763688711, status=ACT, comment=, activatedOn=2024-07-12 11:45:10.0994 (truncated)...]
+2024-07-12 11:45:10.260 DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor:111 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-07-12 11:45:10.261 DEBUG o.s.w.s.DispatcherServlet:1135 - Completed 201 CREATED
+2024-07-12 11:45:14.644 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:45:14.645 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:45:14.645 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:45:44.657 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:45:44.658 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:45:44.658 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:46:14.662 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:46:14.663 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:46:14.663 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:46:44.674 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:46:44.675 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:46:44.675 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:47:14.690 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:47:14.691 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:47:14.691 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:47:44.693 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:47:44.693 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:47:44.694 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-07-12 11:48:14.706 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before cleanup stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:48:14.708 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After cleanup  stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 11:48:14.708 DEBUG c.z.h.p.HikariPool:521 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).

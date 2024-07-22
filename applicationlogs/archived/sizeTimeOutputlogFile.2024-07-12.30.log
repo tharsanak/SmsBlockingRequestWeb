@@ -1,0 +1,74 @@
+2024-07-12 14:19:22.827 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4290332d size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+2024-07-12 14:19:22.840 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4290332d size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+2024-07-12 14:19:22.841 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4290332d size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1]
+2024-07-12 14:19:22.842 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4290332d size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1]
+2024-07-12 14:19:22.844 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4290332d size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1]
+2024-07-12 14:19:22.845 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4290332d size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1]
+2024-07-12 14:19:22.847 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4290332d size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1]
+2024-07-12 14:19:22.848 DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener:114 - After test method: class [SmsblockApplicationTests], method [contextLoads], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+2024-07-12 14:19:22.849 DEBUG o.s.t.c.w.ServletTestExecutionListener:167 - Resetting RequestContextHolder for test class com.mobitel.smsblock.SmsblockApplicationTests
+2024-07-12 14:19:22.856 DEBUG o.s.t.c.cache:290 - Spring test ApplicationContext cache statistics: [DefaultContextCache@4290332d size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1]
+2024-07-12 14:19:22.857 DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener:154 - After test class: class [SmsblockApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2024-07-12 14:19:23.005 DEBUG o.s.w.c.s.GenericWebApplicationContext:1062 - Closing org.springframework.web.context.support.GenericWebApplicationContext@53b98ff6, started on Fri Jul 12 14:19:11 IST 2024
+2024-07-12 14:19:23.007 DEBUG o.s.c.s.DefaultLifecycleProcessor:366 - Stopping beans in phase -2147483647
+2024-07-12 14:19:23.009 DEBUG o.s.c.s.DefaultLifecycleProcessor:239 - Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-07-12 14:19:23.010 DEBUG o.s.s.c.ThreadPoolTaskExecutor:224 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-12 14:19:23.011  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 14:19:23.012 DEBUG o.h.i.SessionFactoryImpl:864 - HHH000031: Closing
+2024-07-12 14:19:23.013 DEBUG o.h.t.s.TypeConfiguration$Scope:550 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@bbf86db] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@7135e8cd]
+2024-07-12 14:19:23.014 DEBUG o.h.s.i.AbstractServiceRegistryImpl:413 - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2024-07-12 14:19:23.014 DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl:296 - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2024-07-12 14:19:23.015  INFO c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2024-07-12 14:19:23.015 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - Before shutdown stats (total=50, active=0, idle=50, waiting=0)
+2024-07-12 14:19:23.017 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@61dd1c3d: (connection evicted)
+2024-07-12 14:19:23.021 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22702f4a: (connection evicted)
+2024-07-12 14:19:23.023 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@71cd1f10: (connection evicted)
+2024-07-12 14:19:23.024 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@90e00c3: (connection evicted)
+2024-07-12 14:19:23.025 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a4e60dd: (connection evicted)
+2024-07-12 14:19:23.027 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6e8de54d: (connection evicted)
+2024-07-12 14:19:23.029 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fe0d20e: (connection evicted)
+2024-07-12 14:19:23.030 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78a33a32: (connection evicted)
+2024-07-12 14:19:23.031 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7bcab1dd: (connection evicted)
+2024-07-12 14:19:23.032 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4bf397bd: (connection evicted)
+2024-07-12 14:19:23.033 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1cba98ff: (connection evicted)
+2024-07-12 14:19:23.034 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63381dc5: (connection evicted)
+2024-07-12 14:19:23.035 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1df2543f: (connection evicted)
+2024-07-12 14:19:23.036 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34f77c7: (connection evicted)
+2024-07-12 14:19:23.037 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6323d9b9: (connection evicted)
+2024-07-12 14:19:23.038 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ad2ee52: (connection evicted)
+2024-07-12 14:19:23.039 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@73aa1733: (connection evicted)
+2024-07-12 14:19:23.040 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5fd33633: (connection evicted)
+2024-07-12 14:19:23.041 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@73d801c6: (connection evicted)
+2024-07-12 14:19:23.042 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70d5b73c: (connection evicted)
+2024-07-12 14:19:23.043 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57772e1b: (connection evicted)
+2024-07-12 14:19:23.043 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37e11d2e: (connection evicted)
+2024-07-12 14:19:23.044 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b437e41: (connection evicted)
+2024-07-12 14:19:23.045 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f97ddb2: (connection evicted)
+2024-07-12 14:19:23.046 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e15c563: (connection evicted)
+2024-07-12 14:19:23.047 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5acc45cd: (connection evicted)
+2024-07-12 14:19:23.048 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64a4e81e: (connection evicted)
+2024-07-12 14:19:23.049 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c23dfa8: (connection evicted)
+2024-07-12 14:19:23.050 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7be3e9fe: (connection evicted)
+2024-07-12 14:19:23.051 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@156ca6b8: (connection evicted)
+2024-07-12 14:19:23.052 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@198416bd: (connection evicted)
+2024-07-12 14:19:23.053 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5f93625c: (connection evicted)
+2024-07-12 14:19:23.054 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@716eac24: (connection evicted)
+2024-07-12 14:19:23.054 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3554e204: (connection evicted)
+2024-07-12 14:19:23.055 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a11699c: (connection evicted)
+2024-07-12 14:19:23.056 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@26d7b1df: (connection evicted)
+2024-07-12 14:19:23.057 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ed72855: (connection evicted)
+2024-07-12 14:19:23.058 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@58a5cb05: (connection evicted)
+2024-07-12 14:19:23.059 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f0177c4: (connection evicted)
+2024-07-12 14:19:23.060 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@740f3556: (connection evicted)
+2024-07-12 14:19:23.061 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@231c8f08: (connection evicted)
+2024-07-12 14:19:23.062 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@dccdb7f: (connection evicted)
+2024-07-12 14:19:23.063 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@26bf3426: (connection evicted)
+2024-07-12 14:19:23.064 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6a5d4652: (connection evicted)
+2024-07-12 14:19:23.065 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@309bcd01: (connection evicted)
+2024-07-12 14:19:23.066 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a4e674a: (connection evicted)
+2024-07-12 14:19:23.067 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6de6507a: (connection evicted)
+2024-07-12 14:19:23.068 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1082f10f: (connection evicted)
+2024-07-12 14:19:23.069 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@17ad2c48: (connection evicted)
+2024-07-12 14:19:23.070 DEBUG c.z.h.p.PoolBase:132 - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34f1df90: (connection evicted)
+2024-07-12 14:19:23.071 DEBUG c.z.h.p.HikariPool:414 - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-07-12 14:19:23.071  INFO c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
